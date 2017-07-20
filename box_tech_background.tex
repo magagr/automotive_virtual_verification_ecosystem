@@ -1,0 +1,10 @@
+The Virtual platform technology consists of two parts, a virtual chipset and a virtual platform for SW development, integration, and testing.
+The Virtual chipset consists of a high-fidelity microprocessor model, including peripherals and other resources that execute the target embedded SW ("Target Code in the Loop").
+Extending the virtual chipset with additional models of off chip devices essentially realizes the concept of a virtual controller.
+Other models, similar to those required for hardware-in-the-loop/bench systems, are also required in order for the virtual controller to be able to emulate the behavior of the real controller's functionality and performance within a HIL bench.
+These include models representing incoming serial data traffic, typically in open loop,
+plant models (e.g., an engine), simulating ASICs running microcode, interfacing high power interfaces such as inductors to the controlled loads (e.g., electric motors, fuel injectors), HW/SW Fault Injection, vehicle dynamics, environment, etc.
+The degree of modeling around the virtual chipset depends upon the use case at hand.
+In order to perform a full functional and performance verification of the controller, all the aforementioned models are needed.
+For use cases involving only low level SW development, an open loop model providing HW IOs and/or serial data traffic may be sufficient.
+Finally, tools for configuring SW via calibrations and for SW variable/signal recording may also be needed. The integration of several virtual chip sets may be necessary for sub-system and/or complex ECU SW verification, and may require high-performance computing platforms to achieve acceptable simulation runtimes.
