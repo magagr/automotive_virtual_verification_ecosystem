@@ -141,6 +141,12 @@
 \IEEEtitleabstractindextext{%
 \begin{abstract}
 150 word limit
+
+Submission
+
+Managing Software Platforms and Ecosystems: Call for Papers
+
+Manuscripts must not exceed 3,000 words including figures and tables, which count for 250 words each. Submissions exceeding these limits might be rejected without refereeing.
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
@@ -211,7 +217,9 @@ $\rightarrow$ We can ramp up sw functionality before hw is constructed.
 \end{itemize}
 
 \begin{tcolorbox}
-Ecosystem itself, based on previous publication
+\input{box_ecosystem}
+\tcblower
+insert ecosystem image
 \end{tcolorbox}
 
 \begin{tcolorbox}[float*, title=Technology background,width=\textwidth,sidebyside]
@@ -223,14 +231,12 @@ insert Virtual Platform Technology Evolution Figure, without OEM specifics
 Figure 1: Map of Impediments and Enablers
 
 
-\subsection{Submission}
-\subsubsection{Managing Software Platforms and Ecosystems: Call for Papers}
-Manuscripts must not exceed 3,000 words including figures and tables, which count for 250 words each. Submissions exceeding these limits might be rejected without refereeing.
-
-%\input{introduction}
+%Initial introduction here
 
 \section{Benefits}
-Merge with Introduction, motivation.
+%Merge with Introduction, motivation.
+\input{introduction}
+\input{benefits}
 
 %Tie into impediments and enablers with one paragraph on research methods
 In the remainder of this report, we provide an overview of the technology area of focus. We then share our findings from an interview study and workshop involving OEMs, suppliers, and tool vendors representing a cross-section of the automotive ecosystem.  We uncover various impediments and enablers for establishing a collaborative, model-based, virtual verification process
@@ -240,7 +246,9 @@ Two interviews with HW/SW suppliers (Tier-1 and Tier-2);
 Two interviews with experts from the OEM;
 Two interviews with tool suppliers.
 
-The workshop was conducted after the interviews were completed, and included personnel from engineering (advanced development) and R&D at the OEM, a guest speaker from ARM, and the faculty members co-authoring this report. The objective of the workshop was to supplement information gathered from the interview sessions by having a focused 2-day discussion on enterprise-scale deployment of MCU/ECU mixed fidelity simulation models, and tools and processes for control system and plant development. The workshop focused on the benefits and challenges of deploying VP technology to improve software development processes within an automotive OEM (facilitated by two half-day workshop brainstorming sessions).
+The workshop was conducted after the interviews were completed, and included personnel from engineering
+(advanced development) and R\&D at the OEM, a guest speaker from ARM, and the faculty members co-authoring this report.
+The objective of the workshop was to supplement information gathered from the interview sessions by having a focused 2-day discussion on enterprise-scale deployment of MCU/ECU mixed fidelity simulation models, and tools and processes for control system and plant development. The workshop focused on the benefits and challenges of deploying VP technology to improve software development processes within an automotive OEM (facilitated by two half-day workshop brainstorming sessions).
 
 \section{Impediments}
 \input{impediments}
@@ -347,7 +355,7 @@ The workshop was conducted after the interviews were completed, and included per
 
 
 \section{Conclusion}
-The conclusion goes here.
+\input{conclusion}
 
 
 % The Computer Society usually uses the plural form
