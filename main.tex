@@ -31,6 +31,7 @@
 
 \documentclass[10pt,journal,compsoc,letterpaper]{IEEEtran}
 \usepackage{tcolorbox}
+\usepackage{wrapfig}
 
 % *** CITATION PACKAGES ***
 %
@@ -217,18 +218,24 @@ $\rightarrow$ We can ramp up sw functionality before hw is constructed.
 \end{itemize}
 
 \begin{tcolorbox}
+\includegraphics[width=\linewidth]{figures/ecosys}
+\tcblower
 \input{box_ecosystem}
-\tcblower
-insert ecosystem image
 \end{tcolorbox}
 
-\begin{tcolorbox}[float*, title=Technology background,width=\textwidth,sidebyside]
+\begin{tcolorbox}[float*,title=Technology background,width=\textwidth]
+  \begin{wrapfigure}{r}{0.6\linewidth}
+  \begin{tcolorbox}
+  \includegraphics[width=\linewidth]{figures/virtual_platform}
+  \end{tcolorbox}
+  \end{wrapfigure}
 \input{box_tech_background}
-\tcblower
-insert Virtual Platform Technology Evolution Figure, without OEM specifics
 \end{tcolorbox}
 
-Figure 1: Map of Impediments and Enablers
+\begin{figure*}
+\includegraphics[width=\linewidth]{figures/map}
+\caption{Map of Impediments and Enablers}
+\end{figure*}
 
 
 %Initial introduction here
