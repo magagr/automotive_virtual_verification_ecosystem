@@ -1,84 +1,56 @@
-In this section, we discuss various impediments that currently hinder wider adoption of a shared modeling and virtual verification capability within automotive OEMs. The information presented in this section was gathered from both the interview discussions and workshop brainstorming sessions.
+%In this section, we discuss various impediments that currently hinder wider adoption of a shared modeling and virtual verification capability within automotive OEMs. The information presented in this section was gathered from both the interview discussions and workshop brainstorming sessions.
 
-\subsection{Business Related Impediments}
-A general finding from all the discussions on business-related impediments is that while they are well understood in the abstract (reduce costs, errors, time, etc.), more in-depth discussions within the organization are needed before the value or ROI of any virtual platform technology can be specified in sufficient detail.
+%\subsection{Business Related Impediments}
+%A general finding from all the discussions on business-related impediments is that while they are well understood in the abstract (reduce costs, errors, time, etc.), more in-depth discussions within the organization are needed before the value or ROI of any virtual platform technology can be specified in sufficient detail.
+
+%\subsection{Organisation Related Impediments}
+%During the workshop brainstorming sessions, the group spent the largest proportion of time discussing organizational impediments, and conveyed that these types of impediments were most critical if progress was to be made in wide-scale deployment of VP technology within an OEM.
+%Below are the primary organization impediments captured from interview session and workshop brainstorming sessions.
 
 %\subsubsection{OEM / Supplier Relationship}
 %For these reasons, 
-It is uncommon for an OEM and its suppliers to share models (i.e. IP needs to be protected). While the OEM could ask for access to a supplier’s high fidelity model IP, there is no clear understanding on why or whether this should be done. This lack of understanding might be because a significant amount of control SW development is performed in-house by the OEM.
-
-In addition to strengthen the mutual understanding between ecosystem partners, new business models will have to be defined in order to facilitate the sharing of hardware and software models. For example, this can be attractive to OEMs because they do not currently develop microcontroller System C models. As model fidelity increases, the OEM could use these models for more than software in the loop (SIL) testing, and they might even be willing to buy target code in the loop (TCIL) models from suppliers \cite{Knauss2014d}.
-Such new business models need to take into account various impediments. Currently, most of the cost for a typical Tier-1 supplier is due to hardware development, while software is seen as a differentiator. Accordingly, Tier-1 suppliers are very protective of their modeling IP.
 
 %\subsubsection{Initial Cost and ROI}
-\subsubsection{No Demand}
-For a typical Tier-2 supplier, providing unified modelling support for virtual prototyping to both internal and external stakeholders would be difficult to achieve. Their expertise and focus lies within the level of transistors and logical gates for their design. Providing suitable support for users at the next higher level would require a major investment and would depend on customers requesting (and paying) for it.
+\subsection{No Demand}
+For a typical Tier-2 supplier, providing unified modelling support for virtual prototyping to both internal and external stakeholders is difficult to achieve. Their expertise and focus lies within the level of transistors and logical gates for their design. Providing suitable support for users at the next higher level would require a major investment and would depend on customers requesting (and paying) for it.
 
 The situation for Tier-1 suppliers is similarly complicated, especially because it is unclear whether there is any value in virtualizing hardware to support the development of the low-level software they provide. Therefore, a cost/benefit analysis would have to be conducted to understand whether the extra effort required in supporting a virtual hardware-based development process would make sense. 
 Tier-1 and Tier-2 suppliers would have to update their business models if they could be convinced that there was value in supporting a virtual hardware-based developed process.
 
 % \subsubsection{No Demand} moved up
-One reason for the lack of business models that would enable a shared modeling and virtual verification ecosystem is because of the lack of widespread  demand. In order to make a sizable initial investment in virtual software development palatable to ecosystem actors, incentives would need to be provided by the OEM, both internally to foster good practice, and towards Tier-1 suppliers that could support virtual software development. These incentives could then spread throughout the value chain.
+%One reason for the lack of business models that would enable a shared modeling and virtual verification ecosystem is because of the lack of widespread demand.
 
-In a typical OEM, there is lack of agreement on whether shared modeling and virtual verification capability would yield a positive ROI. While there may be some strong support within an OEM to pursue such a strategy, resources maybe lacking especially if there is support from engineering without strong backing from leadership.. However, even within the OEM’s engineering community, there is no universal agreement and demand for such a virtual verification and model exchange platform. For example, in-house component level software development aims at being hardware independent:
-
+Even within the OEM’s engineering community, there is no universal demand
+for such a virtual verification and model exchange platform.
+In a typical OEM, there is lack of agreement on whether such capabilities would yield a positive ROI.
+For example, in-house component level software development aims at being hardware independent.
 %\begin{quote}
 %"To enable the re-use of SWCs across different Tier-2 suppliers. Objective is to make sure that suppliers are heterogeneous to enable competition. ECU suppliers are not known at the time the SWC is developed (except for Active Safety ECUs). For commodity SW nobody knows who the MCU supplier is, nor what MCU is going to be used."
 %-- Software Development Leader 2 (OEM)
 %\end{quote}
 
-From a software development perspective,
-%this quote conveys
-allowing developers to focus on application software without being concerned about any particular platform it will run on
-is a desirable outcome.
-From a holistic, system engineering perspective, this outcome should be supported with the understanding that other aspects need to be considered as well. Firstly, long term roadmaps exist for ECU/Microcontroller assets (not developed by the OEM). These roadmaps identify when hardware should be available, information that should be leveraged as much and as early as possible. Secondly, a given software version still needs to be certified for use with a list of specific hardware platforms.
+% From a system engineering perspective, this should be supported, while considering
+% (i) the long term microcontroller asset roadmaps.
+% These identify when hardware should be available, information that should be leveraged as much and as early as possible.
+% Secondly, a given software version still needs to be certified for use with a list of specific hardware platforms.
 
-\begin{quote}
-"Hardware independent software development is orthogonal to hardware dependent software component integration."
--- R\&D Engineer (OEM)
-\end{quote}
+% \begin{quote}
+% "Hardware independent software development is orthogonal to hardware dependent software component integration."
+% -- R\&D Engineer (OEM)
+% \end{quote}
 
-This could be fully realized through virtual verification by using high fidelity models of existing hardware for regression testing. This would also allow early assessment on whether an upcoming platform will support the desired application software. This would facilitate efficient continuous delivery of software, reduced lead time, and reduced time-to-market.
-
-\subsubsection{No Adoption}
-Based on our interviews, we found that all three ecosystem actors (OEM, Tier-1, Tier-2) are lacking expertise and experience as well as a supporting organization.
-% moved up
-%\begin{quote}
-The usage of virtual prototyping tools and models requires a high degree of understanding of the execution platform that needs to be modeled. This can be a barrier to adoption.
-%[...] because some Tier 1 companies have the required knowledge of virtual prototyping while others do not.
-%A good example of this is [System House] where the virtual platform was developed by [Tool Vendor 1] and then [System House] with a product group tools team that was very knowledgeable in this technology.  
-%— CEO (Tool Vendor 1)
-%\end{quote}
-
-% moved from OEM / Supplier Relationship
-Tier-2 suppliers (MCU vendors) who assemble HW-IPs (e.g., Freescale), approach development from the hardware side, often with little thought about the end-user (e.g., the SW developer who will be using the integrated MCU model later). Therefore, models of the HW-IP cannot be directly used for software development, even though they are typically very accurate albeit slow to execute. According to our interviewees, an effective ecosystem would provide tight collaboration between Tier-2 HW-IP vendors and tool providers. Such collaboration would aim at supporting upstream software development based on efficient deployment of the virtual prototyping related tools and models.
-
-Still, the lack of general experience in the automotive domain is an impediment that needs to be overcome:
-%\begin{quote}
-Availability of [hardware] models is hindered by the low level of adoption in the industry (less than 5\% adoption as opposed to SW models). Less people are comfortable and familiar with it.
-%— Business Manager (Tier-2)
-%\end{quote}
-
-\subsection{Organisation Related Impediments}
-During the workshop brainstorming sessions, the group spent the largest proportion of time discussing organizational impediments, and conveyed that these types of impediments were most critical if progress was to be made in wide-scale deployment of VP technology within an OEM. Below are the primary organization impediments captured from interview session and workshop brainstorming sessions.
-
-\subsubsection{Culture}
- tendency to build instead of buy based on a protective mindset minimizes the need to use models from external partners. For similar reasons, actors throughout the ecosystem (OEM, Tier-1, Tier-2) are reluctant to step away from known methodologies even though they are often antiquated.
-
-Having mechanical roots, the automotive domain has traditionally little or no trust in virtual verification. Instead, there is a bias towards tangible "real" hardware assets.
-
-In addition, engineers throughout the ecosystem are under tremendous pressure to complete work on time, leaving little or no opportunity to adopt new processes. Thus, it is difficult to overcome legacy processes throughout the automotive ecosystem as well as to establish the ecosystem thinking that is required to effectively manage development throughout the value chain.
+%This could be fully realized through virtual verification by using high fidelity models of existing hardware for regression testing. This would also allow early assessment on whether an upcoming platform will support the desired application software. This would facilitate efficient continuous delivery of software, reduced lead time, and reduced time-to-market.
 
 \subsection{No Global Strategy}
-Interviewees also brought up the lack of a global strategy.
-%\begin{quote}
-Competing silos across the company supporting plant models (purchased and in-house).
+%Interviewees also brought up the lack of a global strategy.
+\begin{quote}
+"Competing silos across the company supporting models (purchased and in-house).
 Sometimes there is an overlap between the teams.
-It is very difficult to streamline the modeling strategy because each engineering team has its own development strategy.
-%— Software Development Leader (OEM)
-%\end{quote}
+It is very difficult to streamline the modeling strategy because each engineering team has its own development strategy."
+-- Software Development Leader (OEM)
+\end{quote}
 
-This scenario was discussed further in the workshop, where it was pointed out that suppliers can contribute to the silo nature of how engineering domains operate within an OEM. Suppliers often promote their products as "one-size-fits-all" solutions for various types of use cases, thereby de-emphasizing the need for model/tool integration.  Without a global strategy, an OEM is very prone to the negative effects of engineering silos.
+This scenario was discussed further in the workshop, where it was pointed out that suppliers can contribute to the silo nature of how engineering domains operate within an OEM. Suppliers often promote their products as "one-size-fits-all" solutions for various types of use cases, thereby deemphasizing the need for model/tool integration.  Without a global strategy, an OEM is very prone to the negative effects of engineering silos.
 
 In addition to the negative effects of engineering silos, knowledge is also widely spread over the different ecosystem actors.
 %\begin{quote}
@@ -86,9 +58,10 @@ No one will ever have all the IPs at any given time. So new IPs will always have
 %— Marketing Director (Tool Vendor 2)
 %\end{quote}
 
-All of these challenges contribute to a lack of organizational investment and prevent the broad adoption of sustainable long term infrastructure for the virtual verification ECUs based on high-fidelity models. This makes it more difficult to maintain initiatives if leadership changes, and potentially leads to a scenario where no single entity within the OEM can make an organizational decision.
+These challenges contribute to a lack of organizational investment and prevent broad adoption of sustainable long term infrastructure for virtual verification based on high-fidelity models.
+This makes it more difficult to maintain initiatives if leadership changes, and potentially leads to a scenario where no single entity within the OEM can make an organizational decision.
 
-\subsubsection{Lack of Resources}
+\subsection{Lack of Resources}
 Ideally, the lack of a global strategy would be addressed by an explicit model team that supports modeling (maintenance, evolution, etc.). However, as our interviews show:
 
 \begin{quote}
@@ -96,62 +69,89 @@ Ideally, the lack of a global strategy would be addressed by an explicit model t
 — Software Development Leader (OEM)
 \end{quote}
 
-For a successful approach, more resources are needed across the entire ecosystem.
-\begin{quote}
-"SW development teams are not sufficient (in terms of resources) and they are under pressure to deliver within shrinking time windows." 
-— Business Manager (Tier-2)
-\end{quote}
+While there may be some strong support within an OEM to pursue such a strategy, resources maybe lacking especially if there is support from engineering without strong backing from leadership.
 
-With this work, we would like to understand whether such an investment could yield valuable returns. Currently, we see how a lack of resources relates directly to the following practices in automotive development:
+%For a successful approach, more resources are needed across the entire ecosystem.
+% \begin{quote}
+% "SW development teams are not sufficient (in terms of resources) and they are under pressure to deliver within shrinking time windows." 
+% — Business Manager (Tier-2)
+% \end{quote}
 
-\paragraph{Over-optimization against production cost/effort}
-In the automotive domain, there are widespread efforts to constantly minimize hardware costs. However, minimizing manufacturing costs and giveaway costs should also be considered, especially with respect to increasing complexity and variability.
+\subsection{No Adoption}
+Based on our interviews, we found that all three ecosystem actors (OEM, Tier-1, Tier-2) are lacking expertise and experience as well as a supporting organization.
+% moved up
+%\begin{quote}
+The usage of virtual prototyping tools and models requires a high degree of understanding of the execution platform that needs to be modeled. This is a barrier to adoption.
+%[...] because some Tier 1 companies have the required knowledge of virtual prototyping while others do not.
+%A good example of this is [System House] where the virtual platform was developed by [Tool Vendor 1] and then [System House] with a product group tools team that was very knowledgeable in this technology.  
+%— CEO (Tool Vendor 1)
+%\end{quote}
+
+% moved from OEM / Supplier Relationship
+Tier-2 suppliers, who assemble HW-IPs, approach development from the hardware side, often with little thought about the SW developer who will be using the integrated MCU model later.
+Therefore, models of the HW-IP cannot be directly used for software development, even though they are typically very accurate, albeit slow to execute.
+%According to our interviewees
+An effective ecosystem would provide tight collaboration between Tier-2 HW-IP vendors and tool providers. Such collaboration would aim at supporting upstream software development based on efficient deployment of the virtual prototyping related tools and models.
+
+Still, the lack of general experience in the automotive domain is an impediment that needs to be overcome:
+%\begin{quote}
+% Availability of [hardware] models is hindered by the low level of adoption in the industry (less than 5\% adoption as opposed to SW models). Less people are comfortable and familiar with it.
+%— Business Manager (Tier-2)
+%\end{quote}
+
+\subsection{Culture}
+Having mechanical roots, the automotive domain has traditionally little or no trust in virtual verification. Instead, there is a bias towards tangible "real" hardware assets.
+%In addition, engineers throughout the ecosystem are under tremendous pressure to complete work on time, leaving little or no opportunity to adopt new processes. Thus, it is difficult to overcome legacy processes throughout the automotive ecosystem, as well as to establish the ecosystem thinking that is required to effectively manage development throughout the value chain.
+In addition, tt is uncommon for an OEM and its suppliers to share models.
+%(i.e. IP needs to be protected).
+While the OEM could ask for access to a supplier’s high fidelity model IP, there is no clear understanding on why or whether this should be done.
+This lack of understanding might be because a significant amount of control SW development is performed in-house by the OEM.
+A tendency to build instead of buy based on a protective mindset minimizes the need to use models from external partners. For similar reasons, actors throughout the ecosystem are reluctant to step away from known methodologies even though they are often antiquated.
 
 % Moved from OEM / Supplier Relationship
-Traditionally, the relationship within and between OEMs is characterized by a culture of secrecy that, to some degree, is necessary to protect IP. This, together with the fact that production cost is one of the main drivers in automotive system development, has caused the relationship between OEM and suppliers to be defined through legal contracts with penalties. At the same time, suppliers work for different OEMs and have to compete against each other. This has reinforced the culture of secrecy, which can be seen by the fact that if technology challenges demand the exchange of intellectual property (IP), it is usually shared in a form such as binary code.
+Traditionally, the relationship within and between OEMs is characterized by a culture of secrecy that, to some degree, is necessary to protect IP. Together with the fact that production cost is one of the main drivers in automotive system development, this has caused the relationship between OEM and suppliers to be defined through legal contracts with penalties. At the same time, suppliers work for different OEMs and have to compete against each other, which has reinforced the culture of secrecy.
+For example, if technology challenges demand the exchange of IP, it is usually shared in a form such as binary code.
+%Moved from Black-box vs. White-box
+%Peripherals are typically supplied in a black box fashion.
+Obtaining the internal specifications is difficult because it is considered supplier IP, and the design typically targets multiple customers, where there can be hidden functionality not in line with a particular customer’s data sheet.
 
-\paragraph{Wrong expectations}
-Widespread over expectation on the level of fidelity required for models to be useful leads to a belief that virtual verification would not be feasible. A constructive approach would be to investigate whether models really need to be highly accurate, and offer guidance for a cost/benefit tradeoff.
-
-\subsubsection{Black-box vs. White-box}
-Peripherals are typically supplied in a black box fashion. Obtaining the internal specifications is difficult because it is considered supplier IP, and the design typically targets multiple customers (OEMs and/or Tier1s) where there can be hidden functionality not in line with a particular customer’s data sheet.
-
-\begin{quote}
-"[...] people are not convinced that the plant model provided by the supplier is sufficient. Models are then developed in house "because we do understand our needs". Problem is that the model is very specific to the group that has developed it and cannot be easily reused." 
-— Software Development Leader (OEM)
-\end{quote}
-We conclude that a successful, affordable, cross-organizational modeling approach would need to provide trusted, reusable models in a manner that protects stakeholder IP.
+% \begin{quote}
+% "[...] people are not convinced that the plant model provided by the supplier is sufficient. Models are then developed in house "because we do understand our needs". Problem is that the model is very specific to the group that has developed it and cannot be easily reused." 
+% — Software Development Leader (OEM)
+% \end{quote}
+%We conclude that a successful, affordable, cross-organizational modeling approach would need to provide trusted, reusable models in a manner that protects stakeholder IP.
 
 \subsection{Technical Impediments}
-During the interviews, technical impediments were discussed. However, during the workshop discussion,, technical impediments were deemed secondary if the organization is aligned on adopting virtual verification of ECUs based on high fidelity modeling. In this case, any technical challenges should not be insurmountable as long as resources were made available. In any case, it is still important to understand these impediments, especially, since they will become more prevalent when virtual verification platforms are deployed in scale.
+%During the interviews, technical impediments were discussed. However, 
+During the workshop discussion, technical impediments were deemed secondary if the organization is aligned on adopting virtual verification of ECUs.
+%based on high fidelity modeling.
+In this case, any technical challenge should be surmountable, as long as resources are made available.
+To understand these impediments is still important, especially, since they will become more prevalent when virtual verification platforms are deployed in scale.
 
 \subsubsection{Model Interoperability}
 Generally, with the current state of practice in modeling, it is difficult to assemble different models because of a lack of model interoperability. One exception is SystemC models, a de facto standard for model resources within the microcontroller. But even here, different dialects may exist and SystemC does not standardize how to connect two microcontrollers (e.g. in a multi-core environment). Furthermore, it is difficult for suppliers to build interoperability into their models since they will not have the low-level software available that needs to be executed on the virtual ECU. Close collaboration is needed to ensure interoperability and reusability of models or parts of models, which will pay dividends in the long-run because the improved interoperability should reduce development cost.
 
-\subsubsection{Complexity vs. Capability}
-Many suppliers are not able to provide models with the required quality due to the enormous complexity involved.
+% \subsubsection{Complexity vs. Capability}
+% Many suppliers are not able to provide models with the required quality due to the enormous complexity involved.
 
 \subsubsection{Evolution and Migration Difficult}
 There is constant evolution of IP:
-
 \begin{quote}
 "For example, when VP [virtual prototyping] companies started developing VP technologies (e.g., Coware, Virtio, Vast) they were modeling the processor cores. Now the market has evolved in that tool vendors no longer develop processor models... They are provided by the IP owner/provider (or in conjunction w/ it) (e.g., ARM is developing its processor IP model)." 
-— Business Manager (Tier- 2)
+-- Business Manager (Tier- 2)
 \end{quote}
-
-Thus, the specification and implementation of IPs is constantly changing. This imposes significant demands on ecosystem actor to effectively manage models.
+%Thus, the specification and implementation of IPs is constantly changing. This imposes significant demands on ecosystem actor to effectively manage models.
 
 \subsubsection{How to guarantee fidelity?}
 Fidelity of models is a common source for uncertainty.
 \begin{quote}
 "A common questions asked internally is how can you guarantee that the appropriate level of (plant) model fidelity is provided." 
-— Software Development Leader (OEM)
+-- Software Development Leader (OEM)
 \end{quote}
 
 \subsubsection{Legal framework}
 High fidelity ECU models are seen as a material/capital asset, leading to various legal challenges that must be overcome. Contracts and approaches to sourcing need to be established and experience needs to be developed.
 
 % Moved from Initial Cost and ROI
-Challenges also exist for OEMs. In order to protect their IP, an OEM would most likely do the software integration in-house. Such an approach would significantly increase the amount model integration effort beyond what is already required today when suppliers deliver their final modeling artifacts. Assuming that OEMs would benefit in doing virtual SW integration in-house, some key issues would need to be addressed including legal agreements with Tier1 and Tier2 IPs. Business models, NDAs, and intellectual property agreements would also have to be put in place to support this type of ecosystem.
-
-
+Challenges also exist for OEMs. In order to protect their IP, an OEM would most likely do the software integration in-house. Such an approach would significantly increase the amount model integration effort beyond what is already required today when suppliers deliver their final modeling artifacts.
+Assuming that OEMs would benefit in doing virtual SW integration in-house, some key issues would need to be addressed including legal agreements with Tier1 and Tier2 IPs. Business models, NDAs, and intellectual property agreements would also have to be put in place to support this type of ecosystem.

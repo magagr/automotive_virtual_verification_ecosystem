@@ -1,27 +1,79 @@
-In this section, we discuss potential enablers that could help overcome the impediments discussed in the previous section, and provide a foundation for potential future research on strategies and tactics for adopting virtual verification.
+%In this section, we discuss potential enablers that could help overcome the impediments discussed in the previous section, and provide a foundation for potential future research on strategies and tactics for adopting virtual verification.
 
-\subsection{Business Related Enablers}
-\subsubsection{Clear Value Proposition}
+%\subsection{Business Related Enablers}
+\subsection{Clear Value Proposition}
 There was general consensus that it is critical to define a compelling value proposition for investing in virtual prototyping models and tools. However, the value proposition changes depending upon the problem to be solved. For instance, the value proposition during the initial phases of SW development, integration, and testing is that these activities can start earlier in the design process, providing an opportunity to optimize the software design, discover errors, etc.
 
 \begin{quote}
-"Virtual prototyping means virtualizing everything in the development process, not only the MCU digital HW. The definition of success should not be how accurate the model is, it should be whether the project objectives have been achieved (e.g., sw developed and tested early in the design process)."
-— CEO (Tool Vendor 1)
+"Virtual prototyping means virtualizing everything in the development process, not only the MCU digital HW. The definition of success should not be how accurate the model is, it should be whether the project objectives have been achieved, e.g. SW developed and tested early in the design process."
+-- CEO (Tool Vendor 1)
 \end{quote}
 
-However, it is also important to integrate virtualization design approaches with the general system development process, and align it with the overall value chain.
+It is also important to integrate virtualization design approaches with the general system development process, and align it with the overall value chain.
 % \begin{quote}
-Tier 2 and Tier 3 suppliers of electronic devices and microprocessors develop their models for electronic hardware or low level software design, not for application software development and integration. Tier 2 and Tier 3 are obviously in the best position to develop these models as they are the actual design houses for these technologies. For their needs, these models must be very accurate yet are very slow -- this is not desirable for an ecosystem aiming at model exchange as the main enabler for SW virtual verification, as it creates challenges for other users who do not require the same degree of fidelity, yet much faster simulation performance. For example, for OEM SW integration such degree of fidelity is not necessary.  The ideal scenario would be that the Tier 2 would develop their models not only for their own internal purposes, but also  for external users. The specification of the IP is a document. Instead, the Virtual Platform high fidelity models should comprise the specification. 
+Suppliers of electronic devices and microprocessors develop their models for electronic hardware or low level software design, not for application software development and integration.
+%They are clearly in the best position to develop these models as they are the actual design houses for these technologies.
+For their needs, these models must be very accurate yet are very slow -- this is not desirable for an ecosystem aiming at model exchange as the main enabler for SW virtual verification,
+as it creates challenges for other users who do not require the same degree of fidelity, yet much faster simulation performance.
+For example, for OEM SW integration such degree of fidelity is not necessary. 
+The ideal scenario would be that the supplier would develop their models not only for their own internal purposes, but also for external users.
+%The specification of the IP is a document.
+Instead of a document,
+the Virtual Platform high fidelity models should comprise the specification. 
 %— Marketing Director (Tool Vendor 2)
 %\end{quote}
 
-In the automotive domain, OEMs will likely have to incentivize this alignment.
+%In the automotive domain, 
+%OEMs will likely have to incentivize this alignment.
+In order to make a sizable initial investment in virtual software development palatable to ecosystem actors, incentives would need to be provided by the OEM, both internally to foster good practice, and towards suppliers that could support virtual software development. These incentives could then spread throughout the value chain.
+
 \begin{quote}
-"Why are Tier 2s not unifying their modeling approach for internal and external users (e.g., OEM)? Because OEMs do not ask for it (generally speaking) (do this costs money and time)."
-— Marketing Director (Tool Vendor 2)
+"Why are suppliers not unifying their modeling approach for internal and external users? Because OEMs do not ask for it, generally speaking. Do that costs money and time."
+-- Marketing Director (Tool Vendor 2)
 \end{quote}
 
-In conclusion, there should be a clear and shared value proposition for OEM, Tier-1 and Tier-2 suppliers, and the overall ecosystem. Based on the findings gathered so far, providing value to the OEM would have highest priority, and naturally lead to business opportunities for suppliers over time. However, shared models should not only be created for the OEM, but also used internally for the supplier’s own development processes to the greatest extent possible.
+%In conclusion, there should be a clear and shared value proposition for OEM, Tier-1 and Tier-2 suppliers, and the overall ecosystem. Based on the findings gathered so far, providing value to the OEM would have highest priority, and naturally lead to business opportunities for suppliers over time.
+%However,
+%Shared models should not only be created for the OEM, but also used internally for the supplier’s own development processes to the greatest extent possible.
+
+In addition to strengthen the mutual understanding between ecosystem partners, new business models will have to be defined.
+%in order to facilitate the sharing of hardware and software models.
+For example, this can be attractive to OEMs because they do not currently develop microcontroller models.
+As model fidelity increases, the OEM could use these models for more than SIL testing, and they might even be willing to buy target code in the loop (TCIL) models from suppliers \cite{Knauss2014d}.
+%Such new business models need to take into account various impediments. Currently, most of the cost for a typical Tier-1 supplier is due to hardware development, while software is seen as a differentiator. Accordingly, Tier-1 suppliers are very protective of their modeling IP.
+
+During the workshop, the discussion emphasized that from an OEM point of view, a clear value proposition needs to communicate:
+\begin{itemize}
+\item The need for widespread adoption of virtual platform technology, for a good return on investment. 
+\item How virutal platform technology provides value, comparable to, for example, how computer aided engineering (CAE) provides value in performing crash simulation.
+\end{itemize}
+
+%We also identified two other enablers that could help articulate a clear value proposition:
+%\begin{itemize}
+%\item Mapping virtual platform features back to strategic company goals
+%\item Defining a clear concept of customer value.
+%\end{itemize}
+
+%\subsection{Organization related enablers}
+%As discussed before, the workshop focused on organization related impediments. When brainstorming about enablers on how to overcome these impediments, we took into account a number of successful pilot (small scale) studies previously discussed in this report. Therefore, we focused on enablers that could help with wider adoption of these initial success stories.
+
+\subsection{Properly scoped use cases}
+Clearly articulated use cases need to be communicated so that tradeoffs such as fidelity vs. speed or functional vs. timing accuracy become well understood.
+%\emph{Wrong expectations}
+Overexpectation on the level of fidelity required for models to be useful can lead to a belief that virtual verification is unfeasible. A constructive approach would be to investigate whether models really need to be highly accurate, and offer guidance for a cost/benefit tradeoff.
+%\subsubsection{Suitable scope}
+It is crucial to define a suitable scope in order to realistically implement virtual platform technology, while also have a large enough scope to engage various aspects of the ecosystem (e.g., cross-organizational collaboration and new business models of ecosystem actors). 
+
+%\subsubsection{Clear Stakeholder Landscape}
+%Further analysis should offer a clear stakeholder landscape. This will result in use cases that have better scope and potential value-add because it is always important to understand who the customer is (e.g. vehicle, system, or subsystem).
+
+%\emph{Over-optimization against production cost/effort}
+%In the automotive domain, there are widespread efforts to constantly minimize hardware costs. However, minimizing manufacturing costs and giveaway costs should also be considered, especially with respect to increasing complexity and variability.
+
+\subsection{Transparency}
+Since smaller scale pilots have been successfully implemented, one major enabler can be awareness. This can be achieved through establishing transparency about the virtual verification ecosystem, its challenges and difficulties, but also its benefits and successes. 
+
+Pilot studies and increasing adoption with OEMs should include documenting the experience with suppliers who are able to support virtual verification so that it can be shared throughout the ecosystem. A strong value chain that can support one of the use cases will be a great enabler for further adoption.
 
 % Moved from impediments
 Specifically, the following knowledge needs to be shared across the value chain:
@@ -31,34 +83,10 @@ Specifically, the following knowledge needs to be shared across the value chain:
   \item OEMs should share knowledge about their specific software customizations.
 \end{itemize}
 
-During the workshop, the discussion emphasized that from an OEM point of view, a clear value proposition needs to include communication of the following:
-\begin{itemize}
-\item The need of widespread adoption of virtual platform technology in order to provide a good return on investment for programs. 
-\item A clear way to articulate how virtual platform technology provides value i(comparably, for example, to how computer aided engineering (CAE) provides value in performing crash simulation).
-\end{itemize}
 
-We also identified two other enablers that could help articulate a clear value proposition:
-\begin{itemize}
-\item Mapping virtual platform features back to strategic company goals
-\item Defining a clear concept of customer value.
-\end{itemize}
+% Moved from lack of resources
+%With this work, we would like to understand whether such an investment could yield valuable returns. Currently, we see how a lack of resources relates directly to the following practices in automotive development:
 
-\subsection{Organization related enablers}
-As discussed before, the workshop focused on organization related impediments. When brainstorming about enablers on how to overcome these impediments, we took into account a number of successful pilot (small scale) studies previously discussed in this report. Therefore, we focused on enablers that could help with wider adoption of these initial success stories.
- 
-\subsubsection{Properly scoped use cases}
-Clearly articulated use cases need to be communicated so that tradeoffs such as fidelity vs. speed or functional vs. timing accuracy are well understood.
-
-\subsubsection{Suitable scope} It is crucial to define a suitable scope in order to realistically implement virtual platform technology, while also have a large enough scope to engage various aspects of the ecosystem (e.g., cross-organizational collaboration and new business models of ecosystem actors). 
- 
-\subsubsection{Clear Stakeholder Landscape}
-Further analysis should offer a clear stakeholder landscape. This will result in use cases that have better scope and potential value-add because it is always important to understand who the customer is (e.g. vehicle, system, or subsystem).
-
-
-\subsubsection{Transparency}
-Since smaller scale pilots have been successfully implemented, one major enabler can be awareness. This can be achieved through establishing transparency about the virtual verification ecosystem, its challenges and difficulties, but also its benefits and successes. 
-
-Pilot studies and increasing adoption with OEMs should include documenting the experience with suppliers who are able to support virtual verification so that it can be shared throughout the ecosystem. A strong value chain that can support one of the use cases will be a great enabler for further adoption.
 
 \subsection{Technical Enablers}
 \subsubsection{Model Platform}
@@ -68,25 +96,29 @@ Another important enabler would be a shared and standardized modeling platform.
 %— Marketing Director (Tool Vendor 2)
 %\end{quote}
 While standardization and interoperability are key concerns for any modeling platform (see for example related work on software ecosystems such as Android, Eclipse, and SAP), our interviewees also highlighted a need for flexibility to better support the task at hand.
-
 %\begin{quote}
 %"Model platform as a creation itself that can be controlled/modified depending upon the task the model should be used for."
 %— CEO (Tool Vendor 1)
 %\end{quote}
-Essentially, this means that a brute force modeling approach where the entire microprocessor devices are modeled with high degree of fidelity may not be the best one. Instead, the model should include only the microprocessor core (needed to interpret the assembly instructions) and only the relevant devices for the use case at hand. For example, for application level testing modeling some peripherals may not be necessary. This increases simulation speed. Of course the approach must enable increasing additions of other device models if necessary later on in the course of the usage of the model itself. 
+Essentially, this means that a brute force modeling approach where the entire microprocessor devices are modeled with high degree of fidelity may not be the best one.
+Instead, to increase simulation speed, the model should include only the microprocessor core
+%(needed to interpret the assembly instructions)
+and peripherals relevant for the use case at hand.
+%For example, for application level testing modeling some peripherals may not be necessary.
+%Of course the approach must enable increasing additions of other device models if necessary later on in the course of the usage of the model itself. 
 
-As the workshop further revealed, it could be valuable to make the virtual platform as tangible as possible e.g. by adding electrical models to virtual reality lab or by merging electrical and mechanical space.
+As the workshop further revealed, it could be valuable to make the virtual platform as tangible as possible, e.g. by adding electrical models to virtual reality lab or by merging electrical and mechanical space.
 
 \subsubsection{Reusable rulesets and model templates}
 When scaling up virtual platform technology, variation points will become a concern that needs to be addressed. Virtual integration and ubiquitous model-driven system engineering could help with variance and model complexity; we anticipate that having a product line virtual platform will allow new ways to manage system development.
 
 \subsubsection{Architecture}
-A good degree of standardization of electrical components (ECUs) can be seen as a technical enabler. System architects should aim for promoting standardization of for example computational ECUs.
+A good degree of standardization of electrical components can be seen as a technical enabler. System architects should aim for promoting standardization of for example computational nodes.%ECUs.
 %\begin{quote}
 %"Definition of more generic/general purpose ECU could help"
 %— Business Manager (Tier-2)
 %\end{quote}
 This would help create a standardized virtual platform across multiple areas of application, and  facilitate cross-organizational collaboration and reuse of shared models.
 
-\subsection{Other Enablers}
-Education and training is also a key enabler that would help to spread knowledge about virtual platform technology.
+%\subsection{Other Enablers}
+%Education and training is also a key enabler that would help to spread knowledge about virtual platform technology.

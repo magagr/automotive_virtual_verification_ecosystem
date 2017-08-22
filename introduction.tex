@@ -8,11 +8,11 @@ Automotive OEMs currently have thousands of models, specifically of controls and
 
 Our findings indicate that virtual verification is a promising approach that could raise the overall maturity of developing software in the automotive ecosystem across organizational boundaries. We find that a systematic, model-based approach could enforce good system engineering practices throughout the ecosystem, and offer a holistic view on value creating engineering activities. If further confirmed, these results could support establishing an integrated model-based engineering approach at the whole vehicle level. While our research focusses on accelerating software development - we see this as one important sub-use cases and a step towards supporting a complete model-based approach that would allow to capture all relevant information in a (federated) system engineering model (e.g. SysML) and link it to engineering analysis and implementation downstream tools.
 
-\paragraph{Availability of models vs. availability of hardware}
+\subsection{Availability of models vs. availability of hardware}
 Virtual verification based on shared models is a strategy to manage the cone of uncertainty \cite{Boehm1981}, which basically says that uncertainty is gradually reduced as development progresses, more information about the system is available, and system integration aspects can be tested. The problem with this strategy is that many decisions need to be made in the beginning of the development process, when uncertainty is greatest. Thus, we argue that the ability to give feedback about design decisions early in the design process is an important asset. Consequently, any model characterizing hardware performance before the actual silicon hardware exists can be valuable in helping to develop the embedded software earlier, etc.. Once the hardware exists, models need to depict the hardware as closely as possible. A lack of accuracy is then hard to compensate by additional value of models over the real hardware, such as easy, location independent availability and scalability.
 
-\paragraph{Fidelity with respect to functional accuracy}
+\subsection{Fidelity with respect to functional accuracy}
 Setting up a virtual verification process  that can support increasing functionality from a system integration perspective will enable rapid continuous development and faster test execution. This is due to the better scalability and earlier availability associated with virtual verification.
 
-\paragraph{Fidelity with respect to timing and its abstraction}
+\subsection{Fidelity with respect to timing and its abstraction}
 The ability to give feedback about whether a (small) changeset will behave correctly with respect to non-functional properties such as real time behavior is crucial to avoid problems and delays during HW/SW integration, and will significantly increase the development speed of the SW's functionality.
