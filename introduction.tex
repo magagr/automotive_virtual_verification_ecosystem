@@ -1,18 +1,72 @@
-The development of automotive control architectures is increasingly dependent upon the use of modeling and simulation technologies. Use cases include the development of control algorithms and their related software implementations, of “platform” hardware/software (HW/SW) architectures (e.g., OEM ECU HW design \& integration, SW IP qualification and integration, LLHWIO SW development, etc.), and calibrations at the vehicle, subsystem, and HW/SW component level. Unfortunately, the general nature and history of automotive OEMs as large systems integrators of pre-allocated functionality to ECU HW, often results in modeling and simulation technologies being deployed (reactively) late in the development process (e.g., at the HW/SW/Plant integration stage) and customized to specific use cases, domains, and/or organizations - there is a lack of standardized processes for tool/model integration and management across the OEM's engineering organizations.  The primary consequence of these problems is the OEM's struggle to design systems of ever-increasing complexity due to the growing number of errors that often originate early in the conceptual and preliminary design phases, but aren't discovered until later during the HW/SW integration phase. Furthermore, the development speed of hardware and software components (e.g., microcontrollers and SW components) are limited by the supplier's own hardware and software development cycles. Thus, the integration of SW and HW can only be tested very late in the development cycle, further contributing to the possibility of costly software bugs and/or design errors.  This leads to increased production delays and costly vehicle recalls that significantly reduce product quality and profit margins. Finally, using component models and corresponding analysis and simulation tools to support the early verification/integration of control systems has not yet been widely accepted by OEMs (or the automotive design community in general) as part of a standard development process. Currently, standard development processes are driven primarily by the exchange of tangible assets (ECUs, Micros) and SW IPs (e.g., low lever device drivers), and not models of it, therefore preventing any opportunity of early integration.
+The development of automotive control architectures is increasingly dependent upon the use of modeling and simulation technologies.
+Use cases include the development of control algorithms and their related software implementations,
+of “platform” hardware/software architectures
+%(e.g., OEM ECU HW design \& integration, SW IP qualification and integration, LLHWIO SW development, etc.),
+and calibrations at the vehicle, subsystem, and hardware/software component level.
+Unfortunately, the general nature and history of automotive OEMs as large systems integrators of pre-allocated functionality to ECU hardware,
+often results in modeling and simulation technologies being deployed %(reactively)
+late in the development process
+%(e.g., at the HW/SW/Plant integration stage)
+and customized to specific use cases, domains, and/or organizations.
+There is a lack of standardized processes for tool/model integration and management across the OEM's engineering organizations. 
+The primary consequence of these problems is the OEM's struggle to design systems of ever-increasing complexity due to the growing number of errors,
+that often originate early in the conceptual and preliminary design phases, but aren't discovered until later during the hardware/software integration phase.
+Furthermore, the development speed of hardware and software components
+%(e.g., microcontrollers and software components)
+are limited by the supplier's own hardware and software development cycles.
+Thus, the integration of software and hardware can only be tested very late in the development cycle,
+further contributing to the possibility of costly software bugs and design errors.
+This leads to increased production delays and costly vehicle recalls, that significantly reduce product quality and profit margins.
+Finally, using component models and corresponding analysis and simulation tools to support the early verification and integration of control systems has not yet been widely accepted by OEMs
+-- or the automotive design community in general --
+as part of a standard development process.
+Currently, standard development processes are driven primarily by the exchange of tangible assets (ECUs, microcontrollers) and software IPs
+%(e.g., low lever device drivers),
+and not models of it, therefore preventing any opportunity of early integration.
 
-Understanding the underlying ecosystem of cross-organizational collaborations will allow us to properly articulate the challenges and benefits of designing electrical control architectures using shared modelling and virtual verification methodologies.
+%Understanding the underlying ecosystem of cross-organizational collaborations will allow us to properly articulate the challenges and benefits of designing electrical control architectures using shared modelling and virtual verification methodologies.
 
-Several OEM R\&D and engineering teams have been addressing the organizational and technical challenges related to the mainstream adoption of modeling and simulation technologies for the virtual development and integration of electrical control architectures to reduce the risk of late design changes. The main area of progress has been the adoption of HIL benches, whereby real time models of plants and of the rest-of-the-vehicle serial data traffic are coupled with real loads and sensors, as well as real controllers. Other areas of progress include SIL technologies used to simulate the control behavior coupled with simpler real time models of plants. Finally, high fidelity models of microprocessors running the real target controller code have been benchmarked at OEM R\&D and then engineering for the last five/six years. While HIL benches are a mature area at the OEM, other areas exhibit technical and organizational challenges of various nature. In this report, we discuss some of the benefits, challenges, and enablers of modeling and simulation technologies for control architecture by analyzing the high fidelity modeling and simulation of processor technologies. We then generalize our findings to the more general area of modeling and simulation technologies for the virtual development and integration of electrical control architectures. We believe that the work described in this report is of significance to any one at the OEM that is facing challenges in trying to "cross the chasm" from early niche adoption to main stream. By analyzing benefits, enablers, and impediments to adoption by means of interviews and workshops with relevant stakeholders in the ecosystem, we are able to identify potential ways to overcome the resistance to change, or at least possible ways to sell the value proposition.
+%\subsection{Availability of models vs. availability of hardware}
+Virtual verification based on shared models is a strategy to manage the cone of uncertainty \cite{Boehm1981}, 
+which says that uncertainty is gradually reduced as development progresses,
+more information about the system becomes available,
+and system integration aspects can be tested.
+Many decisions need to be made in the beginning of the development process, though, when uncertainty is greatest.
+Thus, the ability to give early feedback about design decisions is an important asset.
+Consequently, any model characterizing hardware performance before the actual silicon hardware exists can be valuable in helping to develop the embedded software earlier.
+%Once the hardware exists, models need to depict the hardware as closely as possible.
+%A lack of accuracy is then hard to compensate by additional value of models over the real hardware, such as easy, location independent availability and scalability.
 
-Automotive OEMs currently have thousands of models, specifically of controls and plants (e.g., engine throttle, etc.). However, platform architectures are not modeled in a consistent way, and many aspects are covered in documents, making it hard to connect and integrate information from all the different design domains. Model-based systems engineering aims to capture this information within a model that is managed throughout the product lifecycle. It is promising to extend these system models with relevant models on lower abstraction levels such as Microprocessor models that describe how ECUs are implemented. If connected, they would provide a bottom-up model for systems engineering, covering the automotive value chain (i.e. the process and activities that add value to an automotive system across OEM and suppliers), and allowing to reason about system aspects in a holistic way.
+Several R\&D and engineering teams,
+at a large North American OEM,
+have been addressing the organizational and technical challenges related to the mainstream adoption of modeling and simulation technologies, for the virtual development and integration of electrical control architectures, to reduce the risk of late design changes.
+The main area of progress has been the adoption of hardware-in-the-loop (HIL) benches,
+coupling real time models of plants and of the rest-of-the-vehicle serial data traffic with real loads, sensors, and controllers.
+Other areas of progress include software-in-the-loop (SIL) technologies, used to simulate the control behavior coupled with simpler real time models of plants.
+Finally, high fidelity models of microprocessors running the real target controller code have been investigated.
+While HIL benches are a mature area at the OEM, other areas exhibit technical and organizational challenges of various nature.
+%In this article, we discuss some of the benefits, challenges, and enablers of modeling and simulation technologies for electrical control architecture,
+%by analyzing the high fidelity modeling and simulation of processor technologies.
+%We then generalize our findings to the more general area of modeling and simulation technologies for virtual development and integration.
+%We believe that the work described in this article is of significance to any one
+%at the OEM
+%who is facing challenges, trying to "cross the chasm" from early niche adoption to main stream.
+%By analyzing benefits, enablers, and impediments to adoption by means of interviews and workshops with relevant stakeholders in the ecosystem, we are able to identify potential ways to overcome the resistance to change, or at least possible ways to sell the value proposition.
 
-Our findings indicate that virtual verification is a promising approach that could raise the overall maturity of developing software in the automotive ecosystem across organizational boundaries. We find that a systematic, model-based approach could enforce good system engineering practices throughout the ecosystem, and offer a holistic view on value creating engineering activities. If further confirmed, these results could support establishing an integrated model-based engineering approach at the whole vehicle level. While our research focusses on accelerating software development - we see this as one important sub-use cases and a step towards supporting a complete model-based approach that would allow to capture all relevant information in a (federated) system engineering model (e.g. SysML) and link it to engineering analysis and implementation downstream tools.
+%Model-based systems engineering aims to capture this information within a model that is managed throughout the product lifecycle. It is promising to extend these system models with relevant models on lower abstraction levels such as Microprocessor models that describe how ECUs are implemented. If connected, they would provide a bottom-up model for systems engineering, covering the automotive value chain (i.e. the process and activities that add value to an automotive system across OEM and suppliers), and allowing to reason about system aspects in a holistic way.
 
-\subsection{Availability of models vs. availability of hardware}
-Virtual verification based on shared models is a strategy to manage the cone of uncertainty \cite{Boehm1981}, which basically says that uncertainty is gradually reduced as development progresses, more information about the system is available, and system integration aspects can be tested. The problem with this strategy is that many decisions need to be made in the beginning of the development process, when uncertainty is greatest. Thus, we argue that the ability to give feedback about design decisions early in the design process is an important asset. Consequently, any model characterizing hardware performance before the actual silicon hardware exists can be valuable in helping to develop the embedded software earlier, etc.. Once the hardware exists, models need to depict the hardware as closely as possible. A lack of accuracy is then hard to compensate by additional value of models over the real hardware, such as easy, location independent availability and scalability.
+%Our findings indicate that virtual verification is a promising approach that could raise the overall maturity of developing software in the automotive ecosystem across organizational boundaries. We find that a systematic, model-based approach could enforce good system engineering practices throughout the ecosystem, and offer a holistic view on value creating engineering activities. If further confirmed, these results could support establishing an integrated model-based engineering approach at the whole vehicle level. While our research focusses on accelerating software development - we see this as one important sub-use cases and a step towards supporting a complete model-based approach that would allow to capture all relevant information in a (federated) system engineering model (e.g. SysML) and link it to engineering analysis and implementation downstream tools.
 
-\subsection{Fidelity with respect to functional accuracy}
-Setting up a virtual verification process  that can support increasing functionality from a system integration perspective will enable rapid continuous development and faster test execution. This is due to the better scalability and earlier availability associated with virtual verification.
 
-\subsection{Fidelity with respect to timing and its abstraction}
-The ability to give feedback about whether a (small) changeset will behave correctly with respect to non-functional properties such as real time behavior is crucial to avoid problems and delays during HW/SW integration, and will significantly increase the development speed of the SW's functionality.
+%we provide an overview of the technology area of focus.
+The research presented in this paper is based on semi-structured interviews
+with OEMs, suppliers, and tool vendors,
+representing a cross-section of the automotive ecosystem,
+and a follow-up workshop, with OEM personnel.
+
+focused on the benefits and challenges of 
+enterprise-scale deployment of MCU/ECU
+%mixed fidelity
+simulation models.
+
+%Tie into impediments and enablers

@@ -1,12 +1,21 @@
-Virtual platform technology is key aspect of the ecosystem for model sharing and virtual verification as it extends concepts such as HIL and SIL to include microprocessor models. This enables early SW integration pre-silicon for OEMs as well as early SW development of Basic SW by Tier1 suppliers. By enabling the parallel usage of these processor models among OEMs and their suppliers, parallel and not sequential SW development can be achieved, whereby synchronization points are established for integration tasks and feedback loops between OEMs and suppliers.
+Virtual platform technology is a key aspect of the ecosystem for model sharing and virtual verification,
+as it extends concepts such as HIL and SIL to include microprocessor models.
+This enables early software integration for OEMs,
+as well as early software development of basic software by Tier 1 suppliers.
+Enabling the parallel usage of these processor models among OEMs and their suppliers,
+can achieve parallel rather than sequential software development,
+whereby synchronization points are established for integration tasks and feedback loops between OEMs and suppliers.
 
-The Virtual platform technology consists of two parts, a virtual chipset and a virtual platform for SW development, integration, and testing.
-The Virtual chipset consists of a high-fidelity microprocessor model, including peripherals and other resources that execute the target embedded SW ("Target Code in the Loop").
+The Virtual platform technology consists of two parts, a virtual chipset and a virtual platform for software development, integration, and testing.
+The virtual chipset consists of a high-fidelity microprocessor model,
+including peripherals and other resources that execute the target embedded software.
 Extending the virtual chipset with additional models of off chip devices essentially realizes the concept of a virtual controller.
-Other models, similar to those required for hardware-in-the-loop/bench systems, are also required in order for the virtual controller to be able to emulate the behavior of the real controller's functionality and performance within a HIL bench.
+Other models, similar to those required for HIL systems, are also required in order for the virtual controller to be able to emulate the behavior of the real controller's functionality and performance within a HIL bench.
 These include models representing incoming serial data traffic, typically in open loop,
-plant models (e.g., an engine), simulating ASICs running microcode, interfacing high power interfaces such as inductors to the controlled loads (e.g., electric motors, fuel injectors), HW/SW Fault Injection, vehicle dynamics, environment, etc.
+plant models (e.g., an engine), simulating ASICs running microcode, interfacing high power interfaces such as inductors to the controlled loads (e.g., electric motors, fuel injectors),
+vehicle dynamics, environment, etc.
 The degree of modeling around the virtual chipset depends upon the use case at hand.
 In order to perform a full functional and performance verification of the controller, all the aforementioned models are needed.
-For use cases involving only low level SW development, an open loop model providing HW IOs and/or serial data traffic may be sufficient.
-Finally, tools for configuring SW via calibrations and for SW variable/signal recording may also be needed. The integration of several virtual chip sets may be necessary for sub-system and/or complex ECU SW verification, and may require high-performance computing platforms to achieve acceptable simulation runtimes.
+For use cases involving only low level software development, an open loop model providing hardware IOs or serial data traffic may be sufficient.
+Finally, tools for configuring software via calibrations and for software variable/signal recording may also be needed.
+The integration of several virtual chip sets may be necessary for sub-system and complex ECU software verification, and may require high-performance computing platforms to achieve acceptable simulation runtimes.
