@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.presentation">
- <office:meta><meta:creation-date>2017-07-21T08:33:57</meta:creation-date><meta:initial-creator>Eric Knauss</meta:initial-creator><dc:language>sv-SE</dc:language><dc:creator>Magnus Ågren</dc:creator><dc:date>2017-08-30T15:20:22.534384877</dc:date><meta:editing-cycles>42</meta:editing-cycles><dc:title>PowerPoint Presentation</dc:title><meta:editing-duration>PT3H3M55S</meta:editing-duration><meta:generator>LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:document-statistic meta:object-count="77"/><meta:user-defined meta:name="AppVersion">15.0035</meta:user-defined><meta:user-defined meta:name="HiddenSlides" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="HyperlinksChanged" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="LinksUpToDate" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="MMClips" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="Notes" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="PresentationFormat" meta:value-type="string">Widescreen</meta:user-defined><meta:user-defined meta:name="ScaleCrop" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ShareDoc" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="Slides" meta:value-type="float">4</meta:user-defined></office:meta>
+ <office:meta><meta:creation-date>2017-07-21T08:33:57</meta:creation-date><meta:initial-creator>Eric Knauss</meta:initial-creator><dc:language>sv-SE</dc:language><dc:creator>Magnus Ågren</dc:creator><dc:date>2017-08-30T18:18:54.635265308</dc:date><meta:editing-cycles>62</meta:editing-cycles><dc:title>PowerPoint Presentation</dc:title><meta:editing-duration>PT5H54M41S</meta:editing-duration><meta:generator>LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:document-statistic meta:object-count="85"/><meta:user-defined meta:name="AppVersion">15.0035</meta:user-defined><meta:user-defined meta:name="HiddenSlides" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="HyperlinksChanged" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="LinksUpToDate" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="MMClips" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="Notes" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="PresentationFormat" meta:value-type="string">Widescreen</meta:user-defined><meta:user-defined meta:name="ScaleCrop" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ShareDoc" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="Slides" meta:value-type="float">4</meta:user-defined></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="VisibleAreaTop" config:type="int">-268</config:config-item>
-   <config:config-item config:name="VisibleAreaLeft" config:type="int">1917</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">35075</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">19880</config:config-item>
+   <config:config-item config:name="VisibleAreaTop" config:type="int">-342</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">-502</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">35072</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">19877</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
@@ -35,10 +35,10 @@
      <config:config-item config:name="IsClickChangeRotation" config:type="boolean">true</config:config-item>
      <config:config-item config:name="SlidesPerRow" config:type="short">4</config:config-item>
      <config:config-item config:name="EditMode" config:type="int">0</config:config-item>
-     <config:config-item config:name="VisibleAreaTop" config:type="int">-268</config:config-item>
-     <config:config-item config:name="VisibleAreaLeft" config:type="int">-1649</config:config-item>
-     <config:config-item config:name="VisibleAreaWidth" config:type="int">37618</config:config-item>
-     <config:config-item config:name="VisibleAreaHeight" config:type="int">19826</config:config-item>
+     <config:config-item config:name="VisibleAreaTop" config:type="int">-342</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">-502</config:config-item>
+     <config:config-item config:name="VisibleAreaWidth" config:type="int">35013</config:config-item>
+     <config:config-item config:name="VisibleAreaHeight" config:type="int">19799</config:config-item>
      <config:config-item config:name="GridCoarseWidth" config:type="int">2000</config:config-item>
      <config:config-item config:name="GridCoarseHeight" config:type="int">2000</config:config-item>
      <config:config-item config:name="GridFineWidth" config:type="int">200</config:config-item>
@@ -94,7 +94,7 @@
    <config:config-item config:name="PrintQuality" config:type="int">0</config:config-item>
    <config:config-item config:name="PrinterIndependentLayout" config:type="string">low-resolution</config:config-item>
    <config:config-item config:name="PrinterName" config:type="string">cse-ju-434-color1</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">tAH+/2NzZS1qdS00MzQtY29sb3IxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpjc2UtanUtNDM0LWNvbG9yMQAAAAAAAAAAAAAWAAMA2gAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9Y3NlLWp1LTQzNC1jb2xvcjEKb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5kYWp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXhEYXRhCkR1cGxleDpOb25lAElucHV0U2xvdDpNdWx0aVRyYXkAUGFnZVNpemU6TGV0dGVyAAASAENPTVBBVF9EVVBMRVhfTU9ERQoARFVQTEVYX09GRg==</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">oAH+/2NzZS1qdS00MzQtY29sb3IxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpjc2UtanUtNDM0LWNvbG9yMQAAAAAAAAAAAAAWAAMAxgAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9Y3NlLWp1LTQzNC1jb2xvcjEKb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5kYWp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXhEYXRhClBhZ2VTaXplOkxldHRlcgBEdXBsZXg6Tm9uZQAAEgBDT01QQVRfRFVQTEVYX01PREUKAERVUExFWF9PRkY=</config:config-item>
    <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SlidesPerHandout" config:type="short">6</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
@@ -492,34 +492,40 @@
    <style:graphic-properties style:protect="size"/>
   </style:style>
   <style:style style:name="gr10" style:family="graphic" style:parent-style-name="standard">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0cm" svg:stroke-color="#000000" draw:fill="solid" draw:fill-color="#ff9999" draw:textarea-vertical-align="top" draw:auto-grow-height="false" draw:fit-to-size="false" fo:min-height="1.551cm" fo:min-width="2.901cm" fo:padding-top="0.125cm" fo:padding-bottom="0.125cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" fo:wrap-option="wrap"/>
+   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0cm" svg:stroke-color="#000000" draw:fill="solid" draw:fill-color="#dddddd" draw:textarea-vertical-align="top" draw:auto-grow-height="false" draw:fit-to-size="false" fo:min-height="1.551cm" fo:min-width="2.901cm" fo:padding-top="0.125cm" fo:padding-bottom="0.125cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" fo:wrap-option="wrap"/>
   </style:style>
   <style:style style:name="gr11" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L3">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0cm" svg:stroke-color="#000000" draw:fill="solid" draw:fill-color="#ff9999" draw:textarea-vertical-align="top" draw:auto-grow-height="false" draw:fit-to-size="false" fo:min-height="1.551cm" fo:min-width="2.501cm" fo:padding-top="0.125cm" fo:padding-bottom="0.125cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" fo:wrap-option="wrap"/>
+   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0cm" svg:stroke-color="#000000" draw:fill="solid" draw:fill-color="#dddddd" draw:textarea-vertical-align="top" draw:auto-grow-height="false" draw:fit-to-size="false" fo:min-height="1.551cm" fo:min-width="2.501cm" fo:padding-top="0.125cm" fo:padding-bottom="0.125cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" fo:wrap-option="wrap"/>
   </style:style>
   <style:style style:name="gr12" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L3">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0cm" svg:stroke-color="#000000" draw:fill="solid" draw:fill-color="#ff9999" draw:textarea-vertical-align="top" draw:auto-grow-height="false" draw:fit-to-size="false" fo:min-height="1.489cm" fo:min-width="4.301cm" fo:padding-top="0.125cm" fo:padding-bottom="0.125cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" fo:wrap-option="wrap"/>
+   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0cm" svg:stroke-color="#000000" draw:fill="solid" draw:fill-color="#dddddd" draw:textarea-vertical-align="top" draw:auto-grow-height="false" draw:fit-to-size="false" fo:min-height="1.489cm" fo:min-width="4.301cm" fo:padding-top="0.125cm" fo:padding-bottom="0.125cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" fo:wrap-option="wrap"/>
   </style:style>
   <style:style style:name="gr13" style:family="graphic" style:parent-style-name="standard" style:list-style-name="L3">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0cm" svg:stroke-color="#000000" draw:fill="solid" draw:fill-color="#ff9999" draw:textarea-vertical-align="top" draw:auto-grow-height="false" draw:fit-to-size="false" fo:min-height="1.551cm" fo:min-width="3.101cm" fo:padding-top="0.125cm" fo:padding-bottom="0.125cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" fo:wrap-option="wrap"/>
+   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0cm" svg:stroke-color="#000000" draw:fill="solid" draw:fill-color="#dddddd" draw:textarea-vertical-align="top" draw:auto-grow-height="false" draw:fit-to-size="false" fo:min-height="1.551cm" fo:min-width="3.101cm" fo:padding-top="0.125cm" fo:padding-bottom="0.125cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" fo:wrap-option="wrap"/>
   </style:style>
   <style:style style:name="gr14" style:family="graphic" style:parent-style-name="standard">
-   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0cm" svg:stroke-color="#000000" draw:fill="solid" draw:fill-color="#ff9999" draw:textarea-vertical-align="top" draw:auto-grow-height="false" draw:fit-to-size="false" fo:min-height="1.551cm" fo:min-width="2.299cm" fo:padding-top="0.125cm" fo:padding-bottom="0.125cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" fo:wrap-option="wrap"/>
+   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0cm" svg:stroke-color="#000000" draw:fill="solid" draw:fill-color="#dddddd" draw:textarea-vertical-align="top" draw:auto-grow-height="false" draw:fit-to-size="false" fo:min-height="1.551cm" fo:min-width="2.299cm" fo:padding-top="0.125cm" fo:padding-bottom="0.125cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" fo:wrap-option="wrap"/>
   </style:style>
   <style:style style:name="gr15" style:family="graphic" style:parent-style-name="objectwithoutfill">
    <style:graphic-properties draw:fill="none" draw:textarea-vertical-align="middle"/>
   </style:style>
   <style:style style:name="gr16" style:family="graphic" style:parent-style-name="standard">
-   <style:graphic-properties svg:stroke-color="#000000" draw:fill-color="#000000" draw:textarea-vertical-align="middle"/>
+   <style:graphic-properties draw:stroke="solid" draw:stroke-dash="Fine_20_Dashed" svg:stroke-color="#000000" draw:marker-start="" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-horizontal-align="left" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="1.423cm" fo:min-width="0cm"/>
   </style:style>
   <style:style style:name="gr17" style:family="graphic" style:parent-style-name="standard">
-   <style:graphic-properties draw:stroke="solid" draw:stroke-dash="Fine_20_Dashed" svg:stroke-color="#000000" draw:marker-start="" draw:fill="solid" draw:fill-color="#ccff99" draw:textarea-horizontal-align="left" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="1.423cm" fo:min-width="0cm"/>
+   <style:graphic-properties draw:stroke="solid" draw:stroke-dash="Fine_20_Dashed" svg:stroke-color="#000000" draw:marker-start="" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-horizontal-align="left" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="2.322cm" fo:min-width="0cm"/>
   </style:style>
-  <style:style style:name="gr18" style:family="graphic" style:parent-style-name="standard">
-   <style:graphic-properties draw:stroke="solid" draw:stroke-dash="Fine_20_Dashed" svg:stroke-color="#000000" draw:marker-start="" draw:fill="solid" draw:fill-color="#ccff99" draw:textarea-horizontal-align="left" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="2.322cm" fo:min-width="0cm"/>
-  </style:style>
-  <style:style style:name="gr19" style:family="graphic" style:parent-style-name="objectwithoutfill">
+  <style:style style:name="gr18" style:family="graphic" style:parent-style-name="objectwithoutfill">
    <style:graphic-properties draw:marker-end="" draw:marker-end-width="0.3cm" draw:fill="none" draw:textarea-vertical-align="middle"/>
+  </style:style>
+  <style:style style:name="gr19" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="solid" draw:stroke-dash="Fine_20_Dashed" svg:stroke-color="#000000" draw:marker-start="" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-horizontal-align="left" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="2.134cm" fo:min-width="0cm"/>
+  </style:style>
+  <style:style style:name="gr20" style:family="graphic" style:parent-style-name="objectwithoutfill">
+   <style:graphic-properties draw:fill="none" draw:fill-color="#000000" draw:textarea-vertical-align="middle"/>
+  </style:style>
+  <style:style style:name="gr21" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-horizontal-align="left" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="0.712cm" fo:min-width="0cm"/>
   </style:style>
   <style:style style:name="pr1" style:family="presentation" style:parent-style-name="Blank_20_Slide-backgroundobjects">
    <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.485cm"/>
@@ -543,12 +549,9 @@
    <style:table-column-properties style:column-width="6.296cm" style:use-optimal-column-width="false"/>
   </style:style>
   <style:style style:name="co5" style:family="table-column">
-   <style:table-column-properties style:column-width="4.161cm" style:use-optimal-column-width="false"/>
-  </style:style>
-  <style:style style:name="co6" style:family="table-column">
    <style:table-column-properties style:column-width="8.408cm" style:use-optimal-column-width="false"/>
   </style:style>
-  <style:style style:name="co7" style:family="table-column">
+  <style:style style:name="co6" style:family="table-column">
    <style:table-column-properties style:column-width="9.493cm" style:use-optimal-column-width="false"/>
   </style:style>
   <style:style style:name="ro1" style:family="table-row">
@@ -578,37 +581,28 @@
    <style:paragraph-properties fo:border="0.48pt solid #000000"/>
   </style:style>
   <style:style style:name="ce3" style:family="table-cell">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" fo:padding-top="0.127cm" fo:padding-bottom="0.127cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm"/>
-   <style:paragraph-properties fo:border="none"/>
-  </style:style>
-  <style:style style:name="ce4" style:family="table-cell">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="middle" fo:padding-top="0.127cm" fo:padding-bottom="0.127cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm"/>
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="center" fo:border="none"/>
    <style:text-properties fo:color="#000000"/>
   </style:style>
+  <style:style style:name="ce4" style:family="table-cell">
+   <loext:graphic-properties draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" fo:padding-top="0.127cm" fo:padding-bottom="0.127cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm"/>
+   <style:paragraph-properties fo:border-left="none" fo:border-right="1.13pt dashed #b2b2b2" fo:border-top="none" fo:border-bottom="1.13pt dashed #b2b2b2"/>
+   <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+  </style:style>
   <style:style style:name="ce5" style:family="table-cell">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="middle" fo:padding-top="0.127cm" fo:padding-bottom="0.127cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm"/>
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:text-align="start" fo:border="none"/>
-   <style:text-properties fo:color="#000000"/>
+   <loext:graphic-properties draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" fo:padding-top="0.127cm" fo:padding-bottom="0.127cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm"/>
+   <style:paragraph-properties fo:border-left="1.13pt dashed #b2b2b2" fo:border-right="none" fo:border-top="none" fo:border-bottom="1.13pt dashed #b2b2b2"/>
+   <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="ce6" style:family="table-cell">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#b2b2b2" draw:textarea-vertical-align="top" fo:padding-top="0.127cm" fo:padding-bottom="0.127cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm"/>
-   <style:paragraph-properties fo:border-left="none" fo:border-right="1.13pt dashed #ffffff" fo:border-top="none" fo:border-bottom="1.13pt dashed #ffffff"/>
+   <loext:graphic-properties draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" fo:padding-top="0.127cm" fo:padding-bottom="0.127cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm"/>
+   <style:paragraph-properties fo:border-left="none" fo:border-right="1.13pt dashed #b2b2b2" fo:border-top="1.13pt dashed #b2b2b2" fo:border-bottom="none"/>
    <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="ce7" style:family="table-cell">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#b2b2b2" draw:textarea-vertical-align="top" fo:padding-top="0.127cm" fo:padding-bottom="0.127cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm"/>
-   <style:paragraph-properties fo:border-left="1.13pt dashed #ffffff" fo:border-right="none" fo:border-top="none" fo:border-bottom="1.13pt dashed #ffffff"/>
-   <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
-  </style:style>
-  <style:style style:name="ce8" style:family="table-cell">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#b2b2b2" draw:textarea-vertical-align="top" fo:padding-top="0.127cm" fo:padding-bottom="0.127cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm"/>
-   <style:paragraph-properties fo:border-left="none" fo:border-right="1.13pt dashed #ffffff" fo:border-top="1.13pt dashed #ffffff" fo:border-bottom="none"/>
-   <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
-  </style:style>
-  <style:style style:name="ce9" style:family="table-cell">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#b2b2b2" draw:textarea-vertical-align="top" fo:padding-top="0.127cm" fo:padding-bottom="0.127cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm"/>
-   <style:paragraph-properties fo:border-left="1.13pt dashed #ffffff" fo:border-right="none" fo:border-top="1.13pt dashed #ffffff" fo:border-bottom="none"/>
+   <loext:graphic-properties draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-vertical-align="top" fo:padding-top="0.127cm" fo:padding-bottom="0.127cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm"/>
+   <style:paragraph-properties fo:border-left="1.13pt dashed #b2b2b2" fo:border-right="none" fo:border-top="1.13pt dashed #b2b2b2" fo:border-bottom="none"/>
    <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
   </style:style>
   <style:style style:name="P1" style:family="paragraph">
@@ -652,40 +646,35 @@
    <loext:graphic-properties draw:fill-color="#ffffff"/>
   </style:style>
   <style:style style:name="P11" style:family="paragraph">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="center"/>
-   <style:text-properties fo:color="#000000"/>
+   <style:paragraph-properties fo:text-align="center"/>
   </style:style>
   <style:style style:name="P12" style:family="paragraph">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:text-align="start"/>
-   <style:text-properties fo:color="#000000"/>
-  </style:style>
-  <style:style style:name="P13" style:family="paragraph">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:text-align="center"/>
   </style:style>
-  <style:style style:name="P14" style:family="paragraph">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#ff9999"/>
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:text-align="start" style:font-independent-line-spacing="true"/>
+  <style:style style:name="P13" style:family="paragraph">
+   <loext:graphic-properties draw:fill="solid" draw:fill-color="#dddddd"/>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:text-align="center" style:font-independent-line-spacing="true"/>
    <style:text-properties fo:font-size="18pt"/>
   </style:style>
-  <style:style style:name="P15" style:family="paragraph">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#ff9999"/>
+  <style:style style:name="P14" style:family="paragraph">
+   <loext:graphic-properties draw:fill="solid" draw:fill-color="#dddddd"/>
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="center" style:font-independent-line-spacing="true"/>
    <style:text-properties fo:font-size="18pt"/>
   </style:style>
-  <style:style style:name="P16" style:family="paragraph">
+  <style:style style:name="P15" style:family="paragraph">
    <loext:graphic-properties draw:fill="none"/>
    <style:paragraph-properties fo:text-align="center"/>
   </style:style>
+  <style:style style:name="P16" style:family="paragraph">
+   <loext:graphic-properties draw:fill="solid" draw:fill-color="#ffffff"/>
+   <style:paragraph-properties fo:text-align="center"/>
+  </style:style>
   <style:style style:name="P17" style:family="paragraph">
-   <loext:graphic-properties draw:fill-color="#000000"/>
+   <loext:graphic-properties draw:fill="none" draw:fill-color="#000000"/>
    <style:paragraph-properties fo:text-align="center"/>
   </style:style>
   <style:style style:name="P18" style:family="paragraph">
-   <style:paragraph-properties fo:text-align="center"/>
-  </style:style>
-  <style:style style:name="P19" style:family="paragraph">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#ccff99"/>
-   <style:paragraph-properties fo:text-align="center"/>
+   <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
@@ -709,9 +698,6 @@
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Calibri1" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" style:font-name-asian="DejaVu Sans2" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="DejaVu Sans2" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T8" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Arial1" fo:font-size="18pt" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
-  </style:style>
-  <style:style style:name="T9" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Arial1" fo:font-size="18pt" fo:letter-spacing="normal" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <text:list-style style:name="L1">
@@ -858,27 +844,36 @@
    <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="11cm" svg:y="20.05cm"/>
    <draw:frame draw:style-name="gr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr1" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="0cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="28.215cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
   </style:handout-master>
   <style:master-page style:name="Blank_20_Slide" style:display-name="Blank Slide" style:page-layout-name="PM1" draw:style-name="dp1">
    <draw:frame presentation:style-name="Blank_20_Slide-title" draw:layer="backgroundobjects" svg:width="30.479cm" svg:height="3.18cm" svg:x="1.693cm" svg:y="0.76cm" presentation:class="title" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
+   <draw:frame presentation:style-name="Blank_20_Slide-outline1" draw:layer="backgroundobjects" svg:width="30.479cm" svg:height="11.048cm" svg:x="1.693cm" svg:y="4.457cm" presentation:class="outline" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
+   <draw:frame presentation:style-name="Blank_20_Slide-outline1" draw:layer="backgroundobjects" svg:width="30.479cm" svg:height="11.048cm" svg:x="1.693cm" svg:y="4.457cm" presentation:class="outline" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
+   <draw:frame presentation:style-name="Blank_20_Slide-outline1" draw:layer="backgroundobjects" svg:width="30.479cm" svg:height="11.048cm" svg:x="1.693cm" svg:y="4.457cm" presentation:class="outline" presentation:placeholder="true">
     <draw:text-box/>
    </draw:frame>
    <draw:frame presentation:style-name="Blank_20_Slide-outline1" draw:layer="backgroundobjects" svg:width="30.479cm" svg:height="11.048cm" svg:x="1.693cm" svg:y="4.457cm" presentation:class="outline" presentation:placeholder="true">
@@ -895,24 +890,33 @@
     <draw:frame presentation:style-name="Blank_20_Slide-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
      <draw:text-box/>
     </draw:frame>
+    <draw:frame presentation:style-name="Blank_20_Slide-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
+    <draw:frame presentation:style-name="Blank_20_Slide-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
+    <draw:frame presentation:style-name="Blank_20_Slide-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
     <draw:frame presentation:style-name="pr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr1" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="28.215cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -1137,7 +1141,7 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 9" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="5.14cm" svg:height="3.245cm" svg:x="12.992cm" svg:y="12.31cm">
+    <draw:custom-shape draw:name="CustomShape 9" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="5.14cm" svg:height="3.245cm" svg:x="12.992cm" svg:y="12.304cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="true" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
@@ -1151,7 +1155,7 @@
       <draw:equation draw:name="f1" draw:formula="logheight"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 11" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="1.493cm" svg:height="2.415cm" svg:x="8.921cm" svg:y="13.06cm">
+    <draw:custom-shape draw:name="CustomShape 11" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="1.493cm" svg:height="2.415cm" svg:x="8.921cm" svg:y="13.054cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
@@ -1193,14 +1197,14 @@
       <draw:equation draw:name="f1" draw:formula="logheight"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 16" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="2.599cm" svg:height="0.387cm" svg:x="13.46cm" svg:y="3.379cm">
+    <draw:custom-shape draw:name="CustomShape 16" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="2.599cm" svg:height="0.387cm" svg:x="13.454cm" svg:y="3.373cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="true" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
       <draw:equation draw:name="f1" draw:formula="logheight"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 17" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="0.129cm" svg:height="1.826cm" svg:x="21.217cm" svg:y="3.77cm">
+    <draw:custom-shape draw:name="CustomShape 17" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="0.129cm" svg:height="1.826cm" svg:x="21.211cm" svg:y="3.77cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="true" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
@@ -1253,7 +1257,7 @@
       <draw:equation draw:name="f1" draw:formula="logheight"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 24" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="7.397cm" svg:height="2.83cm" svg:x="16.29cm" svg:y="9.322cm">
+    <draw:custom-shape draw:name="CustomShape 24" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="7.397cm" svg:height="2.83cm" svg:x="16.284cm" svg:y="9.322cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="true" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
@@ -1292,7 +1296,7 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 29" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="0.652cm" svg:height="1.197cm" svg:x="15.64cm" svg:y="9.32cm">
+    <draw:custom-shape draw:name="CustomShape 29" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="0.652cm" svg:height="1.197cm" svg:x="15.64cm" svg:y="9.314cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
@@ -1308,7 +1312,7 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 31" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="3.241cm" svg:height="5.019cm" svg:x="10.416cm" svg:y="6.639cm">
+    <draw:custom-shape draw:name="CustomShape 31" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="3.241cm" svg:height="5.019cm" svg:x="10.416cm" svg:y="6.633cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
@@ -1329,7 +1333,7 @@
       <draw:equation draw:name="f1" draw:formula="logheight"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 34" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="2.404cm" svg:height="1.369cm" svg:x="16.237cm" svg:y="4.518cm">
+    <draw:custom-shape draw:name="CustomShape 34" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="2.404cm" svg:height="1.369cm" svg:x="16.237cm" svg:y="4.512cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
@@ -1345,457 +1349,421 @@
    </draw:page>
    <draw:page draw:name="page2" draw:style-name="dp3" draw:master-page-name="Blank_20_Slide">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
-    <draw:frame draw:name="Table 1" draw:style-name="standard" draw:layer="layout" svg:width="22.061cm" svg:height="15.798cm" svg:x="6cm" svg:y="1.2cm">
+    <draw:frame draw:name="Table 1" draw:style-name="standard" draw:layer="layout" svg:width="17.9cm" svg:height="15.798cm" svg:x="10.18cm" svg:y="1.28cm">
      <table:table>
       <table:table-column table:style-name="co5"/>
       <table:table-column table:style-name="co6"/>
-      <table:table-column table:style-name="co7"/>
-      <table:table-row table:style-name="ro4" table:default-cell-style-name="ce4">
-       <table:table-cell table:style-name="ce3"/>
+      <table:table-row table:style-name="ro4" table:default-cell-style-name="ce3">
        <table:table-cell>
-        <text:p text:style-name="P11"><text:span text:style-name="T8">Business</text:span></text:p>
+        <text:p text:style-name="P11">Business</text:p>
        </table:table-cell>
        <table:table-cell>
-        <text:p text:style-name="P11"><text:span text:style-name="T8">Organisation</text:span></text:p>
+        <text:p text:style-name="P11">Organization</text:p>
        </table:table-cell>
       </table:table-row>
       <table:table-row table:style-name="ro5">
-       <table:table-cell table:style-name="ce5">
-        <text:p text:style-name="P12"><text:span text:style-name="T8">Impediments</text:span></text:p>
-       </table:table-cell>
+       <table:table-cell table:style-name="ce4"/>
+       <table:table-cell table:style-name="ce5"/>
+      </table:table-row>
+      <table:table-row table:style-name="ro6">
        <table:table-cell table:style-name="ce6"/>
        <table:table-cell table:style-name="ce7"/>
       </table:table-row>
-      <table:table-row table:style-name="ro6">
-       <table:table-cell table:style-name="ce5">
-        <text:p text:style-name="P12"><text:span text:style-name="T8">Enablers</text:span></text:p>
-       </table:table-cell>
-       <table:table-cell table:style-name="ce8"/>
-       <table:table-cell table:style-name="ce9"/>
-      </table:table-row>
      </table:table><draw:image>
-      <office:binary-data>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
-       rUgAAEEjAAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAABMk
-       AABlSAAAEyQAAGVIAACzJAAArUgAALMkAACtSAAAEyQAAAAAhQABAAUAAAD///8AAYQAAQAF
-       AAAAAAAAAABvAAIALgAAAAEABQCtSAAA5SQAAGVIAADlJAAAZUgAAIUlAACtSAAAhSUAAK1I
-       AADlJAAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAH5IAAC3JQAA
-       iUgAAMIlAACtSAAA5iUAAK1IAAC3JQAAfkgAALclAAAAAIUAAQAFAAAA////AAGEAAEABQAA
-       AAAAAAAAbwACADYAAAABAAYArUgAAHYIAACJSAAAdggAAGVIAAB2CAAAZUgAAM8IAACtSAAA
-       zwgAAK1IAAB2CAAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1I
-       AAABCQAAZUgAAAEJAABlSAAAoQkAAK1IAAChCQAArUgAAAEJAAAAAIUAAQAFAAAA////AAGE
-       AAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAANMJAABlSAAA0wkAAGVIAABzCgAArUgAAHMK
-       AACtSAAA0wkAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAA
-       pQoAAGVIAAClCgAAZUgAAEULAACtSAAARQsAAK1IAAClCgAAAACFAAEABQAAAP///wABhAAB
-       AAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAAB3CwAAZUgAAHcLAABlSAAAFwwAAK1IAAAXDAAA
-       rUgAAHcLAAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAAEkM
-       AABlSAAASQwAAGVIAADpDAAArUgAAOkMAACtSAAASQwAAAAAhQABAAUAAAD///8AAYQAAQAF
-       AAAAAAAAAABvAAIALgAAAAEABQCtSAAAGw0AAGVIAAAbDQAAZUgAALsNAACtSAAAuw0AAK1I
-       AAAbDQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAADtDQAA
-       ZUgAAO0NAABlSAAAjQ4AAK1IAACNDgAArUgAAO0NAAAAAIUAAQAFAAAA////AAGEAAEABQAA
-       AAAAAAAAbwACAC4AAAABAAUArUgAAL8OAABlSAAAvw4AAGVIAABfDwAArUgAAF8PAACtSAAA
-       vw4AAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAAkQ8AAGVI
-       AACRDwAAZUgAADEQAACtSAAAMRAAAK1IAACRDwAAAACFAAEABQAAAP///wABhAABAAUAAAAA
-       AAAAAG8AAgAuAAAAAQAFAK1IAABjEAAAZUgAAGMQAABlSAAAAxEAAK1IAAADEQAArUgAAGMQ
-       AAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAADURAABlSAAA
-       NREAAGVIAADVEQAArUgAANURAACtSAAANREAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAA
-       AABvAAIALgAAAAEABQCtSAAABxIAAGVIAAAHEgAAZUgAAKcSAACtSAAApxIAAK1IAAAHEgAA
-       AACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAADZEgAAZUgAANkS
-       AABlSAAAeRMAAK1IAAB5EwAArUgAANkSAAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAA
-       bwACAC4AAAABAAUArUgAAKsTAABlSAAAqxMAAGVIAABLFAAArUgAAEsUAACtSAAAqxMAAAAA
-       hQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAAfRQAAGVIAAB9FAAA
-       ZUgAAB0VAACtSAAAHRUAAK1IAAB9FAAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8A
-       AgAuAAAAAQAFAK1IAABPFQAAZUgAAE8VAABlSAAA7xUAAK1IAADvFQAArUgAAE8VAAAAAIUA
-       AQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAACEWAABlSAAAIRYAAGVI
-       AADBFgAArUgAAMEWAACtSAAAIRYAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIA
-       LgAAAAEABQCtSAAA8xYAAGVIAADzFgAAZUgAAJMXAACtSAAAkxcAAK1IAADzFgAAAACFAAEA
-       BQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAADFFwAAZUgAAMUXAABlSAAA
-       ZRgAAK1IAABlGAAArUgAAMUXAAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4A
-       AAABAAUArUgAAJcYAABlSAAAlxgAAGVIAAA3GQAArUgAADcZAACtSAAAlxgAAAAAhQABAAUA
-       AAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAAaRkAAGVIAABpGQAAZUgAAAka
-       AACtSAAACRoAAK1IAABpGQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAA
-       AQAFAK1IAAA7GgAAZUgAADsaAABlSAAA2xoAAK1IAADbGgAArUgAADsaAAAAAIUAAQAFAAAA
-       ////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAAA0bAABlSAAADRsAAGVIAACtGwAA
-       rUgAAK0bAACtSAAADRsAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEA
-       BQCtSAAA3xsAAGVIAADfGwAAZUgAAH8cAACtSAAAfxwAAK1IAADfGwAAAACFAAEABQAAAP//
-       /wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAACxHAAAZUgAALEcAABlSAAAUR0AAK1I
-       AABRHQAArUgAALEcAAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUA
-       rUgAAIMdAABlSAAAgx0AAGVIAAAjHgAArUgAACMeAACtSAAAgx0AAAAAhQABAAUAAAD///8A
-       AYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAAVR4AAGVIAABVHgAAZUgAAPUeAACtSAAA
-       9R4AAK1IAABVHgAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1I
-       AAAnHwAAZUgAACcfAABlSAAAxx8AAK1IAADHHwAArUgAACcfAAAAAIUAAQAFAAAA////AAGE
-       AAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAAPkfAABlSAAA+R8AAGVIAACZIAAArUgAAJkg
-       AACtSAAA+R8AAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAA
-       yyAAAGVIAADLIAAAZUgAAGshAACtSAAAayEAAK1IAADLIAAAAACFAAEABQAAAP///wABhAAB
-       AAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAACdIQAAZUgAAJ0hAABlSAAAPSIAAK1IAAA9IgAA
-       rUgAAJ0hAAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAAG8i
-       AABlSAAAbyIAAGVIAAAPIwAArUgAAA8jAACtSAAAbyIAAAAAhQABAAUAAAD///8AAYQAAQAF
-       AAAAAAAAAABvAAIALgAAAAEABQCtSAAAQSMAAGVIAABBIwAAZUgAAOEjAACtSAAA4SMAAK1I
-       AABBIwAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAAATJAAA
-       ZUgAABMkAABlSAAAsyQAAK1IAACzJAAArUgAABMkAAAAAIUAAQAFAAAA////AAGEAAEABQAA
-       AAAAAAAAbwACAC4AAAABAAUArUgAAOUkAABlSAAA5SQAAGVIAACFJQAArUgAAIUlAACtSAAA
-       5SQAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIAJgAAAAEABAB+SAAAtyUAAIlI
-       AADCJQAAlEgAALclAAB+SAAAtyUAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIA
-       NgAAAAEABgCtSAAAniUAAIlIAADCJQAAZUgAAOYlAABlSAAAGyYAAK1IAAAbJgAArUgAAJ4l
-       AAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAAE0mAABlSAAA
-       TSYAAGVIAADtJgAArUgAAO0mAACtSAAATSYAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAA
-       AABvAAIALgAAAAEABQCtSAAAHycAAGVIAAAfJwAAZUgAAL8nAACtSAAAvycAAK1IAAAfJwAA
-       AACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAADxJwAAZUgAAPEn
-       AABlSAAAkSgAAK1IAACRKAAArUgAAPEnAAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAA
-       bwACAC4AAAABAAUArUgAAMMoAABlSAAAwygAAGVIAABjKQAArUgAAGMpAACtSAAAwygAAAAA
-       hQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAAlSkAAGVIAACVKQAA
-       ZUgAADUqAACtSAAANSoAAK1IAACVKQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8A
-       AgAuAAAAAQAFAK1IAABnKgAAZUgAAGcqAABlSAAABysAAK1IAAAHKwAArUgAAGcqAAAAAIUA
-       AQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAADkrAABlSAAAOSsAAGVI
-       AADZKwAArUgAANkrAACtSAAAOSsAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIA
-       LgAAAAEABQCtSAAACywAAGVIAAALLAAAZUgAAKssAACtSAAAqywAAK1IAAALLAAAAACFAAEA
-       BQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAADdLAAAZUgAAN0sAABlSAAA
-       fS0AAK1IAAB9LQAArUgAAN0sAAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4A
-       AAABAAUArUgAAK8tAABlSAAAry0AAGVIAABPLgAArUgAAE8uAACtSAAAry0AAAAAhQABAAUA
-       AAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAAgS4AAGVIAACBLgAAZUgAACEv
-       AACtSAAAIS8AAK1IAACBLgAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAA
-       AQAFAK1IAABTLwAAZUgAAFMvAABlSAAA8y8AAK1IAADzLwAArUgAAFMvAAAAAIUAAQAFAAAA
-       ////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAACUwAABlSAAAJTAAAGVIAADFMAAA
-       rUgAAMUwAACtSAAAJTAAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEA
-       BQCtSAAA9zAAAGVIAAD3MAAAZUgAAJcxAACtSAAAlzEAAK1IAAD3MAAAAACFAAEABQAAAP//
-       /wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAADJMQAAZUgAAMkxAABlSAAAaTIAAK1I
-       AABpMgAArUgAAMkxAAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUA
-       rUgAAJsyAABlSAAAmzIAAGVIAAA7MwAArUgAADszAACtSAAAmzIAAAAAhQABAAUAAAD///8A
-       AYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAAbTMAAGVIAABtMwAAZUgAAA00AACtSAAA
-       DTQAAK1IAABtMwAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1I
-       AAA/NAAAZUgAAD80AABlSAAA3zQAAK1IAADfNAAArUgAAD80AAAAAIUAAQAFAAAA////AAGE
-       AAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAABE1AABlSAAAETUAAGVIAACxNQAArUgAALE1
-       AACtSAAAETUAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAA
-       4zUAAGVIAADjNQAAZUgAAIM2AACtSAAAgzYAAK1IAADjNQAAAACFAAEABQAAAP///wABhAAB
-       AAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAAC1NgAAZUgAALU2AABlSAAAVTcAAK1IAABVNwAA
-       rUgAALU2AAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAAIc3
-       AABlSAAAhzcAAGVIAAAnOAAArUgAACc4AACtSAAAhzcAAAAAhQABAAUAAAD///8AAYQAAQAF
-       AAAAAAAAAABvAAIALgAAAAEABQCtSAAAWTgAAGVIAABZOAAAZUgAAPk4AACtSAAA+TgAAK1I
-       AABZOAAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAAArOQAA
-       ZUgAACs5AABlSAAAyzkAAK1IAADLOQAArUgAACs5AAAAAIUAAQAFAAAA////AAGEAAEABQAA
-       AAAAAAAAbwACAC4AAAABAAUArUgAAP05AABlSAAA/TkAAGVIAACdOgAArUgAAJ06AACtSAAA
-       /TkAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAAzzoAAGVI
-       AADPOgAAZUgAAG87AACtSAAAbzsAAK1IAADPOgAAAACFAAEABQAAAP///wABhAABAAUAAAAA
-       AAAAAG8AAgAuAAAAAQAFAK1IAAChOwAAZUgAAKE7AABlSAAAQTwAAK1IAABBPAAArUgAAKE7
-       AAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAAHM8AABlSAAA
-       czwAAGVIAAATPQAArUgAABM9AACtSAAAczwAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAA
-       AABvAAIALgAAAAEABQCtSAAART0AAGVIAABFPQAAZUgAAOU9AACtSAAA5T0AAK1IAABFPQAA
-       AACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAAAXPgAAZUgAABc+
-       AABlSAAAtz4AAK1IAAC3PgAArUgAABc+AAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAA
-       bwACAC4AAAABAAUArUgAAOk+AABlSAAA6T4AAGVIAACJPwAArUgAAIk/AACtSAAA6T4AAAAA
-       hQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAAuz8AAGVIAAC7PwAA
-       ZUgAAFtAAACtSAAAW0AAAK1IAAC7PwAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8A
-       AgAuAAAAAQAFAK1IAACNQAAAZUgAAI1AAABlSAAALUEAAK1IAAAtQQAArUgAAI1AAAAAAIUA
-       AQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAAF9BAABlSAAAX0EAAGVI
-       AAD/QQAArUgAAP9BAACtSAAAX0EAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIA
-       NgAAAAEABgBlSAAAZ0IAAIlIAABnQgAArUgAAGdCAACtSAAAMUIAAGVIAAAxQgAAZUgAAGdC
-       AAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACADYAAAABAAYAsScAAJ4lAACxJwAA
-       wiUAALEnAADmJQAACigAAOYlAAAKKAAAniUAALEnAACeJQAAAACFAAEABQAAAP///wABhAAB
-       AAUAAAAAAAAAAG8AAgAuAAAAAQAFANwoAACeJQAAPCgAAJ4lAAA8KAAA5iUAANwoAADmJQAA
-       3CgAAJ4lAAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArikAAJ4l
-       AAAOKQAAniUAAA4pAADmJQAArikAAOYlAACuKQAAniUAAAAAhQABAAUAAAD///8AAYQAAQAF
-       AAAAAAAAAABvAAIALgAAAAEABQCAKgAAniUAAOApAACeJQAA4CkAAOYlAACAKgAA5iUAAIAq
-       AACeJQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAFIrAACeJQAA
-       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
-       AAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUAwEQAAJ4lAAAgRAAA
-       niUAACBEAADmJQAAwEQAAOYlAADARAAAniUAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAA
-       AABvAAIALgAAAAEABQCSRQAAniUAAPJEAACeJQAA8kQAAOYlAACSRQAA5iUAAJJFAACeJQAA
-       AACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAGRGAACeJQAAxEUAAJ4l
-       AADERQAA5iUAAGRGAADmJQAAZEYAAJ4lAAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAA
-       bwACAC4AAAABAAUANkcAAJ4lAACWRgAAniUAAJZGAADmJQAANkcAAOYlAAA2RwAAniUAAAAA
-       hQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQAISAAAniUAAGhHAACeJQAA
-       aEcAAOYlAAAISAAA5iUAAAhIAACeJQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8A
-       AgA2AAAAAQAGAGVIAADmJQAAiUgAAMIlAABlSAAAniUAADpIAACeJQAAOkgAAOYlAABlSAAA
-       5iUAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIANgAAAAEABgCtSAAA5iUAAIlI
-       AADCJQAAZUgAAOYlAABlSAAAGyYAAK1IAAAbJgAArUgAAOYlAAAAAIUAAQAFAAAA////AAGE
-       AAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAAE0mAABlSAAATSYAAGVIAADtJgAArUgAAO0m
-       AACtSAAATSYAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAA
-       HycAAGVIAAAfJwAAZUgAAL8nAACtSAAAvycAAK1IAAAfJwAAAACFAAEABQAAAP///wABhAAB
-       AAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAADxJwAAZUgAAPEnAABlSAAAkSgAAK1IAACRKAAA
-       rUgAAPEnAAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAAMMo
-       AABlSAAAwygAAGVIAABjKQAArUgAAGMpAACtSAAAwygAAAAAhQABAAUAAAD///8AAYQAAQAF
-       AAAAAAAAAABvAAIALgAAAAEABQCtSAAAlSkAAGVIAACVKQAAZUgAADUqAACtSAAANSoAAK1I
-       AACVKQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAABnKgAA
-       ZUgAAGcqAABlSAAABysAAK1IAAAHKwAArUgAAGcqAAAAAIUAAQAFAAAA////AAGEAAEABQAA
-       AAAAAAAAbwACAC4AAAABAAUArUgAADkrAABlSAAAOSsAAGVIAADZKwAArUgAANkrAACtSAAA
-       OSsAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAACywAAGVI
-       AAALLAAAZUgAAKssAACtSAAAqywAAK1IAAALLAAAAACFAAEABQAAAP///wABhAABAAUAAAAA
-       AAAAAG8AAgAuAAAAAQAFAK1IAADdLAAAZUgAAN0sAABlSAAAfS0AAK1IAAB9LQAArUgAAN0s
-       AAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAAK8tAABlSAAA
-       ry0AAGVIAABPLgAArUgAAE8uAACtSAAAry0AAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAA
-       AABvAAIALgAAAAEABQCtSAAAgS4AAGVIAACBLgAAZUgAACEvAACtSAAAIS8AAK1IAACBLgAA
-       AACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAABTLwAAZUgAAFMv
-       AABlSAAA8y8AAK1IAADzLwAArUgAAFMvAAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAA
-       bwACAC4AAAABAAUArUgAACUwAABlSAAAJTAAAGVIAADFMAAArUgAAMUwAACtSAAAJTAAAAAA
-       hQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAA9zAAAGVIAAD3MAAA
-       ZUgAAJcxAACtSAAAlzEAAK1IAAD3MAAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8A
-       AgAuAAAAAQAFAK1IAADJMQAAZUgAAMkxAABlSAAAaTIAAK1IAABpMgAArUgAAMkxAAAAAIUA
-       AQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAAJsyAABlSAAAmzIAAGVI
-       AAA7MwAArUgAADszAACtSAAAmzIAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIA
-       LgAAAAEABQCtSAAAbTMAAGVIAABtMwAAZUgAAA00AACtSAAADTQAAK1IAABtMwAAAACFAAEA
-       BQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAAA/NAAAZUgAAD80AABlSAAA
-       3zQAAK1IAADfNAAArUgAAD80AAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4A
-       AAABAAUArUgAABE1AABlSAAAETUAAGVIAACxNQAArUgAALE1AACtSAAAETUAAAAAhQABAAUA
-       AAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAA4zUAAGVIAADjNQAAZUgAAIM2
-       AACtSAAAgzYAAK1IAADjNQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAA
-       AQAFAK1IAAC1NgAAZUgAALU2AABlSAAAVTcAAK1IAABVNwAArUgAALU2AAAAAIUAAQAFAAAA
-       ////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAAIc3AABlSAAAhzcAAGVIAAAnOAAA
-       rUgAACc4AACtSAAAhzcAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEA
-       BQCtSAAAWTgAAGVIAABZOAAAZUgAAPk4AACtSAAA+TgAAK1IAABZOAAAAACFAAEABQAAAP//
-       /wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAAArOQAAZUgAACs5AABlSAAAyzkAAK1I
-       AADLOQAArUgAACs5AAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUA
-       rUgAAP05AABlSAAA/TkAAGVIAACdOgAArUgAAJ06AACtSAAA/TkAAAAAhQABAAUAAAD///8A
-       AYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAAzzoAAGVIAADPOgAAZUgAAG87AACtSAAA
-       bzsAAK1IAADPOgAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1I
-       AAChOwAAZUgAAKE7AABlSAAAQTwAAK1IAABBPAAArUgAAKE7AAAAAIUAAQAFAAAA////AAGE
-       AAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAAHM8AABlSAAAczwAAGVIAAATPQAArUgAABM9
-       AACtSAAAczwAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQCtSAAA
-       RT0AAGVIAABFPQAAZUgAAOU9AACtSAAA5T0AAK1IAABFPQAAAACFAAEABQAAAP///wABhAAB
-       AAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAAAXPgAAZUgAABc+AABlSAAAtz4AAK1IAAC3PgAA
-       rUgAABc+AAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUArUgAAOk+
-       AABlSAAA6T4AAGVIAACJPwAArUgAAIk/AACtSAAA6T4AAAAAhQABAAUAAAD///8AAYQAAQAF
-       AAAAAAAAAABvAAIALgAAAAEABQCtSAAAuz8AAGVIAAC7PwAAZUgAAFtAAACtSAAAW0AAAK1I
-       AAC7PwAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAK1IAACNQAAA
-       ZUgAAI1AAABlSAAALUEAAK1IAAAtQQAArUgAAI1AAAAAAIUAAQAFAAAA////AAGEAAEABQAA
-       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
-       AABuZwAAniUAAG5nAADmJQAADmgAAOYlAAAOaAAAniUAAAAAhQABAAUAAAD///8AAYQAAQAF
-       AAAAAAAAAABvAAIALgAAAAEABQDgaAAAniUAAEBoAACeJQAAQGgAAOYlAADgaAAA5iUAAOBo
-       AACeJQAAAACFAAEABQAAAP///wABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFALJpAACeJQAA
-       EmkAAJ4lAAASaQAA5iUAALJpAADmJQAAsmkAAJ4lAAAAAIUAAQAFAAAA////AAGEAAEABQAA
-       AAAAAAAAbwACAC4AAAABAAUAhGoAAJ4lAADkaQAAniUAAORpAADmJQAAhGoAAOYlAACEagAA
-       niUAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQBWawAAniUAALZq
-       AACeJQAAtmoAAOYlAABWawAA5iUAAFZrAACeJQAAAACFAAEABQAAAP///wABhAABAAUAAAAA
-       AAAAAG8AAgAuAAAAAQAFAChsAACeJQAAiGsAAJ4lAACIawAA5iUAAChsAADmJQAAKGwAAJ4l
-       AAAAAIUAAQAFAAAA////AAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUA+mwAAJ4lAABabAAA
-       niUAAFpsAADmJQAA+mwAAOYlAAD6bAAAniUAAAAAhQABAAUAAAD///8AAYQAAQAFAAAAAAAA
-       AABvAAIANgAAAAEABgCebQAA5iUAAJ5tAADCJQAAnm0AAJ4lAAAsbQAAniUAACxtAADmJQAA
-       nm0AAOYlAAAAAA==
+      <office:binary-data>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
+       AAA1JQAAAACFAAEABQAAALKysgABhAABAAUAAAAAAAAAAG8AAgAmAAAAAQAEAJFIAAAHJgAA
+       nEgAABImAACnSAAAByYAAJFIAAAHJgAAAACFAAEABQAAALKysgABhAABAAUAAAAAAAAAAG8A
+       AgA2AAAAAQAGAMBIAADuJQAAnEgAABImAAB4SAAANiYAAHhIAABrJgAAwEgAAGsmAADASAAA
+       7iUAAAAAhQABAAUAAACysrIAAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQDASAAAnSYAAHhI
+       AACdJgAAeEgAAD0nAADASAAAPScAAMBIAACdJgAAAACFAAEABQAAALKysgABhAABAAUAAAAA
+       AAAAAG8AAgAuAAAAAQAFAMBIAABvJwAAeEgAAG8nAAB4SAAADygAAMBIAAAPKAAAwEgAAG8n
+       AAAAAIUAAQAFAAAAsrKyAAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUAwEgAAEEoAAB4SAAA
+       QSgAAHhIAADhKAAAwEgAAOEoAADASAAAQSgAAAAAhQABAAUAAACysrIAAYQAAQAFAAAAAAAA
+       AABvAAIALgAAAAEABQDASAAAEykAAHhIAAATKQAAeEgAALMpAADASAAAsykAAMBIAAATKQAA
+       AACFAAEABQAAALKysgABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAMBIAADlKQAAeEgAAOUp
+       AAB4SAAAhSoAAMBIAACFKgAAwEgAAOUpAAAAAIUAAQAFAAAAsrKyAAGEAAEABQAAAAAAAAAA
+       bwACAC4AAAABAAUAwEgAALcqAAB4SAAAtyoAAHhIAABXKwAAwEgAAFcrAADASAAAtyoAAAAA
+       hQABAAUAAACysrIAAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQDASAAAiSsAAHhIAACJKwAA
+       eEgAACksAADASAAAKSwAAMBIAACJKwAAAACFAAEABQAAALKysgABhAABAAUAAAAAAAAAAG8A
+       AgAuAAAAAQAFAMBIAABbLAAAeEgAAFssAAB4SAAA+ywAAMBIAAD7LAAAwEgAAFssAAAAAIUA
+       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
+       j0IAAO4lAACPQgAANiYAAC9DAAA2JgAAL0MAAO4lAAAAAIUAAQAFAAAAsrKyAAGEAAEABQAA
+       AAAAAAAAbwACAC4AAAABAAUAAUQAAO4lAABhQwAA7iUAAGFDAAA2JgAAAUQAADYmAAABRAAA
+       7iUAAAAAhQABAAUAAACysrIAAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQDTRAAA7iUAADNE
+       AADuJQAAM0QAADYmAADTRAAANiYAANNEAADuJQAAAACFAAEABQAAALKysgABhAABAAUAAAAA
+       AAAAAG8AAgAuAAAAAQAFAKVFAADuJQAABUUAAO4lAAAFRQAANiYAAKVFAAA2JgAApUUAAO4l
+       AAAAAIUAAQAFAAAAsrKyAAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUAd0YAAO4lAADXRQAA
+       7iUAANdFAAA2JgAAd0YAADYmAAB3RgAA7iUAAAAAhQABAAUAAACysrIAAYQAAQAFAAAAAAAA
+       AABvAAIALgAAAAEABQBJRwAA7iUAAKlGAADuJQAAqUYAADYmAABJRwAANiYAAElHAADuJQAA
+       AACFAAEABQAAALKysgABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFABtIAADuJQAAe0cAAO4l
+       AAB7RwAANiYAABtIAAA2JgAAG0gAAO4lAAAAAIUAAQAFAAAAsrKyAAGEAAEABQAAAAAAAAAA
+       bwACADYAAAABAAYAeEgAADYmAACcSAAAEiYAAHhIAADuJQAATUgAAO4lAABNSAAANiYAAHhI
+       AAA2JgAAAACFAAEABQAAALKysgABhAABAAUAAAAAAAAAAG8AAgA2AAAAAQAGAMBIAAA2JgAA
+       nEgAABImAAB4SAAANiYAAHhIAABrJgAAwEgAAGsmAADASAAANiYAAAAAhQABAAUAAACysrIA
+       AYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQDASAAAnSYAAHhIAACdJgAAeEgAAD0nAADASAAA
+       PScAAMBIAACdJgAAAACFAAEABQAAALKysgABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAMBI
+       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
+       AAEABQAAAAAAAAAAbwACAC4AAAABAAUAT2cAAO4lAACvZgAA7iUAAK9mAAA2JgAAT2cAADYm
+       AABPZwAA7iUAAAAAhQABAAUAAACysrIAAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQAhaAAA
+       7iUAAIFnAADuJQAAgWcAADYmAAAhaAAANiYAACFoAADuJQAAAACFAAEABQAAALKysgABhAAB
+       AAUAAAAAAAAAAG8AAgAuAAAAAQAFAPNoAADuJQAAU2gAAO4lAABTaAAANiYAAPNoAAA2JgAA
+       82gAAO4lAAAAAIUAAQAFAAAAsrKyAAGEAAEABQAAAAAAAAAAbwACAC4AAAABAAUAxWkAAO4l
+       AAAlaQAA7iUAACVpAAA2JgAAxWkAADYmAADFaQAA7iUAAAAAhQABAAUAAACysrIAAYQAAQAF
+       AAAAAAAAAABvAAIALgAAAAEABQCXagAA7iUAAPdpAADuJQAA92kAADYmAACXagAANiYAAJdq
+       AADuJQAAAACFAAEABQAAALKysgABhAABAAUAAAAAAAAAAG8AAgAuAAAAAQAFAGlrAADuJQAA
+       yWoAAO4lAADJagAANiYAAGlrAAA2JgAAaWsAAO4lAAAAAIUAAQAFAAAAsrKyAAGEAAEABQAA
+       AAAAAAAAbwACAC4AAAABAAUAO2wAAO4lAACbawAA7iUAAJtrAAA2JgAAO2wAADYmAAA7bAAA
+       7iUAAAAAhQABAAUAAACysrIAAYQAAQAFAAAAAAAAAABvAAIALgAAAAEABQANbQAA7iUAAG1s
+       AADuJQAAbWwAADYmAAANbQAANiYAAA1tAADuJQAAAACFAAEABQAAALKysgABhAABAAUAAAAA
+       AAAAAG8AAgA2AAAAAQAGALFtAAA2JgAAsW0AABImAACxbQAA7iUAAD9tAADuJQAAP20AADYm
+       AACxbQAANiYAAAAA
       </office:binary-data>
      </draw:image>
     </draw:frame>
-    <draw:custom-shape draw:name="TextShape 2" draw:style-name="gr10" draw:text-style-name="P14" xml:id="id1" draw:id="id1" draw:layer="layout" svg:width="3.4cm" svg:height="1.8cm" svg:x="16.836cm" svg:y="2.472cm">
-     <text:p text:style-name="P13"><text:span text:style-name="T9">Lack of Adoption</text:span></text:p>
+    <draw:custom-shape draw:name="TextShape 2" draw:style-name="gr10" draw:text-style-name="P13" xml:id="id1" draw:id="id1" draw:layer="layout" svg:width="3.4cm" svg:height="1.8cm" svg:x="16.836cm" svg:y="2.472cm">
+     <text:p text:style-name="P12"><text:span text:style-name="T8">Lack of Adoption</text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
       <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -1803,8 +1771,8 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="TextShape 3" draw:style-name="gr11" draw:text-style-name="P14" xml:id="id2" draw:id="id2" draw:layer="layout" svg:width="3cm" svg:height="1.8cm" svg:x="13.348cm" svg:y="4.8cm">
-     <text:p text:style-name="P13"><text:span text:style-name="T9">Lack of Demand</text:span></text:p>
+    <draw:custom-shape draw:name="TextShape 3" draw:style-name="gr11" draw:text-style-name="P13" xml:id="id2" draw:id="id2" draw:layer="layout" svg:width="3cm" svg:height="1.8cm" svg:x="13.348cm" svg:y="4.8cm">
+     <text:p text:style-name="P12"><text:span text:style-name="T8">Lack of Demand</text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
       <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -1812,8 +1780,8 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="TextShape 5" draw:style-name="gr12" draw:text-style-name="P15" xml:id="id3" draw:id="id3" draw:layer="layout" svg:width="4.8cm" svg:height="1.738cm" svg:x="16.164cm" svg:y="7.462cm">
-     <text:p text:style-name="P5"><text:span text:style-name="T9">Lack of Global Strategy</text:span></text:p>
+    <draw:custom-shape draw:name="TextShape 5" draw:style-name="gr12" draw:text-style-name="P14" xml:id="id3" draw:id="id3" draw:layer="layout" svg:width="4.8cm" svg:height="1.738cm" svg:x="16.164cm" svg:y="7.462cm">
+     <text:p text:style-name="P5"><text:span text:style-name="T8">Lack of Global Strategy</text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
       <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -1821,8 +1789,8 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="TextShape 7" draw:style-name="gr13" draw:text-style-name="P14" xml:id="id4" draw:id="id4" draw:layer="layout" svg:width="3.6cm" svg:height="1.8cm" svg:x="21.1cm" svg:y="4.8cm">
-     <text:p text:style-name="P13"><text:span text:style-name="T9">Lack of Resources</text:span></text:p>
+    <draw:custom-shape draw:name="TextShape 7" draw:style-name="gr13" draw:text-style-name="P13" xml:id="id4" draw:id="id4" draw:layer="layout" svg:width="3.6cm" svg:height="1.8cm" svg:x="21.1cm" svg:y="4.8cm">
+     <text:p text:style-name="P12"><text:span text:style-name="T8">Lack of Resources</text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
       <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -1830,8 +1798,8 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="TextShape 10" draw:style-name="gr14" draw:text-style-name="P14" xml:id="id5" draw:id="id5" draw:layer="layout" svg:width="2.798cm" svg:height="1.8cm" svg:x="23.602cm" svg:y="7.4cm">
-     <text:p text:style-name="P13"><text:span text:style-name="T9">Cultural Inertia</text:span></text:p>
+    <draw:custom-shape draw:name="TextShape 10" draw:style-name="gr14" draw:text-style-name="P13" xml:id="id5" draw:id="id5" draw:layer="layout" svg:width="2.798cm" svg:height="1.8cm" svg:x="23.602cm" svg:y="7.4cm">
+     <text:p text:style-name="P12"><text:span text:style-name="T8">Cultural Inertia</text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
       <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -1839,51 +1807,61 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:connector draw:style-name="gr15" draw:text-style-name="P16" draw:layer="layout" draw:type="curve" svg:x1="16.836cm" svg:y1="3.372cm" svg:x2="14.848cm" svg:y2="4.8cm" draw:start-shape="id1" draw:start-glue-point="3" draw:end-shape="id2" svg:d="M16836 3372c-1326 0-1988 476-1988 1428" svg:viewBox="0 0 1989 1429">
+    <draw:connector draw:style-name="gr15" draw:text-style-name="P15" draw:layer="layout" draw:type="curve" svg:x1="16.836cm" svg:y1="3.372cm" svg:x2="14.848cm" svg:y2="4.8cm" draw:start-shape="id1" draw:start-glue-point="3" draw:end-shape="id2" svg:d="M16836 3372c-1326 0-1988 476-1988 1428" svg:viewBox="0 0 1989 1429">
      <text:p/>
     </draw:connector>
-    <draw:connector draw:style-name="gr15" draw:text-style-name="P16" draw:layer="layout" draw:type="curve" svg:x1="14.848cm" svg:y1="6.6cm" svg:x2="16.164cm" svg:y2="8.331cm" draw:start-shape="id2" draw:start-glue-point="2" draw:end-shape="id3" draw:end-glue-point="3" svg:d="M14848 6600c0 1154 438 1731 1316 1731" svg:viewBox="0 0 1317 1732">
+    <draw:connector draw:style-name="gr15" draw:text-style-name="P15" draw:layer="layout" draw:type="curve" svg:x1="14.848cm" svg:y1="6.6cm" svg:x2="16.164cm" svg:y2="8.331cm" draw:start-shape="id2" draw:start-glue-point="2" draw:end-shape="id3" draw:end-glue-point="3" svg:d="M14848 6600c0 1154 438 1731 1316 1731" svg:viewBox="0 0 1317 1732">
      <text:p/>
     </draw:connector>
-    <draw:connector draw:style-name="gr15" draw:text-style-name="P16" draw:layer="layout" draw:type="curve" svg:x1="20.236cm" svg:y1="3.372cm" svg:x2="22.9cm" svg:y2="4.8cm" draw:start-shape="id1" draw:start-glue-point="1" draw:end-shape="id4" draw:end-glue-point="0" svg:d="M20236 3372c1776 0 2664 476 2664 1428" svg:viewBox="0 0 2665 1429">
+    <draw:connector draw:style-name="gr15" draw:text-style-name="P15" draw:layer="layout" draw:type="curve" svg:x1="20.236cm" svg:y1="3.372cm" svg:x2="22.9cm" svg:y2="4.8cm" draw:start-shape="id1" draw:start-glue-point="1" draw:end-shape="id4" draw:end-glue-point="0" svg:d="M20236 3372c1776 0 2664 476 2664 1428" svg:viewBox="0 0 2665 1429">
      <text:p/>
     </draw:connector>
-    <draw:connector draw:style-name="gr15" draw:text-style-name="P16" draw:layer="layout" draw:type="curve" svg:x1="20.964cm" svg:y1="8.331cm" svg:x2="22.9cm" svg:y2="6.6cm" draw:start-shape="id3" draw:start-glue-point="1" draw:end-shape="id4" draw:end-glue-point="2" svg:d="M20964 8331c1291 0 1936-577 1936-1731" svg:viewBox="0 0 1937 1732">
+    <draw:connector draw:style-name="gr15" draw:text-style-name="P15" draw:layer="layout" draw:type="curve" svg:x1="20.964cm" svg:y1="8.331cm" svg:x2="22.9cm" svg:y2="6.6cm" draw:start-shape="id3" draw:start-glue-point="1" draw:end-shape="id4" draw:end-glue-point="2" svg:d="M20964 8331c1291 0 1936-577 1936-1731" svg:viewBox="0 0 1937 1732">
      <text:p/>
     </draw:connector>
-    <draw:connector draw:style-name="gr15" draw:text-style-name="P16" draw:layer="layout" draw:type="curve" draw:line-skew="-0.339cm" svg:x1="20.236cm" svg:y1="3.372cm" svg:x2="26.4cm" svg:y2="8.3cm" draw:start-shape="id1" draw:start-glue-point="1" draw:end-shape="id5" draw:end-glue-point="1" svg:d="M20236 3372c9489 0 6407 4928 6164 4928" svg:viewBox="0 0 6834 4929">
+    <draw:connector draw:style-name="gr15" draw:text-style-name="P15" draw:layer="layout" draw:type="curve" draw:line-skew="-0.339cm" svg:x1="20.236cm" svg:y1="3.372cm" svg:x2="26.4cm" svg:y2="8.3cm" draw:start-shape="id1" draw:start-glue-point="1" draw:end-shape="id5" draw:end-glue-point="1" svg:d="M20236 3372c9489 0 6407 4928 6164 4928" svg:viewBox="0 0 6834 4929">
      <text:p/>
     </draw:connector>
-    <draw:connector draw:style-name="gr16" draw:text-style-name="P17" draw:layer="layout" svg:x1="16.348cm" svg:y1="5.7cm" svg:x2="21.1cm" svg:y2="5.7cm" draw:start-shape="id2" draw:start-glue-point="1" draw:end-shape="id4" draw:end-glue-point="3" svg:d="M16348 5700h4752" svg:viewBox="0 0 4753 1">
-     <text:p/>
-    </draw:connector>
-    <draw:frame draw:style-name="gr17" draw:text-style-name="P19" xml:id="id8" draw:id="id8" draw:layer="layout" svg:width="3.8cm" svg:height="1.673cm" svg:x="12cm" svg:y="11.127cm">
+    <draw:frame draw:style-name="gr16" draw:text-style-name="P16" xml:id="id8" draw:id="id8" draw:layer="layout" svg:width="3.8cm" svg:height="1.673cm" svg:x="11.3cm" svg:y="11.327cm">
      <draw:text-box>
-      <text:p text:style-name="P18">Clear Value Proposition</text:p>
+      <text:p text:style-name="P11">Clear Value Proposition</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr18" draw:text-style-name="P19" xml:id="id7" draw:id="id7" draw:layer="layout" svg:width="3.7cm" svg:height="2.572cm" svg:x="16.9cm" svg:y="13.628cm">
+    <draw:frame draw:style-name="gr17" draw:text-style-name="P16" xml:id="id7" draw:id="id7" draw:layer="layout" svg:width="3.7cm" svg:height="2.572cm" svg:x="16.7cm" svg:y="13.728cm">
      <draw:text-box>
-      <text:p text:style-name="P18">Suitably Scoped Use Cases</text:p>
+      <text:p text:style-name="P11">Suitably Scoped Use Cases</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr17" draw:text-style-name="P19" xml:id="id6" draw:id="id6" draw:layer="layout" svg:width="3.8cm" svg:height="1.673cm" svg:x="22.4cm" svg:y="11.6cm">
+    <draw:frame draw:style-name="gr16" draw:text-style-name="P16" xml:id="id6" draw:id="id6" draw:layer="layout" svg:width="3.8cm" svg:height="1.673cm" svg:x="22.4cm" svg:y="11.6cm">
      <draw:text-box>
-      <text:p text:style-name="P18">Knowledge Sharing</text:p>
+      <text:p text:style-name="P11">Knowledge Sharing</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:connector draw:style-name="gr19" draw:text-style-name="P16" draw:layer="layout" draw:type="line" svg:x1="24.3cm" svg:y1="11.6cm" svg:x2="25.001cm" svg:y2="9.2cm" draw:start-shape="id6" draw:start-glue-point="0" draw:end-shape="id5" draw:end-glue-point="2" svg:d="M24300 11600l701-2400" svg:viewBox="0 0 702 2401">
+    <draw:connector draw:style-name="gr18" draw:text-style-name="P15" draw:layer="layout" draw:type="line" svg:x1="24.3cm" svg:y1="11.6cm" svg:x2="25.001cm" svg:y2="9.2cm" draw:start-shape="id6" draw:start-glue-point="0" draw:end-shape="id5" draw:end-glue-point="2" svg:d="M24300 11600l701-2400" svg:viewBox="0 0 702 2401">
      <text:p/>
     </draw:connector>
-    <draw:connector draw:style-name="gr19" draw:text-style-name="P16" draw:layer="layout" draw:type="line" svg:x1="16.9cm" svg:y1="14.914cm" svg:x2="13.9cm" svg:y2="12.8cm" draw:start-shape="id7" draw:start-glue-point="3" draw:end-shape="id8" draw:end-glue-point="2" svg:d="M16900 14914l-3000-2114" svg:viewBox="0 0 3001 2115">
+    <draw:connector draw:style-name="gr18" draw:text-style-name="P15" draw:layer="layout" draw:type="line" svg:x1="16.7cm" svg:y1="15.014cm" svg:x2="13.2cm" svg:y2="13cm" draw:start-shape="id7" draw:start-glue-point="3" draw:end-shape="id8" draw:end-glue-point="2" svg:d="M16700 15014l-3500-2014" svg:viewBox="0 0 3501 2015">
      <text:p/>
     </draw:connector>
-    <draw:connector draw:style-name="gr19" draw:text-style-name="P16" draw:layer="layout" draw:type="line" svg:x1="13.9cm" svg:y1="11.127cm" svg:x2="14.848cm" svg:y2="6.6cm" draw:start-shape="id8" draw:start-glue-point="0" draw:end-shape="id2" svg:d="M13900 11127l948-4527" svg:viewBox="0 0 949 4528">
+    <draw:connector draw:style-name="gr18" draw:text-style-name="P15" draw:layer="layout" draw:type="line" svg:x1="13.2cm" svg:y1="11.327cm" svg:x2="14.848cm" svg:y2="6.6cm" draw:start-shape="id8" draw:start-glue-point="0" draw:end-shape="id2" draw:end-glue-point="2" svg:d="M13200 11327l1648-4727" svg:viewBox="0 0 1649 4728">
      <text:p/>
     </draw:connector>
-    <draw:frame draw:style-name="gr18" draw:text-style-name="P19" draw:layer="layout" svg:width="4cm" svg:height="2.572cm" svg:x="29cm" svg:y="11.628cm">
+    <draw:frame draw:style-name="gr19" draw:text-style-name="P16" xml:id="id9" draw:id="id9" draw:layer="layout" svg:width="3.8cm" svg:height="2.384cm" svg:x="16.636cm" svg:y="10.228cm">
      <draw:text-box>
-      <text:p text:style-name="P18">Clear Stakeholder Landscape</text:p>
+      <text:p text:style-name="P11">Clear Ecosystem Landscape</text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:connector draw:style-name="gr20" draw:text-style-name="P17" draw:layer="layout" draw:type="curve" svg:x1="18.564cm" svg:y1="9.2cm" svg:x2="18.536cm" svg:y2="10.228cm" draw:start-shape="id3" draw:start-glue-point="2" draw:end-shape="id9" draw:end-glue-point="0" svg:d="M18564 9200c0 771-28 257-28 1028" svg:viewBox="0 0 29 1029">
+     <text:p/>
+    </draw:connector>
+    <draw:frame draw:style-name="gr21" draw:text-style-name="P18" draw:layer="layout" svg:width="4.13cm" svg:height="0.962cm" draw:transform="rotate (1.5707963267949) translate (9.138cm 7.7cm)">
+     <draw:text-box>
+      <text:p>Impediments</text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame draw:style-name="gr21" draw:text-style-name="P18" draw:layer="layout" svg:width="3.03cm" svg:height="0.962cm" draw:transform="rotate (1.5707963267949) translate (9.138cm 14.63cm)">
+     <draw:text-box>
+      <text:p>Enablers</text:p>
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp2">
