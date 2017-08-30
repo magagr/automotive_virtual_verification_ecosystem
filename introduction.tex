@@ -1,14 +1,14 @@
-% The development of automotive control architectures is increasingly dependent upon the use of modeling and simulation technologies.
+The development of automotive control architectures is increasingly dependent upon the use of modeling and simulation technologies.
 % Use cases include the development of control algorithms and their related software implementations,
 % of “platform” hardware/software architectures
 % %(e.g., OEM ECU HW design \& integration, SW IP qualification and integration, LLHWIO SW development, etc.),
 % and calibrations at the vehicle, subsystem, and hardware/software component level.
-% Unfortunately, the general nature and history of automotive OEMs as large systems integrators of pre-allocated functionality to ECU hardware,
-% often results in modeling and simulation technologies being deployed %(reactively)
-% late in the development process
+Unfortunately, the general nature and history of automotive OEMs as large systems integrators of pre-allocated functionality to ECU hardware,
+often results in modeling and simulation technologies being deployed %(reactively)
+late in the development process
 % %(e.g., at the HW/SW/Plant integration stage)
-% and customized to specific use cases, domains, and/or organizations.
-% There is a lack of standardized processes for tool/model integration and management across the OEM's engineering organizations. 
+and customized to specific use cases, domains, and/or organizations.
+There is a lack of standardized processes for tool/model integration and management across the OEM's engineering organizations. 
 % The primary consequence of these problems is the OEM's struggle to design systems of ever-increasing complexity due to the growing number of errors,
 % that often originate early in the conceptual and preliminary design phases, but aren't discovered until later during the hardware/software integration phase.
 % Furthermore, the development speed of hardware and software components
@@ -23,8 +23,7 @@
 % Currently, standard development processes are driven primarily by the exchange of tangible assets (ECUs, microcontrollers) and software IPs
 % %(e.g., low lever device drivers),
 % and not models of it, therefore preventing any opportunity of early integration.
-
-%Understanding the underlying ecosystem of cross-organizational collaborations will allow us to properly articulate the challenges and benefits of designing electrical control architectures using shared modelling and virtual verification methodologies.
+Understanding the underlying ecosystem of cross-organizational collaborations will allow us to properly articulate the benefits, impediments, and enablers of designing electrical control architectures using shared modelling and virtual verification methodologies.
 
 %\subsection{Availability of models vs. availability of hardware}
 Virtual verification based on shared models is a strategy to manage the cone of uncertainty \cite{Boehm1981}, 
@@ -37,14 +36,14 @@ Consequently, any model characterizing hardware performance before the actual si
 %Once the hardware exists, models need to depict the hardware as closely as possible.
 %A lack of accuracy is then hard to compensate by additional value of models over the real hardware, such as easy, location independent availability and scalability.
 
-Several R\&D and engineering teams,
-at a large North American OEM,
-have been addressing the organizational and technical challenges related to the mainstream adoption of modeling and simulation technologies, for the virtual development and integration of electrical control architectures, to reduce the risk of late design changes.
-The main area of progress has been the adoption of hardware-in-the-loop (HIL) benches,
-coupling real time models of plants and of the rest-of-the-vehicle serial data traffic with real loads, sensors, and controllers.
-Other areas of progress include software-in-the-loop (SIL) technologies, used to simulate the control behavior coupled with simpler real time models of plants.
-Finally, high fidelity models of microprocessors running the real target controller code have been investigated.
-While HIL benches are a mature area at the OEM, other areas exhibit technical and organizational challenges of various nature.
+% Several R\&D and engineering teams,
+% at a large North American OEM,
+% have been addressing the organizational and technical challenges related to the mainstream adoption of modeling and simulation technologies, for the virtual development and integration of electrical control architectures, to reduce the risk of late design changes.
+% The main area of progress has been the adoption of hardware-in-the-loop (HIL) benches,
+% coupling real time models of plants and of the rest-of-the-vehicle serial data traffic with real loads, sensors, and controllers.
+% Other areas of progress include software-in-the-loop (SIL) technologies, used to simulate the control behavior coupled with simpler real time models of plants.
+% Finally, high fidelity models of microprocessors running the real target controller code have been investigated.
+% While HIL benches are a mature area at the OEM, other areas exhibit technical and organizational challenges of various nature.
 %In this article, we discuss some of the benefits, challenges, and enablers of modeling and simulation technologies for electrical control architecture,
 %by analyzing the high fidelity modeling and simulation of processor technologies.
 %We then generalize our findings to the more general area of modeling and simulation technologies for virtual development and integration.
@@ -60,12 +59,11 @@ While HIL benches are a mature area at the OEM, other areas exhibit technical an
 
 %we provide an overview of the technology area of focus.
 The research presented in this paper is based on semi-structured interviews
-with OEMs, suppliers, and tool vendors,
+with a large North American OEM, its suppliers, and tool vendors,
 representing a cross-section of the automotive ecosystem,
-and a follow-up workshop, with OEM personnel.
-
+and a follow-up workshop with OEM personnel,
 focused on the benefits and challenges of 
-enterprise-scale deployment of MCU/ECU
+enterprise-scale deployment of microcontroller unit (MCU) and electrical control unit (ECU)
 %mixed fidelity
 simulation models.
 
