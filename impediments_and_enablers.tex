@@ -1,9 +1,82 @@
-Technical impediments and enablers are somewhat disconnected from other impediments and enablers. If there is an engineering need, based on business related enablers, a way to address the technical challenges will be found. In particular, we did not identify any insurmountable technical impediments for the deployment. However, we do recognize that complexity, variance, interoperability, scale, and similar impediments will be encountered and need to be addressed.
+\subsection{Technical}
+Technical impediments and enablers are somewhat disconnected from other impediments and enablers.
+If the organization is aligned on adopting virtual verification of ECUs,
+any technical challenge should be surmountable, as long as resources are made available.
+In particular, we did not identify any insurmountable technical impediments for the deployment.
+To understand these impediments is still important, since they will become more prevalent when virtual verification platforms are deployed in scale.
+%we recognize that complexity, variance, interoperability, scale, and similar impediments will be encountered and need to be addressed.
 
-With respect to the impediments, Figure 1 shows an undesirable circular dependency: Since there is little or no demand for high fidelity modeling technology, there are limited HRs available, which leads to no (widespread) adoption. Consequently, there is no clear value proposition for widespread adoption of virtual platform technology, therefore making it difficult to generate enough demand.
+%\subsection{Technical Impediments}
+\subsubsection{Model Interoperability}
+Generally, with the current state of practice in modeling, it is difficult to assemble different models because of a lack of model interoperability. One exception is SystemC models, a de facto standard for model resources within the microcontroller. But even here, different dialects may exist and SystemC does not standardize how to connect two microcontrollers (e.g. in a multi-core environment). Furthermore, it is difficult for suppliers to build interoperability into their models since they will not have the low-level software available that needs to be executed on the virtual ECU. Close collaboration is needed to ensure interoperability and reusability of models or parts of models, which will pay dividends in the long-run because the improved interoperability should reduce development cost.
+
+% \subsubsection{Complexity vs. Capability}
+% Many suppliers are not able to provide models with the required quality due to the enormous complexity involved.
+
+\subsubsection{Evolution and Migration Difficult}
+There is constant evolution of IP:
+\begin{quote}
+"For example, when VP [virtual prototyping] companies started developing VP technologies (e.g., Coware, Virtio, Vast) they were modeling the processor cores. Now the market has evolved in that tool vendors no longer develop processor models... They are provided by the IP owner/provider (or in conjunction w/ it) (e.g., ARM is developing its processor IP model)." 
+-- Business Manager (Tier- 2)
+\end{quote}
+%Thus, the specification and implementation of IPs is constantly changing. This imposes significant demands on ecosystem actor to effectively manage models.
+
+\subsubsection{How to guarantee fidelity?}
+Fidelity of models is a common source for uncertainty.
+\begin{quote}
+"A common questions asked internally is how can you guarantee that the appropriate level of (plant) model fidelity is provided." 
+-- Software Development Leader (OEM)
+\end{quote}
+
+\subsubsection{Legal framework}
+High fidelity ECU models are seen as a material/capital asset, leading to various legal challenges that must be overcome. Contracts and approaches to sourcing need to be established and experience needs to be developed.
+
+% Moved from Initial Cost and ROI
+Challenges also exist for OEMs. In order to protect their IP, an OEM would most likely do the software integration in-house. Such an approach would significantly increase the amount model integration effort beyond what is already required today when suppliers deliver their final modeling artifacts.
+Assuming that OEMs would benefit in doing virtual SW integration in-house, some key issues would need to be addressed including legal agreements with Tier1 and Tier2 IPs. Business models, NDAs, and intellectual property agreements would also have to be put in place to support this type of ecosystem.
+
+%\subsection{Technical Enablers}
+\subsubsection{Model Platform}
+Another important enabler would be a shared and standardized modeling platform.
+%\begin{quote}
+%"[Ideally, an] Ecosystem for the models AS WELL AS other tool suppliers (e.g., the Lauterbach debugger, Matlab/Simulink)."
+%— Marketing Director (Tool Vendor 2)
+%\end{quote}
+While standardization and interoperability are key concerns for any modeling platform (see for example related work on software ecosystems such as Android, Eclipse, and SAP), our interviewees also highlighted a need for flexibility to better support the task at hand.
+%\begin{quote}
+%"Model platform as a creation itself that can be controlled/modified depending upon the task the model should be used for."
+%— CEO (Tool Vendor 1)
+%\end{quote}
+Essentially, this means that a brute force modeling approach where the entire microprocessor devices are modeled with high degree of fidelity may not be the best one.
+Instead, to increase simulation speed, the model should include only the microprocessor core
+%(needed to interpret the assembly instructions)
+and peripherals relevant for the use case at hand.
+%For example, for application level testing modeling some peripherals may not be necessary.
+%Of course the approach must enable increasing additions of other device models if necessary later on in the course of the usage of the model itself. 
+
+As the workshop further revealed, it could be valuable to make the virtual platform as tangible as possible, e.g. by adding electrical models to virtual reality lab or by merging electrical and mechanical space.
+
+\subsubsection{Reusable rulesets and model templates}
+When scaling up virtual platform technology, variation points will become a concern that needs to be addressed. Virtual integration and ubiquitous model-driven system engineering could help with variance and model complexity; we anticipate that having a product line virtual platform will allow new ways to manage system development.
+
+\subsubsection{Architecture}
+A good degree of standardization of electrical components can be seen as a technical enabler. System architects should aim for promoting standardization of for example computational nodes.%ECUs.
+%\begin{quote}
+%"Definition of more generic/general purpose ECU could help"
+%— Business Manager (Tier-2)
+%\end{quote}
+This would help create a standardized virtual platform across multiple areas of application, and  facilitate cross-organizational collaboration and reuse of shared models.
+
+%\subsection{Other Enablers}
+%Education and training is also a key enabler that would help to spread knowledge about virtual platform technology.
+
+
+\subsection{Business and Organization}
+With respect to the impediments, figure \ref{fig:map} shows an undesirable circular dependency: Since there is lack of demand for high fidelity modeling technology, there are limited HRs available, which leads to no (widespread) adoption. Consequently, there is no clear value proposition for widespread adoption of virtual platform technology, therefore making it difficult to generate enough demand.
 
 The Lack of HRs is further increased by a hardware-centric, conservative culture that is accustomed to use Hardware in the loop benches with physical controllers (indeed mature technologies). In addition, gaps in the OEM virtual development tool global strategy makes it difficult to overcome the lack of widespread demand of modeling and simulation technology
 
 With respect to the enablers, we see a clear value proposition as crucial to breaking the circular dependency, and creating more demand. This will be helped by clearly articulating customer value, and by properly scoping use cases based on a well understood stakeholder landscape. These enablers also need to be mapped to a company strategy in order to facilitate wider adoption. 
 
 A suitable scope and increased transparency will in addition mitigate the lack of global strategy. The foundation of this is sharing knowledge about what works in this area and which concrete benefits have already been achieved as well as by combining related knowledge from different initiatives. This will encourage grass-root adoption (e.g., from visionary engineers) and may in turn trigger wider adoption and then resources toward mainstream adoption. Transparence about benefits will also help to mitigate the cultural impediments.
+

@@ -70,7 +70,7 @@ It is crucial to define a suitable scope in order to realistically implement vir
 %\emph{Over-optimization against production cost/effort}
 %In the automotive domain, there are widespread efforts to constantly minimize hardware costs. However, minimizing manufacturing costs and giveaway costs should also be considered, especially with respect to increasing complexity and variability.
 
-\subsection{Transparency}
+\subsection{Knowledge Sharing}
 Since smaller scale pilots have been successfully implemented, one major enabler can be awareness. This can be achieved through establishing transparency about the virtual verification ecosystem, its challenges and difficulties, but also its benefits and successes. 
 
 Pilot studies and increasing adoption with OEMs should include documenting the experience with suppliers who are able to support virtual verification so that it can be shared throughout the ecosystem. A strong value chain that can support one of the use cases will be a great enabler for further adoption.
@@ -86,39 +86,3 @@ Specifically, the following knowledge needs to be shared across the value chain:
 
 % Moved from lack of resources
 %With this work, we would like to understand whether such an investment could yield valuable returns. Currently, we see how a lack of resources relates directly to the following practices in automotive development:
-
-
-\subsection{Technical Enablers}
-\subsubsection{Model Platform}
-Another important enabler would be a shared and standardized modeling platform.
-%\begin{quote}
-%"[Ideally, an] Ecosystem for the models AS WELL AS other tool suppliers (e.g., the Lauterbach debugger, Matlab/Simulink)."
-%— Marketing Director (Tool Vendor 2)
-%\end{quote}
-While standardization and interoperability are key concerns for any modeling platform (see for example related work on software ecosystems such as Android, Eclipse, and SAP), our interviewees also highlighted a need for flexibility to better support the task at hand.
-%\begin{quote}
-%"Model platform as a creation itself that can be controlled/modified depending upon the task the model should be used for."
-%— CEO (Tool Vendor 1)
-%\end{quote}
-Essentially, this means that a brute force modeling approach where the entire microprocessor devices are modeled with high degree of fidelity may not be the best one.
-Instead, to increase simulation speed, the model should include only the microprocessor core
-%(needed to interpret the assembly instructions)
-and peripherals relevant for the use case at hand.
-%For example, for application level testing modeling some peripherals may not be necessary.
-%Of course the approach must enable increasing additions of other device models if necessary later on in the course of the usage of the model itself. 
-
-As the workshop further revealed, it could be valuable to make the virtual platform as tangible as possible, e.g. by adding electrical models to virtual reality lab or by merging electrical and mechanical space.
-
-\subsubsection{Reusable rulesets and model templates}
-When scaling up virtual platform technology, variation points will become a concern that needs to be addressed. Virtual integration and ubiquitous model-driven system engineering could help with variance and model complexity; we anticipate that having a product line virtual platform will allow new ways to manage system development.
-
-\subsubsection{Architecture}
-A good degree of standardization of electrical components can be seen as a technical enabler. System architects should aim for promoting standardization of for example computational nodes.%ECUs.
-%\begin{quote}
-%"Definition of more generic/general purpose ECU could help"
-%— Business Manager (Tier-2)
-%\end{quote}
-This would help create a standardized virtual platform across multiple areas of application, and  facilitate cross-organizational collaboration and reuse of shared models.
-
-%\subsection{Other Enablers}
-%Education and training is also a key enabler that would help to spread knowledge about virtual platform technology.

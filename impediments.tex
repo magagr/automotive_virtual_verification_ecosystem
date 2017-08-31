@@ -120,38 +120,3 @@ Obtaining the internal specifications is difficult because it is considered supp
 % — Software Development Leader (OEM)
 % \end{quote}
 %We conclude that a successful, affordable, cross-organizational modeling approach would need to provide trusted, reusable models in a manner that protects stakeholder IP.
-
-\subsection{Technical Impediments}
-%During the interviews, technical impediments were discussed. However, 
-During the workshop discussion, technical impediments were deemed secondary if the organization is aligned on adopting virtual verification of ECUs.
-%based on high fidelity modeling.
-In this case, any technical challenge should be surmountable, as long as resources are made available.
-To understand these impediments is still important, especially, since they will become more prevalent when virtual verification platforms are deployed in scale.
-
-\subsubsection{Model Interoperability}
-Generally, with the current state of practice in modeling, it is difficult to assemble different models because of a lack of model interoperability. One exception is SystemC models, a de facto standard for model resources within the microcontroller. But even here, different dialects may exist and SystemC does not standardize how to connect two microcontrollers (e.g. in a multi-core environment). Furthermore, it is difficult for suppliers to build interoperability into their models since they will not have the low-level software available that needs to be executed on the virtual ECU. Close collaboration is needed to ensure interoperability and reusability of models or parts of models, which will pay dividends in the long-run because the improved interoperability should reduce development cost.
-
-% \subsubsection{Complexity vs. Capability}
-% Many suppliers are not able to provide models with the required quality due to the enormous complexity involved.
-
-\subsubsection{Evolution and Migration Difficult}
-There is constant evolution of IP:
-\begin{quote}
-"For example, when VP [virtual prototyping] companies started developing VP technologies (e.g., Coware, Virtio, Vast) they were modeling the processor cores. Now the market has evolved in that tool vendors no longer develop processor models... They are provided by the IP owner/provider (or in conjunction w/ it) (e.g., ARM is developing its processor IP model)." 
--- Business Manager (Tier- 2)
-\end{quote}
-%Thus, the specification and implementation of IPs is constantly changing. This imposes significant demands on ecosystem actor to effectively manage models.
-
-\subsubsection{How to guarantee fidelity?}
-Fidelity of models is a common source for uncertainty.
-\begin{quote}
-"A common questions asked internally is how can you guarantee that the appropriate level of (plant) model fidelity is provided." 
--- Software Development Leader (OEM)
-\end{quote}
-
-\subsubsection{Legal framework}
-High fidelity ECU models are seen as a material/capital asset, leading to various legal challenges that must be overcome. Contracts and approaches to sourcing need to be established and experience needs to be developed.
-
-% Moved from Initial Cost and ROI
-Challenges also exist for OEMs. In order to protect their IP, an OEM would most likely do the software integration in-house. Such an approach would significantly increase the amount model integration effort beyond what is already required today when suppliers deliver their final modeling artifacts.
-Assuming that OEMs would benefit in doing virtual SW integration in-house, some key issues would need to be addressed including legal agreements with Tier1 and Tier2 IPs. Business models, NDAs, and intellectual property agreements would also have to be put in place to support this type of ecosystem.
