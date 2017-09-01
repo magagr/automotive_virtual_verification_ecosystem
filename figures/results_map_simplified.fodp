@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.presentation">
- <office:meta><meta:creation-date>2017-07-21T08:33:57</meta:creation-date><meta:initial-creator>Eric Knauss</meta:initial-creator><dc:language>sv-SE</dc:language><dc:creator>Magnus Ågren</dc:creator><dc:date>2017-09-01T15:50:32.413806884</dc:date><meta:editing-cycles>68</meta:editing-cycles><dc:title>PowerPoint Presentation</dc:title><meta:editing-duration>PT6H33M56S</meta:editing-duration><meta:generator>LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:document-statistic meta:object-count="89"/><meta:user-defined meta:name="AppVersion">15.0035</meta:user-defined><meta:user-defined meta:name="HiddenSlides" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="HyperlinksChanged" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="LinksUpToDate" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="MMClips" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="Notes" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="PresentationFormat" meta:value-type="string">Widescreen</meta:user-defined><meta:user-defined meta:name="ScaleCrop" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ShareDoc" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="Slides" meta:value-type="float">4</meta:user-defined></office:meta>
+ <office:meta><meta:creation-date>2017-07-21T08:33:57</meta:creation-date><meta:initial-creator>Eric Knauss</meta:initial-creator><dc:language>sv-SE</dc:language><dc:creator>Magnus Ågren</dc:creator><dc:date>2017-09-01T19:43:14.130138372</dc:date><meta:editing-cycles>69</meta:editing-cycles><dc:title>PowerPoint Presentation</dc:title><meta:editing-duration>PT6H35M6S</meta:editing-duration><meta:generator>LibreOffice/5.1.6.2$Linux_X86_64 LibreOffice_project/10m0$Build-2</meta:generator><meta:document-statistic meta:object-count="92"/><meta:user-defined meta:name="AppVersion">15.0035</meta:user-defined><meta:user-defined meta:name="HiddenSlides" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="HyperlinksChanged" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="LinksUpToDate" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="MMClips" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="Notes" meta:value-type="float">0</meta:user-defined><meta:user-defined meta:name="PresentationFormat" meta:value-type="string">Widescreen</meta:user-defined><meta:user-defined meta:name="ScaleCrop" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="ShareDoc" meta:value-type="boolean">false</meta:user-defined><meta:user-defined meta:name="Slides" meta:value-type="float">4</meta:user-defined></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">-342</config:config-item>
    <config:config-item config:name="VisibleAreaLeft" config:type="int">-502</config:config-item>
-   <config:config-item config:name="VisibleAreaWidth" config:type="int">35070</config:config-item>
-   <config:config-item config:name="VisibleAreaHeight" config:type="int">19875</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">35069</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">19874</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
@@ -94,7 +94,7 @@
    <config:config-item config:name="PrintQuality" config:type="int">0</config:config-item>
    <config:config-item config:name="PrinterIndependentLayout" config:type="string">low-resolution</config:config-item>
    <config:config-item config:name="PrinterName" config:type="string">cse-ju-434-color1</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary">oAH+/2NzZS1qdS00MzQtY29sb3IxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpjc2UtanUtNDM0LWNvbG9yMQAAAAAAAAAAAAAWAAMAxgAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9Y3NlLWp1LTQzNC1jb2xvcjEKb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5kYWp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXhEYXRhClBhZ2VTaXplOkxldHRlcgBEdXBsZXg6Tm9uZQAAEgBDT01QQVRfRFVQTEVYX01PREUKAERVUExFWF9PRkY=</config:config-item>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary">oAH+/2NzZS1qdS00MzQtY29sb3IxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ1VQUzpjc2UtanUtNDM0LWNvbG9yMQAAAAAAAAAAAAAWAAMAxgAAAAAAAAAIAFZUAAAkbQAASm9iRGF0YSAxCnByaW50ZXI9Y3NlLWp1LTQzNC1jb2xvcjEKb3JpZW50YXRpb249UG9ydHJhaXQKY29waWVzPTEKY29sbGF0ZT1mYWxzZQptYXJnaW5kYWp1c3RtZW50PTAsMCwwLDAKY29sb3JkZXB0aD0yNApwc2xldmVsPTAKcGRmZGV2aWNlPTEKY29sb3JkZXZpY2U9MApQUERDb250ZXhEYXRhCkR1cGxleDpOb25lAFBhZ2VTaXplOkxldHRlcgAAEgBDT01QQVRfRFVQTEVYX01PREUKAERVUExFWF9PRkY=</config:config-item>
    <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SlidesPerHandout" config:type="short">6</config:config-item>
    <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
@@ -108,28 +108,18 @@
   </office:script>
  </office:scripts>
  <office:font-face-decls>
-  <style:font-face style:name="Arial1" svg:font-family="Arial"/>
   <style:font-face style:name="Calibri1" svg:font-family="Calibri"/>
-  <style:font-face style:name="Calibri&apos;" svg:font-family="Calibri&apos;"/>
   <style:font-face style:name="DejaVu Sans2" svg:font-family="&apos;DejaVu Sans&apos;"/>
-  <style:font-face style:name="Calibri2" svg:font-family="Calibri" style:font-family-generic="swiss"/>
-  <style:font-face style:name="Arial" svg:font-family="Arial" style:font-pitch="variable"/>
   <style:font-face style:name="Calibri" svg:font-family="Calibri" style:font-pitch="variable"/>
-  <style:font-face style:name="Cantarell" svg:font-family="Cantarell" style:font-pitch="variable"/>
   <style:font-face style:name="DejaVu Sans1" svg:font-family="&apos;DejaVu Sans&apos;" style:font-pitch="variable"/>
-  <style:font-face style:name="FreeSans2" svg:font-family="FreeSans" style:font-pitch="variable"/>
-  <style:font-face style:name="Lato" svg:font-family="Lato" style:font-pitch="variable"/>
+  <style:font-face style:name="FreeSans1" svg:font-family="FreeSans" style:font-pitch="variable"/>
   <style:font-face style:name="Liberation Sans1" svg:font-family="&apos;Liberation Sans&apos;" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Serif1" svg:font-family="&apos;Liberation Serif&apos;" style:font-pitch="variable"/>
   <style:font-face style:name="Noto Sans CJK SC Regular1" svg:font-family="&apos;Noto Sans CJK SC Regular&apos;" style:font-pitch="variable"/>
   <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
   <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
-  <style:font-face style:name="Arimo" svg:font-family="Arimo" style:font-family-generic="swiss" style:font-pitch="variable"/>
-  <style:font-face style:name="Carlito" svg:font-family="Carlito" style:font-family-generic="swiss" style:font-pitch="variable"/>
-  <style:font-face style:name="DejaVu Sans Light" svg:font-family="&apos;DejaVu Sans Light&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
-  <style:font-face style:name="FreeSans" svg:font-family="FreeSans" style:font-family-generic="swiss" style:font-pitch="variable"/>
-  <style:font-face style:name="Liberation Sans2" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
-  <style:font-face style:name="FreeSans1" svg:font-family="FreeSans" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="FreeSans" svg:font-family="FreeSans" style:font-family-generic="system" style:font-pitch="variable"/>
   <style:font-face style:name="Noto Sans CJK SC Regular" svg:font-family="&apos;Noto Sans CJK SC Regular&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
  </office:font-face-decls>
  <office:styles>
@@ -193,7 +183,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-indent="0cm"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Noto Sans CJK SC Regular" style:font-family-asian="&apos;Noto Sans CJK SC Regular&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans1" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Noto Sans CJK SC Regular" style:font-family-asian="&apos;Noto Sans CJK SC Regular&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="objectwitharrow" style:family="graphic" style:parent-style-name="standard">
    <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.15cm" svg:stroke-color="#000000" draw:marker-start="Arrow" draw:marker-start-width="0.7cm" draw:marker-start-center="true" draw:marker-end-width="0.3cm"/>
@@ -266,7 +256,7 @@
   <style:style style:name="Blank_20_Slide-notes" style:display-name="Blank Slide-notes" style:family="presentation">
    <style:graphic-properties draw:stroke="none" draw:fill="none"/>
    <style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:text-indent="-0.6cm"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="20pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC Regular" style:font-family-asian="&apos;Noto Sans CJK SC Regular&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans1" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="20pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC Regular" style:font-family-asian="&apos;Noto Sans CJK SC Regular&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="Blank_20_Slide-outline1" style:display-name="Blank Slide-outline1" style:family="presentation">
    <style:graphic-properties draw:stroke="none" draw:fill="none" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit">
@@ -314,7 +304,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:margin-top="0.5cm" fo:margin-bottom="0cm"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC Regular" style:font-family-asian="&apos;Noto Sans CJK SC Regular&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans1" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC Regular" style:font-family-asian="&apos;Noto Sans CJK SC Regular&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="Blank_20_Slide-outline2" style:display-name="Blank Slide-outline2" style:family="presentation" style:parent-style-name="Blank_20_Slide-outline1">
    <style:paragraph-properties fo:margin-top="0.4cm" fo:margin-bottom="0cm"/>
@@ -394,7 +384,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC Regular" style:font-family-asian="&apos;Noto Sans CJK SC Regular&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans1" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC Regular" style:font-family-asian="&apos;Noto Sans CJK SC Regular&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="Blank_20_Slide-title" style:display-name="Blank Slide-title" style:family="presentation">
    <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
@@ -442,7 +432,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:text-align="center"/>
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="44pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC Regular" style:font-family-asian="&apos;Noto Sans CJK SC Regular&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="44pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans1" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="44pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="44pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="Noto Sans CJK SC Regular" style:font-family-asian="&apos;Noto Sans CJK SC Regular&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="44pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="44pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:presentation-page-layout style:name="AL0T26">
    <presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="1.743cm" svg:width="10.556cm" svg:height="-0.233cm"/>
@@ -519,18 +509,12 @@
    <style:graphic-properties draw:fill="none" draw:textarea-vertical-align="middle"/>
   </style:style>
   <style:style style:name="gr16" style:family="graphic" style:parent-style-name="standard">
-   <style:graphic-properties draw:stroke="solid" draw:stroke-dash="Fine_20_Dashed" svg:stroke-color="#000000" draw:marker-start="" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-horizontal-align="left" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="1.15cm" fo:min-width="0cm"/>
+   <style:graphic-properties draw:stroke="solid" draw:stroke-dash="Fine_20_Dashed" svg:stroke-color="#000000" draw:marker-start="" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-horizontal-align="left" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="1.271cm" fo:min-width="0cm"/>
   </style:style>
-  <style:style style:name="gr17" style:family="graphic" style:parent-style-name="standard">
-   <style:graphic-properties draw:stroke="solid" draw:stroke-dash="Fine_20_Dashed" svg:stroke-color="#000000" draw:marker-start="" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-horizontal-align="left" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="0.722cm" fo:min-width="0cm"/>
-  </style:style>
-  <style:style style:name="gr18" style:family="graphic" style:parent-style-name="objectwithoutfill">
+  <style:style style:name="gr17" style:family="graphic" style:parent-style-name="objectwithoutfill">
    <style:graphic-properties draw:marker-end="" draw:marker-end-width="0.3cm" draw:fill="none" draw:textarea-vertical-align="middle"/>
   </style:style>
-  <style:style style:name="gr19" style:family="graphic" style:parent-style-name="standard">
-   <style:graphic-properties draw:stroke="solid" draw:stroke-dash="Fine_20_Dashed" svg:stroke-color="#000000" draw:marker-start="" draw:fill="solid" draw:fill-color="#ffffff" draw:textarea-horizontal-align="left" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="1.023cm" fo:min-width="0cm"/>
-  </style:style>
-  <style:style style:name="gr20" style:family="graphic" style:parent-style-name="standard">
+  <style:style style:name="gr18" style:family="graphic" style:parent-style-name="standard">
    <style:graphic-properties draw:stroke="none" svg:stroke-color="#000000" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-horizontal-align="left" draw:auto-grow-height="true" draw:auto-grow-width="false" fo:min-height="0.712cm" fo:min-width="0cm"/>
   </style:style>
   <style:style style:name="pr1" style:family="presentation" style:parent-style-name="Blank_20_Slide-backgroundobjects">
@@ -576,7 +560,7 @@
    <style:table-row-properties style:row-height="7.178cm"/>
   </style:style>
   <style:style style:name="ro6" style:family="table-row">
-   <style:table-row-properties style:row-height="6.858cm"/>
+   <style:table-row-properties style:row-height="6.52cm"/>
   </style:style>
   <style:style style:name="ce1" style:family="table-cell">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#000000" draw:textarea-vertical-align="top" fo:padding-top="0.127cm" fo:padding-bottom="0.127cm" fo:padding-left="0.254cm" fo:padding-right="0.254cm"/>
@@ -657,11 +641,9 @@
   </style:style>
   <style:style style:name="P12" style:family="paragraph">
    <style:paragraph-properties fo:text-align="center"/>
-   <style:text-properties style:font-name="Calibri1"/>
   </style:style>
   <style:style style:name="P13" style:family="paragraph">
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:text-align="center"/>
-   <style:text-properties style:font-name="Calibri1"/>
   </style:style>
   <style:style style:name="P14" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#dddddd"/>
@@ -669,27 +651,20 @@
    <style:text-properties style:font-name="Calibri1" fo:font-size="18pt"/>
   </style:style>
   <style:style style:name="P15" style:family="paragraph">
-   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="center"/>
-   <style:text-properties style:font-name="Calibri1"/>
-  </style:style>
-  <style:style style:name="P16" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#dddddd"/>
    <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="center" style:font-independent-line-spacing="true"/>
    <style:text-properties style:font-name="Calibri1" fo:font-size="18pt"/>
   </style:style>
-  <style:style style:name="P17" style:family="paragraph">
+  <style:style style:name="P16" style:family="paragraph">
    <loext:graphic-properties draw:fill="none"/>
    <style:paragraph-properties fo:text-align="center"/>
   </style:style>
-  <style:style style:name="P18" style:family="paragraph">
+  <style:style style:name="P17" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#ffffff"/>
    <style:paragraph-properties fo:text-align="center"/>
    <style:text-properties style:font-name="Calibri1"/>
   </style:style>
-  <style:style style:name="P19" style:family="paragraph">
-   <style:text-properties style:font-name="Calibri1"/>
-  </style:style>
-  <style:style style:name="P20" style:family="paragraph">
+  <style:style style:name="P18" style:family="paragraph">
    <loext:graphic-properties draw:fill="none" draw:fill-color="#ffffff"/>
    <style:text-properties style:font-name="Calibri1"/>
   </style:style>
@@ -867,27 +842,30 @@
    <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="11cm" svg:y="20.05cm"/>
    <draw:frame draw:style-name="gr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr1" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="0cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="28.215cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
   </style:handout-master>
   <style:master-page style:name="Blank_20_Slide" style:display-name="Blank Slide" style:page-layout-name="PM1" draw:style-name="dp1">
    <draw:frame presentation:style-name="Blank_20_Slide-title" draw:layer="backgroundobjects" svg:width="30.479cm" svg:height="3.18cm" svg:x="1.693cm" svg:y="0.76cm" presentation:class="title" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
+   <draw:frame presentation:style-name="Blank_20_Slide-outline1" draw:layer="backgroundobjects" svg:width="30.479cm" svg:height="11.048cm" svg:x="1.693cm" svg:y="4.457cm" presentation:class="outline" presentation:placeholder="true">
     <draw:text-box/>
    </draw:frame>
    <draw:frame presentation:style-name="Blank_20_Slide-outline1" draw:layer="backgroundobjects" svg:width="30.479cm" svg:height="11.048cm" svg:x="1.693cm" svg:y="4.457cm" presentation:class="outline" presentation:placeholder="true">
@@ -934,24 +912,27 @@
     <draw:frame presentation:style-name="Blank_20_Slide-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
      <draw:text-box/>
     </draw:frame>
+    <draw:frame presentation:style-name="Blank_20_Slide-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
     <draw:frame presentation:style-name="pr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr1" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="28.215cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -1129,7 +1110,7 @@
      </draw:enhanced-geometry>
     </draw:custom-shape>
     <draw:custom-shape draw:name="CustomShape 3" draw:style-name="gr4" draw:text-style-name="P8" draw:layer="layout" svg:width="5.154cm" svg:height="1.498cm" svg:x="7.838cm" svg:y="11.564cm">
-     <text:p text:style-name="P5"><text:span text:style-name="T4">Clear Value </text:span><text:span text:style-name="T4">proposition</text:span></text:p>
+     <text:p text:style-name="P5"><text:span text:style-name="T4">Clear Value proposition</text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
       <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -1141,7 +1122,7 @@
      <text:p/>
     </draw:line>
     <draw:custom-shape draw:name="CustomShape 5" draw:style-name="gr4" draw:text-style-name="P8" draw:layer="layout" svg:width="4.269cm" svg:height="1.326cm" svg:x="18.136cm" svg:y="14.897cm">
-     <text:p text:style-name="P5"><text:span text:style-name="T5">Clear stakeholder </text:span><text:span text:style-name="T5">landscape</text:span></text:p>
+     <text:p text:style-name="P5"><text:span text:style-name="T5">Clear stakeholder landscape</text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
       <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -1150,7 +1131,7 @@
      </draw:enhanced-geometry>
     </draw:custom-shape>
     <draw:custom-shape draw:name="CustomShape 6" draw:style-name="gr4" draw:text-style-name="P8" draw:layer="layout" svg:width="4.255cm" svg:height="1.241cm" svg:x="15.584cm" svg:y="12.373cm">
-     <text:p text:style-name="P5"><text:span text:style-name="T5">Properly scoped </text:span><text:span text:style-name="T5">use cases</text:span></text:p>
+     <text:p text:style-name="P5"><text:span text:style-name="T5">Properly scoped use cases</text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
       <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -1176,7 +1157,7 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 9" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="5.14cm" svg:height="3.245cm" svg:x="12.992cm" svg:y="12.3cm">
+    <draw:custom-shape draw:name="CustomShape 9" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="5.14cm" svg:height="3.245cm" svg:x="12.992cm" svg:y="12.298cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="true" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
@@ -1190,7 +1171,7 @@
       <draw:equation draw:name="f1" draw:formula="logheight"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 11" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="1.493cm" svg:height="2.415cm" svg:x="8.921cm" svg:y="13.05cm">
+    <draw:custom-shape draw:name="CustomShape 11" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="1.493cm" svg:height="2.415cm" svg:x="8.921cm" svg:y="13.048cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
@@ -1232,14 +1213,14 @@
       <draw:equation draw:name="f1" draw:formula="logheight"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 16" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="2.599cm" svg:height="0.387cm" svg:x="13.45cm" svg:y="3.369cm">
+    <draw:custom-shape draw:name="CustomShape 16" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="2.599cm" svg:height="0.387cm" svg:x="13.448cm" svg:y="3.367cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="true" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
       <draw:equation draw:name="f1" draw:formula="logheight"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 17" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="0.129cm" svg:height="1.826cm" svg:x="21.207cm" svg:y="3.77cm">
+    <draw:custom-shape draw:name="CustomShape 17" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="0.129cm" svg:height="1.826cm" svg:x="21.205cm" svg:y="3.77cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="true" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
@@ -1292,7 +1273,7 @@
       <draw:equation draw:name="f1" draw:formula="logheight"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 24" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="7.397cm" svg:height="2.83cm" svg:x="16.28cm" svg:y="9.322cm">
+    <draw:custom-shape draw:name="CustomShape 24" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="7.397cm" svg:height="2.83cm" svg:x="16.278cm" svg:y="9.322cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="true" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
@@ -1331,7 +1312,7 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 29" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="0.652cm" svg:height="1.197cm" svg:x="15.64cm" svg:y="9.31cm">
+    <draw:custom-shape draw:name="CustomShape 29" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="0.652cm" svg:height="1.197cm" svg:x="15.64cm" svg:y="9.308cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
@@ -1347,7 +1328,7 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 31" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="3.241cm" svg:height="5.019cm" svg:x="10.416cm" svg:y="6.629cm">
+    <draw:custom-shape draw:name="CustomShape 31" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="3.241cm" svg:height="5.019cm" svg:x="10.416cm" svg:y="6.627cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
@@ -1368,7 +1349,7 @@
       <draw:equation draw:name="f1" draw:formula="logheight"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="CustomShape 34" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="2.404cm" svg:height="1.369cm" svg:x="16.237cm" svg:y="4.508cm">
+    <draw:custom-shape draw:name="CustomShape 34" draw:style-name="gr7" draw:text-style-name="P7" draw:layer="layout" svg:width="2.404cm" svg:height="1.369cm" svg:x="16.237cm" svg:y="4.506cm">
      <text:p/>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="true" svg:viewBox="0 0 0 0" drawooo:sub-view-size="21600 21600" draw:text-areas="0 0 ?f0 ?f1" draw:type="ooxml-non-primitive" draw:enhanced-path="M 0 0 L 21600 21600 N">
       <draw:equation draw:name="f0" draw:formula="logwidth"/>
@@ -1384,7 +1365,7 @@
    </draw:page>
    <draw:page draw:name="page2" draw:style-name="dp3" draw:master-page-name="Blank_20_Slide">
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
-    <draw:frame draw:name="Table 1" draw:style-name="standard" draw:layer="layout" svg:width="17.9cm" svg:height="14.96cm" svg:x="10.18cm" svg:y="1.28cm">
+    <draw:frame draw:name="Table 1" draw:style-name="standard" draw:layer="layout" svg:width="17.9cm" svg:height="14.622cm" svg:x="10.18cm" svg:y="1.28cm">
      <table:table>
       <table:table-column table:style-name="co5"/>
       <table:table-column table:style-name="co6"/>
@@ -1405,8 +1386,8 @@
        <table:table-cell table:style-name="ce7"/>
       </table:table-row>
      </table:table><draw:image>
-      <office:binary-data>VkNMTVRGAQAxAAAAAAAAAAEAGwAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAO5FAAC5
-       OgAA1wIAAIkAAQAhAAAAAQAbAAAADQA82P//APv//wEAAAABAAAAAQAAAAEAAAAAlgABAAIA
+      <office:binary-data>VkNMTVRGAQAxAAAAAAAAAAEAGwAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAO5FAAAg
+       OQAAywIAAIkAAQAhAAAAAQAbAAAADQA82P//APv//wEAAAABAAAAAQAAAAEAAAAAlgABAAIA
        AAAJAAACAQAgAAAAFgBYVEVYVF9QQUlOVFNIQVBFX0JFR0lOAAAAAAAAAACKAAEAOQAAAAMA
        MwAAAAcAQ2FsaWJyaQAAAAAAAHsCAAD//wAAAgAFAAAAAAAAAB0EAAAAAAAAAAAA/wMAAAAA
        AIgAAQACAAAAAQCHAAEABQAAAP////8AhgABAAQAAAAAAAAAcQACAFYAAADRMwAAbwcAAAgA
@@ -1588,190 +1569,185 @@
        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
-       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
-       AACDJAAANG0AAMskAACxbQAAyyQAAAAA
+       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
       </office:binary-data>
      </draw:image>
     </draw:frame>
@@ -1793,8 +1769,8 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="TextShape 5" draw:style-name="gr12" draw:text-style-name="P16" xml:id="id3" draw:id="id3" draw:layer="layout" svg:width="4.236cm" svg:height="1.738cm" svg:x="16.464cm" svg:y="7.162cm">
-     <text:p text:style-name="P15"><text:span text:style-name="T10">Lack of Global Strategy</text:span></text:p>
+    <draw:custom-shape draw:name="TextShape 5" draw:style-name="gr12" draw:text-style-name="P15" xml:id="id3" draw:id="id3" draw:layer="layout" svg:width="4.236cm" svg:height="1.738cm" svg:x="16.464cm" svg:y="7.162cm">
+     <text:p text:style-name="P5"><text:span text:style-name="T10">Lack of Global Strategy</text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
       <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -1802,8 +1778,8 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:custom-shape draw:name="TextShape 7" draw:style-name="gr13" draw:text-style-name="P16" xml:id="id4" draw:id="id4" draw:layer="layout" svg:width="3.3cm" svg:height="1.8cm" svg:x="21.1cm" svg:y="4.7cm">
-     <text:p text:style-name="P15"><text:span text:style-name="T10">Lack of Resources</text:span></text:p>
+    <draw:custom-shape draw:name="TextShape 7" draw:style-name="gr13" draw:text-style-name="P15" xml:id="id4" draw:id="id4" draw:layer="layout" svg:width="3.3cm" svg:height="1.8cm" svg:x="21.1cm" svg:y="4.7cm">
+     <text:p text:style-name="P5"><text:span text:style-name="T10">Lack of Resources</text:span></text:p>
      <draw:enhanced-geometry draw:mirror-horizontal="false" draw:mirror-vertical="false" svg:viewBox="0 0 0 0" draw:text-areas="0 0 ?f3 ?f2" draw:type="ooxml-rect" draw:enhanced-path="M 0 0 L ?f3 0 ?f3 ?f2 0 ?f2 Z N">
       <draw:equation draw:name="f0" draw:formula="logwidth/2"/>
       <draw:equation draw:name="f1" draw:formula="logheight/2"/>
@@ -1820,61 +1796,64 @@
       <draw:equation draw:name="f3" draw:formula="logwidth"/>
      </draw:enhanced-geometry>
     </draw:custom-shape>
-    <draw:connector draw:style-name="gr15" draw:text-style-name="P17" draw:layer="layout" draw:type="curve" svg:x1="17.092cm" svg:y1="3.372cm" svg:x2="14.756cm" svg:y2="4.8cm" draw:start-shape="id1" draw:start-glue-point="3" draw:end-shape="id2" svg:d="M17092 3372c-1558 0-2336 476-2336 1428" svg:viewBox="0 0 2337 1429">
+    <draw:connector draw:style-name="gr15" draw:text-style-name="P16" draw:layer="layout" draw:type="curve" svg:x1="17.092cm" svg:y1="3.372cm" svg:x2="14.756cm" svg:y2="4.8cm" draw:start-shape="id1" draw:start-glue-point="3" draw:end-shape="id2" svg:d="M17092 3372c-1558 0-2336 476-2336 1428" svg:viewBox="0 0 2337 1429">
      <text:p/>
     </draw:connector>
-    <draw:connector draw:style-name="gr15" draw:text-style-name="P17" draw:layer="layout" draw:type="curve" svg:x1="14.756cm" svg:y1="6.6cm" svg:x2="16.464cm" svg:y2="8.031cm" draw:start-shape="id2" draw:start-glue-point="2" draw:end-shape="id3" draw:end-glue-point="3" svg:d="M14756 6600c0 954 569 1431 1708 1431" svg:viewBox="0 0 1709 1432">
+    <draw:connector draw:style-name="gr15" draw:text-style-name="P16" draw:layer="layout" draw:type="curve" svg:x1="14.756cm" svg:y1="6.6cm" svg:x2="16.464cm" svg:y2="8.031cm" draw:start-shape="id2" draw:start-glue-point="2" draw:end-shape="id3" draw:end-glue-point="3" svg:d="M14756 6600c0 954 569 1431 1708 1431" svg:viewBox="0 0 1709 1432">
      <text:p/>
     </draw:connector>
-    <draw:connector draw:style-name="gr15" draw:text-style-name="P17" draw:layer="layout" draw:type="curve" svg:x1="20.056cm" svg:y1="3.372cm" svg:x2="22.75cm" svg:y2="4.7cm" draw:start-shape="id1" draw:start-glue-point="1" draw:end-shape="id4" draw:end-glue-point="0" svg:d="M20056 3372c1796 0 2694 442 2694 1328" svg:viewBox="0 0 2695 1329">
+    <draw:connector draw:style-name="gr15" draw:text-style-name="P16" draw:layer="layout" draw:type="curve" svg:x1="20.056cm" svg:y1="3.372cm" svg:x2="22.75cm" svg:y2="4.7cm" draw:start-shape="id1" draw:start-glue-point="1" draw:end-shape="id4" draw:end-glue-point="0" svg:d="M20056 3372c1796 0 2694 442 2694 1328" svg:viewBox="0 0 2695 1329">
      <text:p/>
     </draw:connector>
-    <draw:connector draw:style-name="gr15" draw:text-style-name="P17" draw:layer="layout" draw:type="curve" svg:x1="20.7cm" svg:y1="8.031cm" svg:x2="22.75cm" svg:y2="6.5cm" draw:start-shape="id3" draw:start-glue-point="1" draw:end-shape="id4" draw:end-glue-point="2" svg:d="M20700 8031c1367 0 2050-510 2050-1531" svg:viewBox="0 0 2051 1532">
+    <draw:connector draw:style-name="gr15" draw:text-style-name="P16" draw:layer="layout" draw:type="curve" svg:x1="20.7cm" svg:y1="8.031cm" svg:x2="22.75cm" svg:y2="6.5cm" draw:start-shape="id3" draw:start-glue-point="1" draw:end-shape="id4" draw:end-glue-point="2" svg:d="M20700 8031c1367 0 2050-510 2050-1531" svg:viewBox="0 0 2051 1532">
      <text:p/>
     </draw:connector>
-    <draw:connector draw:style-name="gr15" draw:text-style-name="P17" draw:layer="layout" draw:type="curve" draw:line-skew="-0.339cm" svg:x1="20.056cm" svg:y1="3.372cm" svg:x2="26.3cm" svg:y2="8cm" draw:start-shape="id1" draw:start-glue-point="1" draw:end-shape="id5" draw:end-glue-point="1" svg:d="M20056 3372c9609 0 6487 4628 6244 4628" svg:viewBox="0 0 6920 4629">
+    <draw:connector draw:style-name="gr15" draw:text-style-name="P16" draw:layer="layout" draw:type="curve" draw:line-skew="-0.339cm" svg:x1="20.056cm" svg:y1="3.372cm" svg:x2="26.3cm" svg:y2="8cm" draw:start-shape="id1" draw:start-glue-point="1" draw:end-shape="id5" draw:end-glue-point="1" svg:d="M20056 3372c9609 0 6487 4628 6244 4628" svg:viewBox="0 0 6920 4629">
      <text:p/>
     </draw:connector>
-    <draw:frame draw:style-name="gr16" draw:text-style-name="P18" xml:id="id8" draw:id="id8" draw:layer="layout" svg:width="3.6cm" svg:height="1.521cm" svg:x="11.2cm" svg:y="11.6cm">
+    <draw:frame draw:style-name="gr16" draw:text-style-name="P17" xml:id="id8" draw:id="id8" draw:layer="layout" svg:width="3.6cm" svg:height="1.521cm" svg:x="11.7cm" svg:y="11.8cm">
      <draw:text-box>
-      <text:p text:style-name="P12"><text:span text:style-name="T9">Clear Value </text:span><text:span text:style-name="T9">Proposition</text:span></text:p>
+      <text:p text:style-name="P12"><text:span text:style-name="T9">Clear Value Proposition</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr17" draw:text-style-name="P18" xml:id="id7" draw:id="id7" draw:layer="layout" svg:width="4.684cm" svg:height="1.521cm" svg:x="16.216cm" svg:y="14.228cm">
+    <draw:frame draw:style-name="gr16" draw:text-style-name="P17" xml:id="id7" draw:id="id7" draw:layer="layout" svg:width="4.684cm" svg:height="1.521cm" svg:x="16.216cm" svg:y="13.828cm">
      <draw:text-box>
-      <text:p text:style-name="P12"><text:span text:style-name="T9">Suitably Scoped </text:span><text:span text:style-name="T9">Use Cases</text:span></text:p>
+      <text:p text:style-name="P12"><text:span text:style-name="T9">Suitably Scoped Use Cases</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr16" draw:text-style-name="P18" xml:id="id6" draw:id="id6" draw:layer="layout" svg:width="3.4cm" svg:height="1.521cm" svg:x="22.9cm" svg:y="11.5cm">
+    <draw:frame draw:style-name="gr16" draw:text-style-name="P17" xml:id="id6" draw:id="id6" draw:layer="layout" svg:width="3.4cm" svg:height="1.521cm" svg:x="22.9cm" svg:y="11.5cm">
      <draw:text-box>
-      <text:p text:style-name="P12"><text:span text:style-name="T9">K</text:span><text:span text:style-name="T9">n</text:span><text:span text:style-name="T9">o</text:span><text:span text:style-name="T9">w</text:span><text:span text:style-name="T9">l</text:span><text:span text:style-name="T9">e</text:span><text:span text:style-name="T9">d</text:span><text:span text:style-name="T9">g</text:span><text:span text:style-name="T9">e</text:span><text:span text:style-name="T9"> </text:span><text:span text:style-name="T9">S</text:span><text:span text:style-name="T9">h</text:span><text:span text:style-name="T9">a</text:span><text:span text:style-name="T9">r</text:span><text:span text:style-name="T9">i</text:span><text:span text:style-name="T9">n</text:span><text:span text:style-name="T9">g</text:span></text:p>
+      <text:p text:style-name="P12"><text:span text:style-name="T9">Knowledge Sharing</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:connector draw:style-name="gr18" draw:text-style-name="P17" draw:layer="layout" draw:type="line" svg:x1="24.6cm" svg:y1="11.5cm" svg:x2="25.001cm" svg:y2="8.9cm" draw:start-shape="id6" draw:start-glue-point="0" draw:end-shape="id5" draw:end-glue-point="2" svg:d="M24600 11500l401-2600" svg:viewBox="0 0 402 2601">
+    <draw:connector draw:style-name="gr17" draw:text-style-name="P16" draw:layer="layout" draw:type="line" svg:x1="24.6cm" svg:y1="11.5cm" svg:x2="25.001cm" svg:y2="8.9cm" draw:start-shape="id6" draw:start-glue-point="0" draw:end-shape="id5" draw:end-glue-point="2" svg:d="M24600 11500l401-2600" svg:viewBox="0 0 402 2601">
      <text:p/>
     </draw:connector>
-    <draw:connector draw:style-name="gr18" draw:text-style-name="P17" draw:layer="layout" draw:type="line" svg:x1="16.216cm" svg:y1="14.988cm" svg:x2="13cm" svg:y2="13.121cm" draw:start-shape="id7" draw:start-glue-point="3" draw:end-shape="id8" draw:end-glue-point="2" svg:d="M16216 14988l-3216-1867" svg:viewBox="0 0 3217 1868">
+    <draw:connector draw:style-name="gr17" draw:text-style-name="P16" draw:layer="layout" draw:type="line" svg:x1="16.216cm" svg:y1="14.588cm" svg:x2="13.5cm" svg:y2="13.321cm" draw:start-shape="id7" draw:start-glue-point="3" draw:end-shape="id8" draw:end-glue-point="2" svg:d="M16216 14588l-2716-1267" svg:viewBox="0 0 2717 1268">
      <text:p/>
     </draw:connector>
-    <draw:connector draw:style-name="gr18" draw:text-style-name="P17" draw:layer="layout" draw:type="line" svg:x1="13cm" svg:y1="11.6cm" svg:x2="14.756cm" svg:y2="6.6cm" draw:start-shape="id8" draw:start-glue-point="0" draw:end-shape="id2" draw:end-glue-point="2" svg:d="M13000 11600l1756-5000" svg:viewBox="0 0 1757 5001">
+    <draw:connector draw:style-name="gr17" draw:text-style-name="P16" draw:layer="layout" draw:type="line" svg:x1="13.5cm" svg:y1="11.8cm" svg:x2="14.756cm" svg:y2="6.6cm" draw:start-shape="id8" draw:start-glue-point="0" draw:end-shape="id2" draw:end-glue-point="2" svg:d="M13500 11800l1256-5200" svg:viewBox="0 0 1257 5201">
      <text:p/>
     </draw:connector>
-    <draw:frame draw:style-name="gr19" draw:text-style-name="P18" xml:id="id9" draw:id="id9" draw:layer="layout" svg:width="4.78cm" svg:height="1.521cm" svg:x="16cm" svg:y="10.327cm">
+    <draw:frame draw:style-name="gr16" draw:text-style-name="P17" xml:id="id9" draw:id="id9" draw:layer="layout" svg:width="4.78cm" svg:height="1.521cm" svg:x="16cm" svg:y="10.327cm">
      <draw:text-box>
-      <text:p text:style-name="P12"><text:span text:style-name="T9">Clear </text:span><text:span text:style-name="T9">Ecosystem </text:span><text:span text:style-name="T9">Landscape</text:span></text:p>
+      <text:p text:style-name="P12"><text:span text:style-name="T9">Clear Ecosystem Landscape</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr20" draw:text-style-name="P20" draw:layer="layout" svg:width="4.13cm" svg:height="0.962cm" draw:transform="rotate (1.5707963267949) translate (9.138cm 7.7cm)">
+    <draw:frame draw:style-name="gr18" draw:text-style-name="P18" draw:layer="layout" svg:width="4.13cm" svg:height="0.962cm" draw:transform="rotate (1.5707963267949) translate (9.138cm 7.7cm)">
      <draw:text-box>
-      <text:p text:style-name="P19"><text:span text:style-name="T9">Impediments</text:span></text:p>
+      <text:p><text:span text:style-name="T9">Impediments</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr20" draw:text-style-name="P20" draw:layer="layout" svg:width="3.03cm" svg:height="0.962cm" draw:transform="rotate (1.5707963267949) translate (9.138cm 14.63cm)">
+    <draw:frame draw:style-name="gr18" draw:text-style-name="P18" draw:layer="layout" svg:width="3.03cm" svg:height="0.962cm" draw:transform="rotate (1.5707963267949) translate (9.138cm 14.63cm)">
      <draw:text-box>
-      <text:p text:style-name="P19"><text:span text:style-name="T9">Enablers</text:span></text:p>
+      <text:p><text:span text:style-name="T9">Enablers</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:connector draw:style-name="gr15" draw:text-style-name="P17" draw:layer="layout" draw:type="line" svg:x1="18.582cm" svg:y1="8.9cm" svg:x2="18.39cm" svg:y2="10.327cm" draw:start-shape="id3" draw:start-glue-point="2" draw:end-shape="id9" draw:end-glue-point="0" svg:d="M18582 8900l-192 1427" svg:viewBox="0 0 193 1428">
+    <draw:connector draw:style-name="gr15" draw:text-style-name="P16" draw:layer="layout" draw:type="line" svg:x1="18.582cm" svg:y1="8.9cm" svg:x2="18.39cm" svg:y2="10.327cm" draw:start-shape="id3" draw:start-glue-point="2" draw:end-shape="id9" draw:end-glue-point="0" svg:d="M18582 8900l-192 1427" svg:viewBox="0 0 193 1428">
+     <text:p/>
+    </draw:connector>
+    <draw:connector draw:style-name="gr15" draw:text-style-name="P16" draw:layer="layout" draw:type="line" svg:x1="24.6cm" svg:y1="11.5cm" svg:x2="18.582cm" svg:y2="8.9cm" draw:start-shape="id6" draw:start-glue-point="0" draw:end-shape="id3" draw:end-glue-point="2" svg:d="M24600 11500l-6018-2600" svg:viewBox="0 0 6019 2601">
      <text:p/>
     </draw:connector>
     <presentation:notes draw:style-name="dp2">
