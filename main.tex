@@ -149,18 +149,6 @@ Managing Software Platforms and Ecosystems: Call for Papers
 
 Manuscripts must not exceed 3,000 words including figures and tables, which count for 250 words each. Submissions exceeding these limits might be rejected without refereeing.
 
-\subsection*{Paper story}
-\begin{itemize}
-    \item Vision for new ways of working, section \ref{sec:benefits}
-    \item Concrete impediments an enablers, sections \ref{sec:impediments_and_enablers}
-    \item Strategy to implement in automotive value-chain, section \ref{sec:conclusion}
-\end{itemize}
-
-Most features are software based.
-Unleash sw dev. to shorten time to market, gain flexibility,
-mitigate risk of recalls... All the benefits we have.
-Need to remove constraints that come from electronics and mechanics $\rightarrow$ virtualization.
-$\rightarrow$ We can ramp up sw functionality before hw is constructed.
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
@@ -195,8 +183,10 @@ $\rightarrow$ We can ramp up sw functionality before hw is constructed.
 % \IEEEraisesectionheading puts \section within a raised box.
 
 
+% Own commands
 \newcommand{\fig}[1]{\refstepcounter{figure}Figure \thefigure{}:\label{#1}}
 
+% Figures
 \begin{tcolorbox}[float*,title=\fig{fig:ecosys} Ecosystem Background,width=\textwidth, lower separated=false]
 \includegraphics[width=\textwidth]{figures/ecosys}
 \tcblower
@@ -225,11 +215,11 @@ $\rightarrow$ We can ramp up sw functionality before hw is constructed.
 \section{Impediments and Enablers}\label{sec:impediments_and_enablers}
 \input{impediments_and_enablers}
 
-\section{Impediments}\label{sec:impediments}
-\input{impediments}
+% \section{Impediments}\label{sec:impediments}
+% \input{impediments}
 
-\section{Enablers}\label{sec:enablers}
-\input{enablers}
+% \section{Enablers}\label{sec:enablers}
+% \input{enablers}
 
 % An example of a floating figure using the graphicx package.
 % Note that \label must occur AFTER (or within) \caption.

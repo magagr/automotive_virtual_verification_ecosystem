@@ -12,14 +12,10 @@
 
 %\subsubsection{Initial Cost and ROI}
 \subsection{No Demand}
-For a typical Tier-2 supplier, providing unified modelling support for virtual prototyping to both internal and external stakeholders is difficult to achieve. Their expertise and focus lies within the level of transistors and logical gates for their design. Providing suitable support for users at the next higher level would require a major investment and would depend on customers requesting (and paying) for it.
-
-The situation for Tier-1 suppliers is similarly complicated, especially because it is unclear whether there is any value in virtualizing hardware to support the development of the low-level software they provide. Therefore, a cost/benefit analysis would have to be conducted to understand whether the extra effort required in supporting a virtual hardware-based development process would make sense. 
-Tier-1 and Tier-2 suppliers would have to update their business models if they could be convinced that there was value in supporting a virtual hardware-based developed process.
-
-% \subsubsection{No Demand} moved up
-%One reason for the lack of business models that would enable a shared modeling and virtual verification ecosystem is because of the lack of widespread demand.
-
+For a typical supplier,
+providing modelling support for users at the next higher development abstraction level would require a major investment,
+and would depend on customers requesting -- and paying -- for it.
+%
 Even within the OEM’s engineering community, there is no universal demand
 for such a virtual verification and model exchange platform.
 In a typical OEM, there is lack of agreement on whether such capabilities would yield a positive ROI.
@@ -50,23 +46,13 @@ It is very difficult to streamline the modeling strategy because each engineerin
 -- Software Development Leader (OEM)
 \end{quote}
 
-This scenario was discussed further in the workshop, where it was pointed out that suppliers can contribute to the silo nature of how engineering domains operate within an OEM. Suppliers often promote their products as "one-size-fits-all" solutions for various types of use cases, thereby deemphasizing the need for model/tool integration.  Without a global strategy, an OEM is very prone to the negative effects of engineering silos.
-
-In addition to the negative effects of engineering silos, knowledge is also widely spread over the different ecosystem actors.
-%\begin{quote}
-No one will ever have all the IPs at any given time. So new IPs will always have to be created/modeled costing time and money. The question is: who will model it?
-%— Marketing Director (Tool Vendor 2)
-%\end{quote}
-
-These challenges contribute to a lack of organizational investment and prevent broad adoption of sustainable long term infrastructure for virtual verification based on high-fidelity models.
-This makes it more difficult to maintain initiatives if leadership changes, and potentially leads to a scenario where no single entity within the OEM can make an organizational decision.
 
 \subsection{Lack of Resources}
 Ideally, the lack of a global strategy would be addressed by an explicit model team that supports modeling (maintenance, evolution, etc.). However, as our interviews show:
 
 \begin{quote}
 "Everybody is always focused on the 'current' development objectives. Introducing new capabilities from a model-based engineering (MBE) perspective and institutionalizing them is very time consuming, and people ‘have no time’." 
-— Software Development Leader (OEM)
+— OEM Software Development Leader
 \end{quote}
 
 While there may be some strong support within an OEM to pursue such a strategy, resources maybe lacking especially if there is support from engineering without strong backing from leadership.
@@ -102,10 +88,10 @@ Still, the lack of general experience in the automotive domain is an impediment 
 \subsection{Culture}
 Having mechanical roots, the automotive domain has traditionally little or no trust in virtual verification. Instead, there is a bias towards tangible "real" hardware assets.
 %In addition, engineers throughout the ecosystem are under tremendous pressure to complete work on time, leaving little or no opportunity to adopt new processes. Thus, it is difficult to overcome legacy processes throughout the automotive ecosystem, as well as to establish the ecosystem thinking that is required to effectively manage development throughout the value chain.
-In addition, tt is uncommon for an OEM and its suppliers to share models.
+It's also uncommon for an OEM and its suppliers to share models.
 %(i.e. IP needs to be protected).
 While the OEM could ask for access to a supplier’s high fidelity model IP, there is no clear understanding on why or whether this should be done.
-This lack of understanding might be because a significant amount of control SW development is performed in-house by the OEM.
+%This lack of understanding might be because a significant amount of control SW development is performed in-house by the OEM.
 A tendency to build instead of buy based on a protective mindset minimizes the need to use models from external partners. For similar reasons, actors throughout the ecosystem are reluctant to step away from known methodologies even though they are often antiquated.
 
 % Moved from OEM / Supplier Relationship
