@@ -107,13 +107,15 @@
 % affiliations. Use \IEEEcompsocthanksitem which works much like \item
 % for each affiliation group.
 
-\author{Jane~Doe,~\IEEEmembership{Life~Fellow,~IEEE}% <-this % stops a space
+\author{S. Magnus \AA gren,~Eric Knauss, Paulo Giusto, Grant Soremekun, Rogardt Heldal, Daniela Damian% <-this % stops a space
 \IEEEcompsocitemizethanks{
 % note need leading \protect in front of \\ to get a newline within \thanks as
 % \\ is fragile and will error, could use \hfil\break instead.
-\IEEEcompsocthanksitem J. Doe Anonymous University}% <-this % stops an unwanted space
+\IEEEcompsocthanksitem Magnus, Eric, and Rogardt are with Chalmers $\mid$ University of Gothenburg, Sweden
+\IEEEcompsocthanksitem Paolo and Grant are with GM, USA
+\IEEEcompsocthanksitem Daniela is with University of Victoria, Canada
+}% <-this % stops an unwanted space
 \thanks{Manuscript received 2017}}
-
 % note the % following the last \IEEEmembership and also \thanks - 
 % these prevent an unwanted space from occurring between the last author name
 % and the end of the author line. i.e., if you had this:
@@ -141,14 +143,18 @@
 % in the abstract or keywords.
 \IEEEtitleabstractindextext{%
 \begin{abstract}
-150 word limit
-
-Submission
-
-Managing Software Platforms and Ecosystems: Call for Papers
-
-Manuscripts must not exceed 3,000 words including figures and tables, which count for 250 words each. Submissions exceeding these limits might be rejected without refereeing.
-
+Virtual verification promises huge gains in productivity of automotive systems development, especially if supported by shared modelling throughout the automotive ecosystem. 
+This would allow to share accurate models of ECUs and their components long before the hardware becomes available and use them for verification.
+Yet, adoption of such techniques has proven difficult. 
+By mapping out benefits, critical impediments, and crucial enablers, we provide help to overcome such difficulties.
+%150 word limit
+%
+%Submission
+%
+%Managing Software Platforms and Ecosystems: Call for Papers
+%
+%Manuscripts must not exceed 3,000 words including figures and tables, which count for 250 words each. Submissions exceeding these limits might be rejected without refereeing.
+%
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
@@ -193,6 +199,11 @@ Manuscripts must not exceed 3,000 words including figures and tables, which coun
 \input{box_ecosystem}
 \end{tcolorbox}
 
+
+\begin{tcolorbox}[float,title=\fig{fig:map} Map of Impediments and Enablers]
+\includegraphics[width=\linewidth]{figures/results_map_simplified}
+\end{tcolorbox}
+
 \begin{tcolorbox}[float*,title=\fig{fig:tech} Technology Background,width=\textwidth]
   \begin{wrapfigure}{r}{0.6\linewidth}
   \begin{tcolorbox}[frame empty]
@@ -202,17 +213,11 @@ Manuscripts must not exceed 3,000 words including figures and tables, which coun
 \input{box_tech_background}
 \end{tcolorbox}
 
-\begin{tcolorbox}[float,title=\fig{fig:map} Map of Impediments and Enablers]
-\includegraphics[width=\linewidth]{figures/results_map_simplified}
-\end{tcolorbox}
-
 
 \input{introduction}
 
 \section{Benefits} \label{sec:benefits}
 \input{benefits}
-
-\section{Impediments and Enablers}\label{sec:impediments_and_enablers}
 \input{impediments_and_enablers}
 
 % \section{Impediments}\label{sec:impediments}
@@ -325,7 +330,7 @@ Manuscripts must not exceed 3,000 words including figures and tables, which coun
 
 % The Computer Society usually uses the plural form
 \section*{Acknowledgments}
-The authors would like to thank...
+The authors would like to thank all participants in the interviews and workshops as well as the NECSIS research network for providing funding and a platform that supported this international collaboration.
 
 
 % Can use something like this to put references on a page

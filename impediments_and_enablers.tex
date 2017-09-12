@@ -1,5 +1,9 @@
-\subsection{Technical}
-Technical impediments and enablers are of secondary importance to business and organizational aspects.
+% !TEX root = main.tex
+\section{Impediments and Enablers}\label{sec:impediments_and_enablers}
+In our experience, any effort to introduce shared modelling and virtual verification needs to take large parts of the automotive ecosystem into account. 
+When reasoning about ecosystems, we found it useful to follow advice from Christensen et al. as well as Tamburri et al. and analyse business aspects, social aspects (to which we refer as organizational), and technical aspects explicitly \cite{christensen2014analysis,tamburri2013uncovering}. 
+Figure \ref{fig:map}  presents an overview of impediments and enablers that we found in the business and organizational areas.
+We deliberately left out technical impediments and enablers, which we found to be of secondary importance. % to business and organizational aspects.
 If the organization is aligned on adopting virtual verification of ECUs,
 any technical challenge should be surmountable, as long as resources are made available.
 In particular, we did not identify any insurmountable technical impediments for deployment of virtual verification platforms.
@@ -7,37 +11,37 @@ Awareness of these impediments is still needed, since they will become more prev
 
 %\subsubsection{Technical Impediments}
 %we recognize that complexity, variance, interoperability, scale, and similar impediments will be encountered and need to be addressed.
-Potential technical impediments include
-lack of model interoperability,
-models not kept up-to-date with evolving hardware,
-lack of trust in model fidelity,
-and lack of protection of intellectual property.
+\textbf{Potential technical impediments} include
+lack of \emph{model interoperability},
+challenges to \emph{keep models up-to-date} with evolving hardware,
+lack of \emph{trust in model fidelity},
+and lack of protection of \emph{intellectual property}.
 
 %\subsubsection{Technical Enablers}
-Conversely, foreseeable technical enablers include:
-A shared and standardized \emph{modeling platform},
+Conversely, \textbf{foreseeable technical enablers} include a shared and standardized \emph{modeling platform},
 \emph{reusable model templates} for handling product line variation points,
 and, standardization of for example computational ECUs, at the \emph{system architecture} level.
 
 
 
-\subsection{Business and Organization}
-With respect to the impediments, figure \ref{fig:map} shows an undesirable circular dependency:
-Since there is lack of demand for high fidelity modeling technology,
-there's also a lack of global strategy for the use of virtual platform technology.
-Without such a strategy, there's limited personnel available,
-which leads to lack of adoption.
+%\subsection{Business and Organization}
+With respect to \textbf{business- and organization-related impediments}, Figure \ref{fig:map} shows an undesirable circular dependency:
+Since there is \emph{lack of demand} for high fidelity modeling technology,
+there's also a \emph{lack of global strategy} for the use of virtual platform technology.
+Without such a strategy, there's limited personnel available (\emph{lack of resources}),
+which leads to \emph{lack of adoption}.
 Consequently, there is no clear value proposition for widespread adoption of virtual platform technology, therefore making it difficult to generate enough demand.
 
 % full circle before the below
-The lack of adoption is further increased by a hardware-centric, conservative culture that is accustomed to use HIL benches with physical controllers -- indeed mature technologies.
+The lack of adoption is further increased by a hardware-centric, conservative \emph{culture} that is accustomed to use HIL benches with physical controllers -- indeed mature technologies.
 
 % enablers
-With respect to the enablers, we see a clear value proposition as crucial to breaking the circular dependency, and creating more demand.
-This will be helped by clearly articulating customer value, and by properly scoping use cases based on a well understood ecosystem landscape.
+As \textbf{business- and organization-related enablers}, %With respect to the enablers, 
+we see a \emph{clear value proposition} as crucial to breaking the circular dependency, and creating more demand.
+This will be helped by clearly articulating customer value, and by \emph{properly scoping use cases} based on a \emph{well understood ecosystem landscape}.
 These enablers also need to be mapped to a company strategy in order to facilitate wider adoption. 
 
-A clear ecosystem landscape and knowledge sharing will in addition mitigate the lack of global strategy.
+A \emph{clear ecosystem landscape} and \emph{knowledge sharing} will in addition mitigate the lack of global strategy.
 The foundation of this is sharing knowledge about what works in this area and which concrete benefits have already been achieved as well as by combining related knowledge from different initiatives.
 This will encourage grass-root adoption (e.g., from visionary engineers) and may in turn trigger wider adoption and then resources toward mainstream adoption.
 Transparency about benefits will also help to mitigate the cultural impediments.
@@ -126,7 +130,11 @@ while also large enough to engage various aspects of the ecosystem,
 e.g., cross-organizational collaboration and new business models of ecosystem actors.
 
 \subsubsection*{Clear Ecosystem Landscape}
--- % A clear ecosystem landscape would support the definition of a global strategy.
+% A clear ecosystem landscape would support the definition of a global strategy.
+Many impediments relate to missing competencies and resources throughout the automotive ecosystem. 
+Without detailed knowledge about potential business models of various ecosystem actors (e.g. hardware suppliers, tool providers, model providers, see Box \ref{fig:ecosys}) it is hard to define a suitable global strategy. 
+
+
 
 \subsubsection*{Knowledge Sharing}
 Since smaller scale pilots have been successfully implemented, one major enabler is awareness.
