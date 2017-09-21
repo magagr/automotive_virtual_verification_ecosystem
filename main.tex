@@ -67,7 +67,7 @@
 % and later. Note also the use of a CLASSOPTION conditional provided by
 % IEEEtran.cls V1.7 and later.
 
-
+\input{macro-editing}
 
 
 
@@ -144,7 +144,7 @@
 \IEEEtitleabstractindextext{%
 \begin{abstract}
 Virtual verification promises huge gains in productivity of automotive systems development, especially if supported by shared modelling throughout the automotive ecosystem. 
-This would allow to share accurate models of ECUs and their components long before the hardware becomes available and use them for verification.
+This would allow \ins{ecosystem actors (manufacturers and suppliers)} to share accurate models of ECUs and their components long before the hardware becomes available and use them for verification.
 Yet, adoption of such techniques has proven difficult. 
 By mapping out benefits, critical impediments, and crucial enablers, we provide help to overcome such difficulties.
 %150 word limit
@@ -190,10 +190,12 @@ By mapping out benefits, critical impediments, and crucial enablers, we provide 
 
 
 % Own commands
+\newcounter{sidebar}
+\newcommand{\sidebar}[1]{\refstepcounter{sidebar}Sidebar \thesidebar{}:\label{#1}}
 \newcommand{\fig}[1]{\refstepcounter{figure}Figure \thefigure{}:\label{#1}}
 
 % Figures
-\begin{tcolorbox}[float*,title=\fig{fig:ecosys} Ecosystem Background,width=\textwidth, lower separated=false]
+\begin{tcolorbox}[float*,title=\sidebar{bar:ecosys} Ecosystem Background,width=\textwidth, lower separated=false]
 \includegraphics[width=\textwidth]{figures/ecosys}
 \tcblower
 \input{box_ecosystem}
@@ -204,7 +206,7 @@ By mapping out benefits, critical impediments, and crucial enablers, we provide 
 \includegraphics[width=\linewidth]{figures/results_map_simplified}
 \end{tcolorbox}
 
-\begin{tcolorbox}[float*,title=\fig{fig:tech} Technology Background,width=\textwidth]
+\begin{tcolorbox}[float*,title=\sidebar{map:tech} Technology Background,width=\textwidth]
   \begin{wrapfigure}{r}{0.6\linewidth}
   \begin{tcolorbox}[frame empty]
   \includegraphics[width=\linewidth]{figures/virtual_platform}

@@ -23,13 +23,9 @@
 % of “platform” hardware/software architectures
 % %(e.g., OEM ECU HW design \& integration, SW IP qualification and integration, LLHWIO SW development, etc.),
 % and calibrations at the vehicle, subsystem, and hardware/software component level.
-Unfortunately, the history of automotive OEMs (original equipment
-manufacturers) as large systems integrators of pre-allocated functionality to ECU (electronic control unit) hardware,
-often results in modeling and simulation technologies being deployed %(reactively)
-late in the development process,
-% %(e.g., at the HW/SW/Plant integration stage)
-and customized to specific use cases, domains, and/or organizations.
-There is a lack of standardized processes for tool/model integration and management across the OEMs' engineering organizations. 
+Unfortunately, for historic reasons, modeling and simulation techniques are often applied reactively and late in the development process.
+Reasons include that OEMs (original equipment manufacturers) have acted mainly as systems integrators, ordering and integrating pre-allocated functionality to ECU (electronic control unit) hardware.
+\ins{In order to manage increasing complexity and shorter release cycles demand for more flexible and collaborative approaches.}
 % The primary consequence of these problems is the OEM's struggle to design systems of ever-increasing complexity due to the growing number of errors,
 % that often originate early in the conceptual and preliminary design phases, but aren't discovered until later during the hardware/software integration phase.
 % Furthermore, the development speed of hardware and software components
@@ -75,16 +71,16 @@ Consequently, any model characterizing hardware performance before the actual si
 
 %Model-based systems engineering aims to capture this information within a model that is managed throughout the product lifecycle. It is promising to extend these system models with relevant models on lower abstraction levels such as Microprocessor models that describe how ECUs are implemented. If connected, they would provide a bottom-up model for systems engineering, covering the automotive value chain (i.e. the process and activities that add value to an automotive system across OEM and suppliers), and allowing to reason about system aspects in a holistic way.
 
-Leveraging these potentially large benefits requires change throughout the \emph{automotive ecosystem} (see \emph{Box 1: Ecosystem Background}). 
-This paper presents benefits, enablers, and impediments to adoption by relevant stakeholders in the ecosystem that we found helpful to articulate the value proposition and to overcome the resistance to change, or at least possible ways to sell the value proposition.
+Leveraging these potentially large benefits requires change throughout the \emph{automotive ecosystem} (see sidebar \ref{bar:ecosys}). 
+This paper presents benefits, enablers, and impediments to adoption by relevant stakeholders in the ecosystem; information useful when articulating a value proposition for overcoming  resistance to change.
+%, or at least possible ways to sell the value proposition.
 %we provide an overview of the technology area of focus.
-For this, we build on our experiences over the last decade,
-with the automotive industry in North America and Europe,
-the research presented in this paper is based on 
+More specifically, the information gathered for this paper is based on our experience in the North American and European auto industries over the last decade.
+We also gathered information from
 semi-structured interviews with a large North American OEM, its suppliers, and tool vendors,
 %representing a cross-section of the automotive ecosystem,
-and a follow-up workshop with OEM personnel,
-focused on the benefits and challenges of 
+and a follow-up workshop with OEM personnel
+that focused on the benefits and challenges of 
 enterprise-scale deployment of MCU (microcontroller unit) and ECU
 %mixed fidelity
 simulation models.

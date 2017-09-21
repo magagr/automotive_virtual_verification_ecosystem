@@ -1,0 +1,36 @@
+% Macros for proof-reading
+\usepackage[normalem]{ulem} % for \sout
+\usepackage{xcolor}
+\newcommand{\ra}{$\rightarrow$}
+\newcommand{\ugh}[1]{\textcolor{red}{\uwave{#1}}} % please rephrase
+\newcommand{\ins}[1]{\textcolor{blue}{\uline{#1}}} % please insert
+\newcommand{\del}[1]{\textcolor{red}{\sout{#1}}} % please delete
+\newcommand{\chg}[2]{\textcolor{red}{\sout{#1}}{\ra}\textcolor{blue}{\uline{#2}}} % please change
+
+% Put edit comments in a really ugly standout display
+\usepackage{ifthen}
+\usepackage{amssymb}
+\newboolean{showcomments}
+\setboolean{showcomments}{true} % toggle to show or hide comments
+\ifthenelse{\boolean{showcomments}}
+  {\newcommand{\nb}[2]{
+    \fcolorbox{gray}{yellow}{\bfseries\sffamily\scriptsize#1}
+    {\sf\small$\blacktriangleright$\textit{#2}$\blacktriangleleft$}
+   }
+   \newcommand{\version}{\emph{\scriptsize$-$working$-$}}
+  }
+  {\newcommand{\nb}[2]{}
+   \newcommand{\version}{}
+  }
+
+
+\newcommand\rebekka[1]{\nb{Rebekka}{#1}}
+\newcommand\eric[1]{\nb{Eric}{#1}}
+\newcommand\jp[1]{\nb{Jan-Philipp}{#1}}
+\newcommand\salome[1]{\nb{Salome}{#1}}
+\newcommand\tony[1]{\nb{Tony}{#1}}
+\newcommand\rashidah[1]{\nb{Rashidah}{#1}}
+\newcommand\grischa[1]{\nb{Grischa}{#1}}
+\newcommand\agneta[1]{\nb{Agneta}{#1}}
+\newcommand\swathi[1]{\nb{Swathi}{#1}}
+\newcommand\grant[1]{\nb{Grant}{#1}}
