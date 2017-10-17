@@ -1,9 +1,9 @@
 % !TEX root = main.tex
 \section{Impediments and Enablers}\label{sec:impediments_and_enablers}
 In our experience, any effort to introduce shared modeling and virtual verification needs to take large parts of the automotive ecosystem into account. 
-When reasoning about ecosystems, we found it useful to follow advice from Christensen et al. and Tamburri et al. \ins{and explicitly analyze business, social (organizational), and technical aspects} \cite{christensen2014analysis,tamburri2013uncovering}. 
-Figure \ref{fig:map}  presents an overview of impediments and enablers that we found in the business and organizational areas.
-\ins{Technical impediments and enablers we found to be of secondary importance, and deliberately left out.}
+When reasoning about ecosystems, we found it useful to relate to Christensen et al. \cite{christensen2014analysis} and Tamburri et al. \cite{tamburri2013uncovering} and explicitly analyze business, social (organizational), and technical aspects.
+Figure \ref{fig:map} presents an overview of impediments and enablers that we found in the business and organizational areas.
+We deliberately omitted technical impediments and enablers in Figure \ref{fig:map} because we found them to be of secondary importance.
 If the organization is aligned on adopting virtual verification of ECUs,
 any technical challenge should be surmountable as long as resources are made available.
 In particular, we did not identify any insurmountable technical impediments for deployment of virtual verification platforms.
@@ -20,13 +20,13 @@ and lack of protection of \emph{intellectual property}.
 %\subsubsection{Technical Enablers}
 Conversely, \textbf{foreseeable technical enablers} include a shared and standardized \emph{modeling platform},
 \emph{reusable model templates} for handling product line variation points,
-and standardization of for example computational ECUs, at the \emph{system architecture} level.
+and increased standardization at the \emph{system architecture} level, for example of computational ECUs.
 
 
 
 %\subsection{Business and Organization}
 With respect to \textbf{business- and organization-related impediments}, Figure \ref{fig:map} shows an undesirable circular dependency:
-Since there is \emph{lack of demand} for high-fidelity modeling technology,
+since there is \emph{lack of demand} for high-fidelity modeling technology,
 there's also a \emph{lack of global strategy} for the use of virtual platform technology.
 Without such a strategy, there's limited personnel available (\emph{lack of resources}),
 which leads to \emph{lack of adoption}.
@@ -39,14 +39,13 @@ The lack of adoption is further increased by a hardware-centric, conservative \e
 As \textbf{business- and organization-related enablers}, %With respect to the enablers, 
 we see a \emph{clear value proposition} as crucial to breaking the circular dependency and creating more demand.
 This will be helped by clearly articulating customer value and by \emph{properly scoping use cases} based on a \emph{well-understood ecosystem landscape}.
-These enablers also need to be mapped to a\ins{n overall} company strategy in order to facilitate wider adoption. 
+These enablers also need to be mapped to a{n overall} company strategy in order to facilitate wider adoption. 
 
-A \emph{clear ecosystem landscape} and \emph{knowledge sharing} may mitigate the lack of global strategy.
+A \emph{clear ecosystem landscape} and \emph{knowledge sharing} can mitigate the lack of global strategy.
 The foundation of this is sharing knowledge about what capabilities are currently working, what benefits have already been achieved, and combining knowledge from different initiatives.
 This will encourage grassroots adoption (e.g., from visionary engineers) and may in turn trigger wider adoption
-\chg{and then resources toward mainstream adoption.
-Transparency about benefits will also help to mitigate the cultural impediments.}
-{, followed by resources that would support mainstream adoption. Encouraging transparency about the potential benefits may also help mitigate cultural impediments.}
+%\chg{and then resources toward mainstream adoption. Transparency about benefits will also help to mitigate the cultural impediments.}
+{as well as increased availability of resources that would support mainstream adoption. Encouraging transparency about the potential benefits may also help mitigate cultural impediments.}
 
 \subsection{Impediment Details}
 \subsubsection*{Lack of Demand}
@@ -56,8 +55,8 @@ and would depend on customers requesting -- and paying -- for it.
 %
 Even within the OEM's engineering community, there is no universal demand
 for such a virtual verification and model exchange platform.
-In a typical OEM, there is lack of agreement on whether such capabilities would yield a positive ROI.
-For example, in-house component level software development aims at being hardware independent.
+%In a typical OEM, there is lack of agreement on whether such capabilities would yield a positive ROI.
+For example, in-house component level software development aims at being hardware independent, thus software developers may see limited value in virtual verification.
 
 
 \subsubsection*{Lack of Global Strategy}
@@ -73,7 +72,7 @@ In addition, knowledge is also widely spread over the different ecosystem actors
 
 \subsubsection*{Lack of Resources}
 Ideally, the lack of a global strategy would be addressed by dedicated resources that support all modeling activities.
-However, as \ins{one of} our interviews show:
+However, as {one of} our interviews shows:
 
 \begin{quote}
 "Everybody is always focused on the 'current' development objectives. Introducing new capabilities from a model-based engineering (MBE) perspective and institutionalizing them is very time consuming, and people ‘have no time’." 
@@ -88,11 +87,13 @@ we found that all three ecosystem actors (OEM, Tier-1, Tier-2) are lacking exper
 The use of virtual prototyping tools and models requires a high degree of understanding of the execution platform that needs to be modeled.
 
 \subsubsection*{Cultural Inertia}
-Having mechanical roots, the automotive domain has traditionally had little or no trust in virtual verification. Instead, there is a bias towards tangible "real" hardware assets.
+Having mechanical roots, the automotive domain has traditionally had little or no trust in virtual verification of software.
+%while it has adopted CAE/CAD tools for plant virtual development, integration, and testing for over a decade.
+Instead, there is a bias towards tangible "real" hardware assets.
 %In addition, engineers throughout the ecosystem are under tremendous pressure to complete work on time, leaving little or no opportunity to adopt new processes. Thus, it is difficult to overcome legacy processes throughout the automotive ecosystem, as well as to establish the ecosystem thinking that is required to effectively manage development throughout the value chain.
-It's also uncommon for an OEM and its suppliers to share models.
+It is also uncommon for an OEM and its suppliers to share models.
 %(i.e. IP needs to be protected).
-While an OEM could ask for access to a supplier’s high-fidelity model, there is no clear understanding on why or whether this should be done.
+While an OEM could ask for access to a high-fidelity model provided by a supplier, there is no clear understanding on why or whether this should be done.
 %This lack of understanding might be because a significant amount of control SW development is performed in-house by the OEM.
 As suppliers typically target multiple customers, their designs may have hidden functionality not in line with a particular customer’s data sheet,
 adding difficulty to sharing models currently intended for internal use.
@@ -103,7 +104,7 @@ adding difficulty to sharing models currently intended for internal use.
 
 \subsection{Enabler Details}
 \subsubsection*{Clear Value Proposition}
-It's critical to define a compelling value proposition for investing in virtual prototyping models and tools.
+It is critical to define a compelling value proposition for investing in virtual prototyping models and tools.
 The value proposition changes depending upon the problem to be solved, however.
 For example, during the initial phases of software development,
 the value proposition is that
@@ -124,9 +125,12 @@ These incentives could then spread throughout the value chain.
 
 \subsubsection*{Properly Scoped Use Cases}
 To support the definition of a clear value proposition,
-properly scoped use cases need to be \ins{developed and} communicated so that tradeoffs such as fidelity vs. speed or functional vs. timing accuracy are well-understood.
-Overexpectation on the level of fidelity required for models to be useful can lead to a belief that virtual verification is unfeasible.
-A constructive approach \chg{is}{would be} to investigate whether models really need to be highly accurate, and offer guidance for a cost/benefit tradeoff.
+properly scoped use cases need to be {developed and} communicated so that tradeoffs such as fidelity vs. speed or functional vs. timing accuracy are well-understood.
+Over-expectation on the level of fidelity of models %to be useful 
+can lead to a belief that virtual verification is unfeasible.
+When scoping use cases, we recommend to  
+%A constructive approach %\chg{is} {would be} to 
+investigate whether models really need to be highly accurate for their intended use, and to offer constructive guidance for a cost/benefit tradeoff.
 In order to realistically implement virtual platform technology,
 the scope must be manageable while also large enough to engage various aspects of the ecosystem
 (e.g., cross-organizational collaboration and new business models of ecosystem actors).
@@ -139,11 +143,14 @@ Without detailed knowledge about potential business models for various ecosystem
 
 
 \subsubsection*{Knowledge Sharing}
-Since smaller scale pilots have been successfully implemented, one major enabler is awareness.
+Smaller proof of concept pilot projects, that aim at showing the value proposition of virtual verification of software, have been and are under way in the automotive industry.
+Examples include early software integration and testing, third party software intellectual property validation before software integration, and end of development controller behavioral and performance testing.
+The results so far are promising, yet, the major enabler to the widespread adoption of virtual verification across the automotive ecosystem is awareness.
+
 This can be achieved through establishing transparency about the virtual verification ecosystem, its challenges and difficulties, but also its benefits and successes. 
 Pilot studies and increasing adoption by OEMs should include documenting the experience with suppliers who are able to support virtual verification so that it can be shared throughout the ecosystem.
-A strong value chain that can support 
-\chg{one of the use cases will be a great}{a successful a pilot study would be an effective}
+A pilot demonstrating a strong value chain that can support 
+{a key use cases would be an effective}
 enabler for further adoption.
 % Moved from impediments
 Specifically, the following knowledge needs to be shared:

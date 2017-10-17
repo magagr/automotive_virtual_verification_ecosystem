@@ -1,5 +1,7 @@
+Hardware test benches, or HIL benches (hardware-in-the-loop), include one or more controller PCBs (printed circuit board) hosting the non-production ready ECU running the control software, a custom and fast hardware box running models of the controlled plant (e.g., the engine), the rest of the vehicle control architecture, the vehicle dynamics and the environment (e.g, road conditions), all synchronized in real time with the ECUs, plus a variety of other tools for calibrating the control parameters, software debuggers, etc., hosted by a dedicated computer.
+
 Virtual platform technology is a key aspect of the ecosystem for model sharing and virtual verification,
-as it extends concepts such as HIL (hardware-in-the-loop) and SIL (software-in-the-loop) benches to include microprocessor models.
+as it extends concepts such as HIL and SIL (software-in-the-loop) benches to include microprocessor models.
 This enables early software integration for OEMs,
 as well as early software development of basic software by Tier-1 suppliers.
 Enabling the parallel usage of these processor models among OEMs and their suppliers can achieve parallel rather than sequential software development,
@@ -8,7 +10,8 @@ whereby synchronization points are established for integration tasks and feedbac
 The Virtual platform technology consists of two parts, a virtual chipset and a virtual platform for software development, integration, and testing.
 The virtual chipset consists of a high-fidelity microprocessor model,
 including peripherals and other resources that execute the target embedded software.
-Extending the virtual chipset with additional models of off-chip devices essentially \chg{realizes}{completes} the concept of a virtual controller.
+Extending the virtual chipset with additional models of off-chip devices essentially %\chg{realizes}
+{completes} the concept of a virtual controller.
 External models, similar to those required for HIL systems, are also required for the virtual controller to emulate the behavior of the real controller's functionality and performance.
 These include models representing incoming serial data traffic,
 plant models (e.g., an engine), simulating ASICs running microcode, interfacing high power interfaces such as inductors to the controlled loads (e.g., electric motors, fuel injectors),
