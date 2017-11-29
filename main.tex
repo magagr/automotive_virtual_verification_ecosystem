@@ -32,6 +32,7 @@
 \documentclass[10pt,journal,compsoc,letterpaper]{IEEEtran}
 \usepackage{tcolorbox}
 \usepackage{wrapfig}
+\usepackage[utf8]{inputenc}
 
 % *** CITATION PACKAGES ***
 %
@@ -90,7 +91,7 @@
 % not capitalized unless they are the first or last word of the title.
 % Linebreaks \\ can be used within to get better formatting as desired.
 % Do not put math or special symbols in the title.
-\title{Impediments and Enablers for Shared Modelling and Virtual Verification in Automotive Model-Driven Software Ecosystems}
+\title{Impediments and Enablers for Shared Modeling and Virtual Verification in Automotive Model-Driven Software Ecosystems}
 % Exploring Ecosystem Aspects for Shared Modelling and Virtual Verification of Control Systems in Automotive Model-Driven System Engineering
 %
 %
@@ -107,7 +108,7 @@
 % affiliations. Use \IEEEcompsocthanksitem which works much like \item
 % for each affiliation group.
 
-\author{S. Magnus \AA gren,~Eric Knauss, Paulo Giusto, Grant Soremekun, Rogardt Heldal, Daniela Damian% <-this % stops a space
+\author{S. Magnus Ågren,~Eric Knauss, Paolo Giusto, Grant Soremekun, Rogardt Heldal, Daniela Damian% <-this % stops a space
 \IEEEcompsocitemizethanks{
 % note need leading \protect in front of \\ to get a newline within \thanks as
 % \\ is fragile and will error, could use \hfil\break instead.
@@ -143,7 +144,7 @@
 % in the abstract or keywords.
 \IEEEtitleabstractindextext{%
 \begin{abstract}
-Virtual verification promises measurable gains in productivity of automotive systems development, especially if supported by the shared modelling of ECUs (electronic control unit) and their components across the automotive ecosystem and supply chain, and throughout the software development process, long before ECUs and components become available as silicon.
+Virtual verification promises measurable gains in productivity of automotive systems development, especially if supported by the shared modeling of ECUs (electronic control unit) and their components across the automotive ecosystem and supply chain, and throughout the software development process, long before ECUs and components become available as silicon.
 Yet, large scale adoption of virtual verification has proven difficult.
 By describing benefits, critical impediments, and crucial enablers, we provide help for overcoming such difficulties.
 
@@ -367,12 +368,44 @@ The authors would like to thank all participants in the interviews and workshops
 %\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mshell}}]{Michael Shell}
 % or if you just want to reserve a space for a photo:
 
-\begin{IEEEbiography}{John Doe}
-Articles should be accompanied by a short biographical sketch.
-It should contain, in the following order,
-your current position and technical interests,
-prior applicable professional experience,
-education, professional affiliations, and address.
+% Articles should be accompanied by a short biographical sketch.
+% It should contain, in the following order,
+% your current position and technical interests,
+% prior applicable professional experience,
+% education, professional affiliations, and address.
+\begin{IEEEbiography}{S. Magnus Ågren}
+is a PhD student at the Department of Computer Science and Engineering, Chalmers $\mid$ University of Gothenburg.
+His main research interests are in software engineering: the intersection between software integration practices and software architecture, and systems of systems.
+Prior to taking up his PhD position, he worked as a software engineer in the telecom industry, at Ascom Wireless Solutions, with embedded systems, IP telephony, and systems interoperability.
+He received his M.Sc. in Computer Science and Engineering from Chalmers University of Technology in 2010.
+\end{IEEEbiography}
+
+\begin{IEEEbiography}{Eric Knauss}
+is Associate Professor at the Department of Computer Science and Engineering, Chalmers $\mid$ University of Gothenburg.
+His research focuses on managing requirements and related knowledge in large-scale, distributed software and systems development: Requirements Engineering, Software Ecosystems, Global Software Development, and Agile Methods.
+He has co-authored more than 50 publications in journals and international conferences, has been on organization and program committees of leading conferences in the field, and is a reviewer for top ranked journals.
+In national and international research projects, he collaborates with companies such as Bosch, Ericsson, Grundfos, GM, IBM, Siemens, TetraPak, and Volvo.
+More information at \url{https://oerich.wordpress.com}
+\end{IEEEbiography}
+
+\begin{IEEEbiography}{Paolo Giusto}
+is a Model-Based Systems Technical Leader at GM R\&D in Sunnyvale, California.
+In his current function, he focuses on processes, methods, and tools for the accelerated development of E/E Control and SW Architectures.
+Prior to joining GM, Paolo has worked at Cadence Design Systems in San Jose, California, from 1996 to  2004, where he has held several positions including product manager, and technical marketing director for the automotive tool suite.
+Prior to joining Cadence, Paolo has worked at Magneti Marelli (FIAT group) in Turin, Italy, from 1991 until 1996, in the area of methodologies and tools for HW/SW co-design of embedded systems.
+While at Magneti Marelli, Paolo was a visiting industrial fellow at UC Berkeley-EECS Department in California, from 1992 to 1994.
+Prior to joining Magneti Marelli, Paolo served in the Italian Army from 1989 until 1990 where he was responsible for the data base management of the administrative branch.
+He has published 50+ technical papers, co-authored three books, has two patents, and one patent pending.
+Paolo holds a Master Degree in Computer Science and a MBA in Finance.
+\end{IEEEbiography}
+
+\begin{IEEEbiography}{Grant Soremekun}
+is currently a Staff Researcher at General Motors R\&D.
+In his current role, Grant works on identifying and evaluating model-based engineering (MBE) processes and tools for improved automotive system design, with a primary focus on electrical and control systems.
+He has over 20 years of experience developing and applying MBE software for complex system design.
+He has worked with some of the world’s most successful companies and government and academic institutions to implement simulation workflow automation and optimization strategies for designing aircraft, spacecraft, automobile, composite structure, power electronic, commercial building, and agricultural systems.
+He also has several years of experience as a technical business development manager and sales representative for commercial MBE software solutions.
+Grant holds a B.Sc. in aerospace engineering and an M.Sc. in engineering mechanics from Virginia Tech.
 \end{IEEEbiography}
 
 % insert where needed to balance the two columns on the last page with
