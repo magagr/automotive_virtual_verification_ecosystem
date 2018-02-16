@@ -1,7 +1,7 @@
 % !TEX root = main.tex
 \section{Impediments and Enablers}\label{sec:impediments_and_enablers}
-In our experience, any effort to introduce shared modeling and virtual verification needs to take large parts of the automotive ecosystem into account. 
-When reasoning about ecosystems, we found it useful to relate to Christensen et al. \cite{christensen2014analysis} and Tamburri et al. \cite{tamburri2013uncovering} and explicitly analyze business, social (organizational), and technical aspects.
+In our experience, any effort to introduce shared modeling and virtual verification needs to take large parts of the automotive ecosystem into account. \magnus{Technology adoption reference here...}
+When reasoning about ecosystems, we found it useful to relate to Christensen et al. \cite{christensen2014analysis} and Tamburri et al. \cite{tamburri2013uncovering} and explicitly analyze business, social (organizational), and technical aspects.\magnus{...or here}
 Figure \ref{fig:map} presents an overview of impediments and enablers that we found in the business and organizational areas.
 We deliberately omitted technical impediments and enablers in Figure \ref{fig:map} because we found them to be of secondary importance.
 If the organization is aligned on adopting virtual verification of ECUs,
@@ -48,18 +48,32 @@ This will encourage grassroots adoption (e.g., from visionary engineers) and may
 as well as increased availability of resources that would support mainstream adoption. Encouraging transparency about the potential benefits may also help mitigate cultural impediments.
 
 \subsection{Impediment Details}
+We concretized the impediments \emph{lack of global strategy} and \emph{lack of resources} by describing a specific scenario.
+% ?
+Modern automotive MCUs carry several core computing units, including specific time processing units.
+While the first class of resources execute traditional embedded software, the latter class executes specific micro code, scheduled on the timer, at a very high rate.
+OEMs, in their quest to enable earlier software integration and testing on the target ECU, have started to internalize the development of the micro code for the time unit.
+This is directly possible if the time unit is available.
+If not, a model for the time unit, enabling execution of micro code for the actual time unit, can be a very effective strategy.
+However, because of the lack of time unit models, it is not stated whom in the ecosystem should pay for the costs of developing the time unit model.
+Should the OEM pay for it, and then own and license the model, or should a tool supplier do it?
+Nor is it obvious, in terms of ROI, why an OEM should bear the costs of deployment of the virtual environment for the development of the micro code.
+% ?
+As such, OEMs, as the primary users of such an environment should articulate a \emph{clear value proposition}, (e.g. early software integration and testing before the time processing unit is available in hardware), and quantify the return on investment;
+both of bearing some costs of the model development, as well as the deployment effort within existing and mature software development processes.
+Only when the business aspects have been clearly stated and evaluated, and accepted by management, should deployment of the time unit model and related tool chains for micro code development commence.
+
+\magnus{Sections below not marked for replacement I'll combine with example}
+
 \subsubsection*{Lack of Demand}
-For a typical supplier,
-providing modeling support for users at the next higher development abstraction level would require a major investment,
-and would depend on customers requesting -- and paying -- for it.
+For a typical supplier, providing modeling support for users at the next higher development abstraction level would require a major investment, and would depend on customers requesting -- and paying -- for it.
 %
-Even within the OEM's engineering community, there is no universal demand
-for such a virtual verification and model exchange platform.
+Even within the OEM's engineering community, there is \emph{lack of demand} for such a virtual verification and model exchange platform.
 %In a typical OEM, there is lack of agreement on whether such capabilities would yield a positive ROI.
 For example, in-house component level software development aims at being hardware independent, thus software developers may see limited value in virtual verification.
 
 
-\subsubsection*{Lack of Global Strategy}
+\subsubsection*{Lack of Global Strategy \magnus{Example replaces}}
 Without a global strategy, an OEM is very prone to the negative effects of engineering silos.
 In addition, knowledge is also widely spread over the different ecosystem actors.
 
@@ -70,7 +84,7 @@ In addition, knowledge is also widely spread over the different ecosystem actors
 %These challenges contribute to a lack of organizational investment and prevent broad adoption of sustainable long term infrastructure for virtual verification based on high-fidelity models.
 %This makes it more difficult to maintain initiatives if leadership changes, and potentially leads to a scenario where no single entity within the OEM can make an organizational decision.
 
-\subsubsection*{Lack of Resources}
+\subsubsection*{Lack of Resources \magnus{Example replaces}}
 Ideally, the lack of a global strategy would be addressed by dedicated resources that support all modeling activities.
 However, as one of our interviews shows:
 
@@ -138,7 +152,7 @@ the scope must be manageable while also large enough to engage various aspects o
 \subsubsection*{Clear Ecosystem Landscape}
 % A clear ecosystem landscape would support the definition of a global strategy.
 Many impediments relate to missing competencies and resources throughout the automotive ecosystem. 
-Without detailed knowledge about potential business models for various ecosystem actors (e.g. hardware suppliers, tool providers, model providers, see sidebar \ref{bar:ecosys}), it is hard to define a suitable global strategy. 
+Detailed knowledge about potential business models for various ecosystem actors (e.g. hardware suppliers, tool providers, model providers, see sidebar \ref{bar:ecosys}), is needed to define a suitable global strategy. 
 
 \subsubsection*{Knowledge Sharing}
 Smaller proof of concept pilot projects, that aim at showing the value proposition of virtual verification of software, have been and are under way in the automotive industry.

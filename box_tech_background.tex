@@ -1,23 +1,39 @@
+\small
 Hardware test benches, or HIL benches (hardware-in-the-loop), include one or more controller PCBs (printed circuit board) hosting the non-production ready ECU running the control software, a custom and fast hardware box running models of the controlled plant (e.g., the engine), the rest of the vehicle control architecture, the vehicle dynamics and the environment (e.g, road conditions), all synchronized in real time with the ECUs, plus a variety of other tools for calibrating the control parameters, software debuggers, etc., hosted by a dedicated computer.
 
-Virtual platform technology is a key aspect of the ecosystem for model sharing and virtual verification,
-as it extends concepts such as HIL and SIL (software-in-the-loop) benches to include microprocessor models.
-This enables early software integration for OEMs,
-as well as early software development of basic software by Tier-1 suppliers.
-Enabling the parallel usage of these processor models among OEMs and their suppliers can achieve parallel rather than sequential software development,
-whereby synchronization points are established for integration tasks and feedback loops between OEMs and suppliers.
+Virtual platform technology is a key aspect of the ecosystem for model sharing and virtual verification.
+It extends concepts such as HIL and SIL (software-in-the-loop) benches to include microprocessor models, thus providing a means for testing the integration of software before the specific ECU/MCU hardware is available.
+This enables early software integration for OEMs, as well as early software development of basic software by Tier-1 suppliers.
+Enabling the parallel usage of these processor models among OEMs and their suppliers can achieve parallel rather than sequential software development, whereby synchronization points are established for integration tasks and feedback loops between OEMs and suppliers.
+Earlier testing could also prove very valuable by identifying issues with the microcontroller specification while it is still evolving.
+%This could be fully realized through virtual verification by using high-fidelity models of existing hardware for regression testing. This would also allow early assessment on whether an upcoming platform will support the desired application software. This would facilitate efficient continuous delivery of software, reduced lead time, and reduced time-to-market.
+% 
+HIL benches are typically a heavily shared resource, resulting in scheduling conflicts and other logistic difficulties.
+Using models with sufficient fidelity can help by reducing the need to build and physically access hardware-based test benches.
+Virtual boards also support parallelization, allowing for many tests to be executed in parallel assuming the host computers have enough processing power.
+This could provide additional cost and time savings when compared to running tests on a physical board.
 
+% vp tech desc
 The Virtual platform technology consists of two parts, a virtual chipset and a virtual platform for software development, integration, and testing.
-The virtual chipset consists of a high-fidelity microprocessor model,
-including peripherals and other resources that execute the target embedded software.
-Extending the virtual chipset with additional models of off-chip devices essentially
-completes the concept of a virtual controller.
+The virtual chipset consists of a high-fidelity microprocessor model, including peripherals and other resources that execute the target embedded software.
+Extending the virtual chipset with additional models of off-chip devices essentially completes the concept of a virtual controller.
 External models, similar to those required for HIL systems, are also required for the virtual controller to emulate the behavior of the real controller's functionality and performance.
-These include models representing incoming serial data traffic,
-plant models (e.g., an engine), simulating ASICs running microcode, interfacing high power interfaces such as inductors to the controlled loads (e.g., electric motors, fuel injectors),
-vehicle dynamics, environment, etc.
+These include models representing incoming serial data traffic, plant models (e.g., an engine), simulating ASICs running microcode, interfacing high power interfaces such as inductors to the controlled loads (e.g., electric motors, fuel injectors), vehicle dynamics, environment, etc.
 The degree of modeling around the virtual chipset depends on the use case at hand.
 In order to perform a full functional and performance verification of the controller, all the aforementioned models are needed.
+% drop below if space demands
 For use cases involving only low-level software development, an open loop model providing hardware IOs or serial data traffic may be sufficient.
 Finally, tools for configuring software via calibrations and for software variable/signal recording may also be needed.
 The integration of several virtual chipsets may be necessary for sub-system and complex ECU software verification, and may require high-performance computing platforms to achieve acceptable simulation runtimes.
+
+% Increasing repeatability of tests
+Virtual testing would simplify software regression tests on multiple (virtual) hardware platforms that do not need to be maintained across the entire product lifecycle.
+%(assuming the models used for virtual testing have sufficient fidelity and reliability).
+This could provide a cost-efficient way to ensure backward-compatibility for software patches, or evolve software components in a product family.
+%Running regression tests more often in a defined environment could make it easier to find bugs earlier and reduce the risk of issues at the product level.
+%Having easily repeatable test procedures would allow for new and more efficient ways of developing (potentially target dependent) software.
+%
+% Uncovering more faults
+Testing in a virtual environment can also allow engineers to monitor, control, and observe the testing more comprehensively than currently possible on physical hardware.
+This includes easier ways to inject faults so that more thorough testing can be accomplished.
+%Thus, a virtual testing environment could be a valuable asset that allows for the defining and maintaining of tools for fault injection and other advanced testing procedures.

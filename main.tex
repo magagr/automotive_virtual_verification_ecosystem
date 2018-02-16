@@ -33,6 +33,10 @@
 \usepackage{tcolorbox}
 \usepackage{wrapfig}
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{hyperref}
+
 
 % *** CITATION PACKAGES ***
 %
@@ -144,8 +148,8 @@
 % in the abstract or keywords.
 \IEEEtitleabstractindextext{%
 \begin{abstract}
-Virtual verification promises measurable gains in productivity of automotive systems development, especially if supported by the shared modeling of ECUs (electronic control unit) and their components across the automotive ecosystem and supply chain, and throughout the software development process, long before ECUs and components become available as silicon.
-Yet, large scale adoption of virtual verification has proven difficult.
+Virtual verification promises measurable gains in productivity of automotive systems development, especially if supported by the shared modeling of ECUs (electronic control unit) and their components across the automotive supply chain, and throughout the software development process, long before ECUs and components become available as silicon.
+Yet, bootstrapping an ecosystem for shared modeling and virtual verification has proven difficult.
 By describing benefits, critical impediments, and crucial enablers, we provide help for overcoming such difficulties.
 
 %150 word limit
@@ -218,8 +222,6 @@ By describing benefits, critical impediments, and crucial enablers, we provide h
 
 
 \input{introduction}
-
-\section{Benefits} \label{sec:benefits}
 \input{benefits}
 \input{impediments_and_enablers}
 
@@ -330,17 +332,15 @@ By describing benefits, critical impediments, and crucial enablers, we provide h
 \section{Conclusion}\label{sec:conclusion}
 \input{conclusion}
 
-
 % The Computer Society usually uses the plural form
 \section*{Acknowledgments}
 The authors would like to thank all participants in the interviews and workshops as well as the NECSIS research network for providing funding and a platform that supported this international collaboration.
 
-
 % Can use something like this to put references on a page
 % by themselves when using endfloat and the captionsoff option.
-\ifCLASSOPTIONcaptionsoff
-  \newpage
-\fi
+% \ifCLASSOPTIONcaptionsoff
+%   \newpage
+% \fi
 
 
 
@@ -348,9 +348,10 @@ The authors would like to thank all participants in the interviews and workshops
 % number - used to balance the columns on the last page
 % adjust value as needed - may need to be readjusted if
 % the document is modified later
-%\IEEEtriggeratref{8}
+% \IEEEtriggeratref{2}
 % The "triggered" command can be changed if desired:
-%\IEEEtriggercmd{\enlargethispage{-5in}}
+% \IEEEtriggercmd{\newpage}%\enlargethispage{-5in}}
+\newpage
 
 % references section
 \bibliographystyle{IEEEtran}
@@ -388,6 +389,9 @@ In national and international research projects, he collaborates with companies 
 More information at \url{https://oerich.wordpress.com}
 \end{IEEEbiography}
 
+\vfill
+\newpage
+
 \begin{IEEEbiography}{Paolo Giusto}
 is a Model-Based Systems Technical Leader at GM R\&D in Sunnyvale, California.
 In his current function, he focuses on processes, methods, and tools for the accelerated development of E/E Control and SW Architectures.
@@ -409,7 +413,6 @@ Grant holds a B.Sc. in aerospace engineering and an M.Sc. in engineering mechani
 \end{IEEEbiography}
 
 \vfill
-
 \newpage
 
 \begin{IEEEbiography}{Rogardt Heldal}
@@ -430,8 +433,6 @@ Daniela’s research methodologies involve extensive field work and in-situ stud
 Daniela has served on the program committee boards of several software engineering conferences, as well as on the editorial boards of Transactions on Software Engineering, the Journal of Requirements Engineering, the Journal of Empirical Software Engineering, and the Journal of Software and Systems.
 \end{IEEEbiography}
 
-\vfill
-
 % insert where needed to balance the two columns on the last page with
 % biographies
 %\newpage
@@ -442,7 +443,7 @@ Daniela has served on the program committee boards of several software engineeri
 % on the last page and whether or not the columns
 % are being equalized.
 
-%\vfill
+\vfill
 
 % Can be used to pull up biographies so that the bottom of the last one
 % is flush with the other column.

@@ -1,54 +1,20 @@
 % !TEX root = main.tex
+\section{Benefits} \label{sec:benefits}
 The potential benefits of shared modeling and virtual verification fall in two categories:
 testing efficiency and collaborative advantages \emph{throughout the ecosystem}.
 
-\subsection{Testing Efficiency}
-Shared modeling and virtual verification allows:
+Shared modeling and virtual verification increases testing efficiency by allowing:
 
 \begin{itemize}
     \item Testing earlier.
-    \item Uncovering more faults.
     \item Increasing repeatability of tests.
+    \item Uncovering more faults.
 \end{itemize}
 
-\subsubsection*{Earlier Software Integration Testing}
-The main goal of virtual verification is to provide a means for testing the integration of software before the specific ECU/MCU hardware is available.
-Earlier testing could also prove very valuable by identifying issues with the microcontroller specification while it is still evolving.
-% \begin{quote}
-% "[...] the specification of the MCU might be changing and therefore the model is still useful to find issues in the target embedded software as well as with the specification of the MCU. Economically, the initial investment should not be too large as the models are not required to be highly accurate because there still might be many bugs in the MCU specification. As long as SW development is progressing than there is significant benefit even if the model is not initially high-fidelity."
-% -- CEO (Tool Vendor 1)
-% \end{quote}
-%This could be fully realized through virtual verification by using high-fidelity models of existing hardware for regression testing. This would also allow early assessment on whether an upcoming platform will support the desired application software. This would facilitate efficient continuous delivery of software, reduced lead time, and reduced time-to-market.
+See sidebar \ref{bar:tech} for background on the technology and its benefits.
 
-Hardware test benches (see sidebar \ref{bar:tech}) are typically a heavily shared resource, resulting in scheduling conflicts and other logistic difficulties.
-Using models with sufficient fidelity can help by reducing the need to build and physically access hardware-based test benches.
-%,\chg{in turn reducing}{rectifying these} scheduling problems.
-%Using ECU and MCU models also increases the visibility and controllability of the testing process.
-%de-quoted
-% Testing in the virtual environment is easier than the hardware environment because of the increased visibility of the microprocessor’s resources (e.g., Timing Processing Unit)
-%— Business Manager (Tier-2)
-Virtual boards also support parallelization, allowing for many tests to be executed in parallel assuming the host computers have enough processing power.
-This could provide additional cost and time savings when compared to running tests on a physical board.
-
-\subsubsection*{Uncovering More Design Errors}
-Virtual testing can allow engineers to monitor, control, and observe the testing environment in a more comprehensive manner than currently possible on physical hardware.
-This includes easier ways to inject faults so that more thorough testing can be accomplished.
-%These technologies could enable fault injection because they provide more visibility and controllability in the ECU HW resources. This could be done using the models while it can’t be done in general using the real HW.
-%— Embedded Software/Tool Expert (Tier-1)
-%Thus, a virtual testing environment could be a valuable asset that allows for the defining and maintaining of tools for fault injection and other advanced testing procedures.
-
-\subsubsection*{Repeatable Testing}
-Virtual testing would simplify software regression tests on multiple (virtual) hardware platforms
-that do not need to be maintained across the entire product lifecycle.
-%(assuming the models used for virtual testing have sufficient fidelity and reliability).
-This could provide a cost-efficient way to ensure backward-compatibility for software patches,
-or evolve software components in a product family.
-Running regression tests more often in a defined environment could make it easier to find bugs earlier and reduce the risk of issues at the product level.
-
-%Having easily repeatable test procedures would allow for new and more efficient ways of developing (potentially target dependent) software.
-
-
-\subsection{Collaborative Advantages}
+%\subsection{Collaborative Advantages}
+\magnus{Ecosystem emphasis needed below}
 In addition to increasing testing efficiency,
 shared modeling and virtual verification promises to support collaborations throughout the automotive value chain.
 %
