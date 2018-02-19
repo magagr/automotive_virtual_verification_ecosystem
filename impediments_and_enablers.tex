@@ -47,67 +47,54 @@ This will encourage grassroots adoption (e.g., from visionary engineers) and may
 %\chg{and then resources toward mainstream adoption. Transparency about benefits will also help to mitigate the cultural impediments.}
 as well as increased availability of resources that would support mainstream adoption. Encouraging transparency about the potential benefits may also help mitigate cultural impediments.
 
-\subsection{Impediment Details}
-We concretized the impediments \emph{lack of global strategy} and \emph{lack of resources} by describing a specific scenario.
-% ?
+\subsection{\textcolor{red}{Impediment Details}}\magnus{Perhaps reword this heading}
+We concretize the impediments 
+%\emph{lack of global strategy} and \emph{lack of resources}
+by describing a specific scenario:
 Modern automotive MCUs carry several core computing units, including specific time processing units.
 While the first class of resources execute traditional embedded software, the latter class executes specific micro code, scheduled on the timer, at a very high rate.
 OEMs, in their quest to enable earlier software integration and testing on the target ECU, have started to internalize the development of the micro code for the time unit.
 This is directly possible if the time unit is available.
 If not, a model for the time unit, enabling execution of micro code for the actual time unit, can be a very effective strategy.
-However, because of the lack of time unit models, it is not stated whom in the ecosystem should pay for the costs of developing the time unit model.
-Should the OEM pay for it, and then own and license the model, or should a tool supplier do it?
-Nor is it obvious, in terms of ROI, why an OEM should bear the costs of deployment of the virtual environment for the development of the micro code.
-% ?
-As such, OEMs, as the primary users of such an environment should articulate a \emph{clear value proposition}, (e.g. early software integration and testing before the time processing unit is available in hardware), and quantify the return on investment;
-both of bearing some costs of the model development, as well as the deployment effort within existing and mature software development processes.
-Only when the business aspects have been clearly stated and evaluated, and accepted by management, should deployment of the time unit model and related tool chains for micro code development commence.
-
-\magnus{Sections below not marked for replacement I'll combine with example}
-
-\subsubsection*{Lack of Demand}
-For a typical supplier, providing modeling support for users at the next higher development abstraction level would require a major investment, and would depend on customers requesting -- and paying -- for it.
-%
-Even within the OEM's engineering community, there is \emph{lack of demand} for such a virtual verification and model exchange platform.
-%In a typical OEM, there is lack of agreement on whether such capabilities would yield a positive ROI.
-For example, in-house component level software development aims at being hardware independent, thus software developers may see limited value in virtual verification.
-
-
-\subsubsection*{Lack of Global Strategy \magnus{Example replaces}}
-Without a global strategy, an OEM is very prone to the negative effects of engineering silos.
-In addition, knowledge is also widely spread over the different ecosystem actors.
+It is, however, unclear which ecosystem actor should pay for the development of the time unit model.
 
 \begin{quote}
-"No one will ever have all the IPs at any given time. So new IPs will always have to be created/modeled costing time and money. The question is: who will model it?"
+"No one will ever have all the IPs at any given time. So new IPs will always have to be created/modeled, costing time and money. The question is: who will model it?"
 -- Tool Vendor Marketing Director
 \end{quote}
-%These challenges contribute to a lack of organizational investment and prevent broad adoption of sustainable long term infrastructure for virtual verification based on high-fidelity models.
-%This makes it more difficult to maintain initiatives if leadership changes, and potentially leads to a scenario where no single entity within the OEM can make an organizational decision.
 
-\subsubsection*{Lack of Resources \magnus{Example replaces}}
-Ideally, the lack of a global strategy would be addressed by dedicated resources that support all modeling activities.
-However, as one of our interviews shows:
+Should the OEM pay, and then own and license the model, or should a tool supplier pay?
+For a typical supplier, providing modeling support for users at the next higher development abstraction level would require a major investment, and would depend on customers requesting -- and paying -- for it.
+Nor is it obvious, in terms of return on investment, why an OEM should bear the costs of deployment of the virtual environment for the development of the micro code.
 
-\begin{quote}
-"Everybody is always focused on the 'current' development objectives. Introducing new capabilities from a model-based engineering (MBE) perspective and institutionalizing them is very time consuming, and people ‘have no time’." 
--- OEM Software Development Leader
-\end{quote}
+% \subsubsection*{Lack of Resources \magnus{Example replaces}}
+% While there may be some strong support within an OEM to pursue a global strategy, resources may be lacking especially if there is support from engineering without strong backing from leadership.
 
-While there may be some strong support within an OEM to pursue a global strategy, resources may be lacking especially if there is support from engineering without strong backing from leadership.
-
-\subsubsection*{Lack of Adoption}
-In addition to a lack of a support organization,
-we found that all three ecosystem actors (OEM, Tier-1, Tier-2) are lacking expertise and experience as well.
-The use of virtual prototyping tools and models requires a high degree of understanding of the execution platform that needs to be modeled.
-
-\subsubsection*{Cultural Inertia}
+%\subsubsection*{Cultural Inertia}
 Having mechanical roots, the automotive domain has traditionally had little or no trust in virtual verification of software.
 %while it has adopted CAE/CAD tools for plant virtual development, integration, and testing for over a decade.
 Instead, there is a bias towards tangible "real" hardware assets.
+Ideally, dedicated resources would support all modeling activities.
+However, as one of our interviews shows:
+
+\begin{quote}
+"Everybody is always focused on the 'current' development objectives.
+Introducing new capabilities from a model-based engineering perspective and institutionalizing them is very time consuming, and people ‘have no time’." 
+-- OEM Software Development Leader
+\end{quote}
+
+%\subsubsection*{Lack of Adoption}
+In addition to a lack of \del{a} support organization, we found that all three ecosystem actors (OEM, Tier-1, Tier-2) are lacking expertise and experience as well.
+The use of virtual prototyping tools and models requires a high degree of understanding of the execution platform that needs to be modeled.
+%
 %In addition, engineers throughout the ecosystem are under tremendous pressure to complete work on time, leaving little or no opportunity to adopt new processes. Thus, it is difficult to overcome legacy processes throughout the automotive ecosystem, as well as to establish the ecosystem thinking that is required to effectively manage development throughout the value chain.
+% Even within the OEM's engineering community, there is \emph{lack of demand} for such a virtual verification and model exchange platform.
+% In a typical OEM, there is lack of agreement on whether such capabilities would  yield a positive ROI.
+% For example, in-house component level software development aims at being hardware independent, thus software developers may see limited value in virtual verification.
+%
 It is also uncommon for an OEM and its suppliers to share models.
 %(i.e. IP needs to be protected).
-While an OEM could ask for access to a high-fidelity model provided by a supplier, there is no clear understanding on why or whether this should be done.
+%While an OEM could ask for access to a high-fidelity model provided by a supplier, there is no clear understanding on why or whether this should be done.
 %This lack of understanding might be because a significant amount of control SW development is performed in-house by the OEM.
 As suppliers typically target multiple customers, their designs may have hidden functionality not in line with a particular customer’s data sheet,
 adding difficulty to sharing models currently intended for internal use.
@@ -116,7 +103,12 @@ adding difficulty to sharing models currently intended for internal use.
 %For similar reasons, there's reluctance to step away from known methodologies even though they are often antiquated.
 
 
-\subsection{Enabler Details}
+\subsection{\textcolor{red}{Enabler Details}}
+As the primary users of a virtual environment for micro code development, OEMs should articulate a clear value proposition (e.g. early software integration and testing before the time processing unit is available in hardware).
+OEMs should also quantify the return on investment, both of bearing some costs of the model development, and of the deployment effort within existing and mature software development processes.
+Only when the business aspects have been clearly stated and evaluated, and accepted by management, should deployment of the time unit model and related tool chains for micro code development commence.
+
+
 \subsubsection*{Clear Value Proposition}
 It is critical to define a compelling value proposition for investing in virtual prototyping models and tools.
 The value proposition changes depending upon the problem to be solved, however.
@@ -127,8 +119,7 @@ integration and testing activities can start earlier in the design process.
 
 \begin{quote}
 "Virtual prototyping means virtualizing everything in the development process, not only the MCU digital hardware.
-The definition of success should not be how accurate the model is,
-it should be whether the project objectives have been achieved, e.g. software developed and tested early in the design process."
+The definition of success should not be how accurate the model is, it should be whether the project objectives have been achieved, e.g. software developed and tested early in the design process."
 -- Tool Vendor CEO
 \end{quote}
 
@@ -149,10 +140,10 @@ In order to realistically implement virtual platform technology,
 the scope must be manageable while also large enough to engage various aspects of the ecosystem
 (e.g., cross-organizational collaboration and new business models of ecosystem actors).
 
-\subsubsection*{Clear Ecosystem Landscape}
-% A clear ecosystem landscape would support the definition of a global strategy.
-Many impediments relate to missing competencies and resources throughout the automotive ecosystem. 
-Detailed knowledge about potential business models for various ecosystem actors (e.g. hardware suppliers, tool providers, model providers, see sidebar \ref{bar:ecosys}), is needed to define a suitable global strategy. 
+% \subsubsection*{Clear Ecosystem Landscape}
+% % A clear ecosystem landscape would support the definition of a global strategy.
+% Many impediments relate to missing competencies and resources throughout the automotive ecosystem. 
+% Detailed knowledge about potential business models for various ecosystem actors (e.g. hardware suppliers, tool providers, model providers, see sidebar \ref{bar:ecosys}), is needed to define a suitable global strategy.
 
 \subsubsection*{Knowledge Sharing}
 Smaller proof of concept pilot projects, that aim at showing the value proposition of virtual verification of software, have been and are under way in the automotive industry.
