@@ -1,10 +1,12 @@
 % !TEX root = main.tex
 \section{Impediments and Enablers}\label{sec:impediments_and_enablers}
 
-Despite this great promise, bootstrapping a technological platform and critical relationships in an ecosystem for shared modeling and virtual verification has proven difficult thus far. Our data shows, in line with more general theories on technology diffusion \cite{rogers2010diffusion} and technology transfer \cite{gorschek2006model}, that any effort to introduce shared modeling and virtual verification needs to take into account the larger context of the automotive domain and its value-chains. 
-% \magnus{Technology adoption reference here...}
-Our analysis of the data collected from the interviews sought to identify aspects of business, social (organizational), and technical nature, as suggested by Christensen et al. \cite{christensen2014analysis} and Tamburri et al. \cite{tamburri2013uncovering}. 
-Figure \ref{fig:map} describes the impediments and enablers that we found in the business and organizational areas. While technical impediments were suggested to be of secondary importance by our data (and thus omitted from the figure), they do become prominent when deploying at scale and thus we describe them below. 
+Despite this great promise, bootstrapping a technological platform and critical relationships in an ecosystem for shared modeling and virtual verification has proven difficult thus far.
+Our data shows, in line with more general theories on technology diffusion \cite{rogers2010diffusion}\magnus{Covering diffusion/adoption in the sidebar mights save us a few words} and technology transfer \cite{gorschek2006model}, that any effort to introduce shared modeling and virtual verification needs to take into account the larger context of the automotive domain and its value-chains. 
+Our analysis of the data collected from the interviews sought to identify aspects of business, social (organizational), and technical nature, as suggested by Christensen et al. \cite{christensen2014analysis} and Tamburri et al. \cite{tamburri2013uncovering} \eric{Here, I believe we need to make the ecosystem aspect visible. We are not looking at this problem as a technology diffusion problem. We are looking at it as a software ecosystem topic. Thus, we find a different way to approach the known difficulties.}. 
+Figure \ref{fig:map} describes the impediments and enablers that we found in the business and organizational areas. 
+While technical impediments were suggested to be of secondary importance by our data (and thus omitted from the figure), they do become \chg{prominent}{tangible} when deploying at scale.
+%and \ugh{thus we describe them below}\eric{But they are now gone. I think we need them very shortly?}. \magnus{I suggest keeping them out, and dropping the forward reference.}
 
 %\subsubsection{Technical Impediments}
 %we recognize that complexity, variance, interoperability, scale, and similar impediments will be encountered and need to be addressed.
@@ -101,6 +103,7 @@ adding difficulty to sharing models currently intended for internal use.
 
 
 \subsection{Enablers in Context}
+\subsubsection*{Clearly Value Proposition}
 As the primary users of a virtual environment for micro code development, OEMs should articulate a clear value proposition (e.g. early software integration and testing before the time processing unit is available in hardware).
 
 \begin{quote}
@@ -126,10 +129,10 @@ Only when the business aspects have been clearly stated and evaluated, and accep
 % both internally to foster good practice, and towards suppliers that could support virtual software development.
 % These incentives could then spread throughout the value chain.
 
-%\subsubsection*{Properly Scoped Use Cases}
+\subsubsection*{Properly Scoped Use Cases}
 To create understanding of tradeoffs such as fidelity vs. speed or functional vs. timing accuracy, properly scoped use cases need to be developed and communicated.
 Over-expectation on the level of fidelity of models can lead to a belief that virtual verification is unfeasible.
-We recommend to investigate whether models really need to be highly accurate for their intended use, and to offer constructive guidance for a cost/benefit tradeoff.
+\ugh{We recommend}\eric{I agree with DD, recommendations should go into the summary and recommendations section. However, this paragraph is meant to describe the enabler (properly scoped use case). Thus, the text must remain, but not formulated as a recommendation.} to investigate whether models really need to be highly accurate for their intended use, and to offer constructive guidance for a cost/benefit tradeoff.
 To realistically implement virtual platform technology, the scope must be manageable while also large enough to engage various aspects of the ecosystem (e.g., cross-organizational collaboration and new business models of ecosystem actors).
 
 % \subsubsection*{Clear Ecosystem Landscape}
@@ -137,7 +140,7 @@ To realistically implement virtual platform technology, the scope must be manage
 % Many impediments relate to missing competencies and resources throughout the automotive ecosystem. 
 % Detailed knowledge about potential business models for various ecosystem actors (e.g. hardware suppliers, tool providers, model providers, see sidebar \ref{bar:ecosys}), is needed to define a suitable global strategy.
 
-%\subsubsection*{Knowledge Sharing}
+\subsubsection*{Knowledge Sharing}
 Smaller proof of concept pilot projects, that aim at showing the value proposition of virtual verification of software, have been and are under way in the automotive industry.
 Examples include early software integration and testing, third party software intellectual property validation before software integration, and end of development controller behavioral and performance testing.
 The results so far are promising, yet, the major enabler to the widespread adoption of virtual verification across the automotive ecosystem is awareness.

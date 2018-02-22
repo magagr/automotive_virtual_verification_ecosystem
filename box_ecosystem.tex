@@ -2,27 +2,32 @@
 Jansen et al. \cite{Jansen2009} define software ecosystems as \emph{``a set of actors, functioning as a unit and interacting with a shared market for software and services, together with the relationships among them. These relationship are frequently underpinned by a common technological platform or market and operate through the exchange of information, resources and artefacts.''}.
 
 
-The virtual verification ecosystem  \cite{Knauss2014d} involves suppliers of models and tools, suppliers of hardware and software, and users, aiming to leverage the benefits of virtualization and MDE (the technological platform). A potential supply network of this ecosystem (based on the Software Ecosystem Modeling notation \cite{Boucharas2009}) is depicted above.
+The \emph{virtual verification ecosystem}
+\eric{since we explain it here, I suggest to highlight it (italics), and then use this exact string whereever we refer to the ecosystem, including title.}\magnus{I agree; proposed a title} \cite{Knauss2014d} involves suppliers of models and tools, suppliers of hardware and software, and users, aiming to leverage the benefits of virtualization and MDE (the technological platform).
+A potential supply network of this ecosystem (based on the Software Ecosystem Modeling notation \cite{Boucharas2009}) is depicted above.
 
-To fully benefit from virtual verification in the automotive domain, an optimal performance within this ecosystem implies the combination of virtualization technology and MDE practices, as well as the collaboration and competition between the many and diverse actors; these coopetition processes are governed by social and organizational, as well as business aspects beyond simply technical considerations.
-
+An optimal performance within this ecosystem implies the combination of virtualization technology and MDE practices, as well as the collaboration and competition between the many and diverse actors; these coopetition processes are governed by social and organizational, as well as business aspects beyond simply technical considerations.
+%
 %Thus, we are proposing a way to establish critical relationships among ecosystem actors together with an underlying technological platform to fully benefit from virtual verification in the automotive domain.
-
+%
 %Our research objective relates to both technology diffusion \cite{rogers2010diffusion} and technology transfer \cite{gorschek2006model}.
 %While we agree with the need of management support, we notice that transferring individual MDE or virtualization techniques has not lead to wide adoption in the automotive domain, and is in our opinion not yet leveraging its full potential.
 %For this reason, we are proposing and in this paper assuming a broader viewpoint:
 %By regarding the combination of virtualization technology, MDE practices, and its effect on verification as a software ecosystem, we are obtaining a more holistic approach, including aspects of collaboration and competition between actors, social and organizational aspects, as well as business aspects beyond a pure technology viewpoint.
-%Thus, we are proposing a way to establish critical relationships among ecosystem actors together with an underlying technological platform to fully benefit from virtual verification in the automotive domain.
+%
+Thus, it is crucial to establish the critical relationships among ecosystem actors together with an underlying technological platform, to fully benefit from virtual verification in the automotive domain.
+\magnus{Tried to trim some repetition from the writing}
+%\eric{I think this sentence is crucial to relate to the next paragraph. It does not fit well into the sidebar, since this is formulated as our proposition. Perhaps: "Thus, it is crucial to establish..."?}
 
 This ecosystem-centric approach is complex and may also involve the creation of new roles and responsibilities, e.g., the standardization of the microprocessor model certification process for accuracy and performance.
-Ecosystem roles and responsibilities are similar in nature to those found in the underlying ECU hardware ecosystem because there are mixed hardware and software IPs.
-For hardware IP, the microprocessor core is often provided by a Tier-3 supplier who, in turn, provides this component to a Tier-2 microprocessor provider. 
-The same scenario applies to software IPs, with platform software modules provided by one vendor, device drivers provided by another vendor, and the microcontroller abstraction layer provided by the chip supplier.
+Ecosystem roles and responsibilities are similar in nature to those found in the underlying ECU hardware ecosystem because of the mix of hardware and software.
+For hardware, the microprocessor core is often provided by a Tier-2 supplier who, in turn, provides this component to a Tier-1 microprocessor provider.
+The same scenario applies to software, with platform software modules provided by one vendor, device drivers provided by another vendor, and the microcontroller abstraction layer provided by the chip supplier.
 On top of these software layers, an OEM performs the overall integration.
 %As expected the ecosystem here is quite complex.
-
+%
 %A potential ecosystem for virtual platforms is \del{shown} \ins{}.\eric{Perhaps move these two sentences to the top or after the first sentence?}
-The degree of granularity and the integration levels of the different IPs determines its complexity (e.g., integration of peripheral models into a microprocessor model, integration of microprocessor models and ASICs into an ECU model).
+The degree of granularity and the integration levels determines the complexity of the ecosystem (e.g., integration of peripheral models into a microprocessor model, integration of microprocessor models and ASICs (Application Specific Integrated Circuit) into an ECU model).
 %As described earlier, other models/tools in addition to the virtual chipset simulator need to be integrated to accurately simulate the full functionality of the controller and configure the software image for testing via tools such as INCA.
 
 %\magnus{Describe technology adoption and add reference here?\eric{why not. Also, if we do not need references elsewhere in the text, why not include them into the box.}}
@@ -33,3 +38,5 @@ The degree of granularity and the integration levels of the different IPs determ
 
 %\magnus{What to say about Rogers?}
 %Rogers' seminal work on technology diffusion \cite{rogers2010diffusion}.
+
+%\eric{We do not use references 1-3 outside of this sidebar. Perhaps move the text of the references here.}\magnus{Seems rather confusing with two bibliographies}
