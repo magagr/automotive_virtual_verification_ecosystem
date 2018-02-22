@@ -1,9 +1,17 @@
 \small
-Hardware test benches, or HIL benches (hardware-in-the-loop), include one or more controller PCBs (printed circuit board) hosting the non-production ready ECU running the control software, a custom and fast hardware box running models of the controlled plant (e.g., the engine), the rest of the vehicle control architecture, the vehicle dynamics and the environment (e.g, road conditions), all synchronized in real time with the ECUs, plus a variety of other tools for calibrating the control parameters, software debuggers, etc., hosted by a dedicated computer.
+%Hardware test benches, or HIL benches (hardware-in-the-loop), include one or more controller PCBs (printed circuit board) hosting the non-production ready ECU running the control software, a custom and fast hardware box running models of the controlled plant (e.g., the engine), the rest of the vehicle control architecture, the vehicle dynamics and the environment (e.g, road conditions), all synchronized in real time with the ECUs, plus a variety of other tools for calibrating the control parameters, software debuggers, etc., hosted by a dedicated computer.
+
+%Virtual platform technology is a key aspect of the ecosystem for model sharing and virtual verification.
+%It extends concepts such as HIL and SIL (software-in-the-loop) benches to include microprocessor models, thus providing a means for testing the integration of software before the specific ECU/MCU hardware is available.
+%This enables early software integration for OEMs, as well as early software development of basic software by Tier-1 suppliers.
+
+
+
 
 Virtual platform technology is a key aspect of the ecosystem for model sharing and virtual verification.
-It extends concepts such as HIL and SIL (software-in-the-loop) benches to include microprocessor models, thus providing a means for testing the integration of software before the specific ECU/MCU hardware is available.
-This enables early software integration for OEMs, as well as early software development of basic software by Tier-1 suppliers.
+It extends concepts such as HIL (hardware-in-the-loop) and SIL (software-in-the-loop) benches to include microprocessor models, thus providing a means for testing the integration of software before the specific ECU/MCU hardware is available. (do we need the remaining part of this para from here on?) Hardware test benches include one or more controller PCBs (printed circuit board) hosting the non-production ready ECU running the control software, a custom and fast hardware box running models of the controlled plant (e.g., the engine), the rest of the vehicle control architecture, the vehicle dynamics and the environment (e.g, road conditions), all synchronized in real time with the ECUs, plus a variety of other tools for calibrating the control parameters, software debuggers, etc., hosted by a dedicated computer.
+%This enables early software integration for OEMs, as well as early software development of basic software by Tier-1 suppliers.
+
 Enabling the parallel usage of these processor models among OEMs and their suppliers can achieve parallel rather than sequential software development, whereby synchronization points are established for integration tasks and feedback loops between OEMs and suppliers.
 Earlier testing could also prove very valuable by identifying issues with the microcontroller specification while it is still evolving.
 %This could be fully realized through virtual verification by using high-fidelity models of existing hardware for regression testing. This would also allow early assessment on whether an upcoming platform will support the desired application software. This would facilitate efficient continuous delivery of software, reduced lead time, and reduced time-to-market.

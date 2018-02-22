@@ -201,27 +201,7 @@ By describing benefits, critical impediments, and crucial enablers, we provide h
 \newcommand{\fig}[1]{\refstepcounter{figure}Figure \thefigure{}:\label{#1}}
 
 % Figures
-\begin{tcolorbox}[float*,title=\sidebar{bar:ecosys} Ecosystem Background,width=\textwidth, lower separated=false]
-\centering
-\includegraphics[width=0.8\textwidth]{figures/ecosys}
-\tcblower
-\input{box_ecosystem}
-\end{tcolorbox}
-
-
-\begin{tcolorbox}[float,title=\fig{fig:map} Map of Impediments and Enablers]
-\includegraphics[width=\linewidth]{figures/results_map_simplified}
-\end{tcolorbox}
-
-\begin{tcolorbox}[float*,title=\sidebar{bar:tech} Technology Background,width=\textwidth]
-  \begin{wrapfigure}{r}{0.6\linewidth}
-  \begin{tcolorbox}[frame empty]
-  \includegraphics[width=\linewidth]{figures/virtual_platform}
-  \end{tcolorbox}
-  \end{wrapfigure}
-\input{box_tech_background}
-\end{tcolorbox}
-
+\input{figures.tex} % need .tex for disambiguation
 
 \input{introduction}
 \input{benefits}
@@ -331,7 +311,7 @@ By describing benefits, critical impediments, and crucial enablers, we provide h
 
 
 
-\section{Conclusion}\label{sec:conclusion}
+\section{Summary and Recommendations}\label{sec:conclusion}
 \input{conclusion}
 
 % The Computer Society usually uses the plural form

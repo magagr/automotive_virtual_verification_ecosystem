@@ -1,31 +1,29 @@
 % !TEX root = main.tex
 \section{Impediments and Enablers}\label{sec:impediments_and_enablers}
-In our experience, any effort to introduce shared modeling and virtual verification needs to take the larger context of the automotive domain and its value-chains into account. 
+
+Despite this great promise, bootstrapping a technological platform and critical relationships in an ecosystem for shared modeling and virtual verification has proven difficult thus far. Our data shows, in line with more general theories on technology diffusion \cite{rogers2010diffusion} and technology transfer \cite{gorschek2006model}, that any effort to introduce shared modeling and virtual verification needs to take into account the larger context of the automotive domain and its value-chains. 
 % \magnus{Technology adoption reference here...}
-In this situation, we find it useful to reason about a software ecosystem of shared modeling and virtual verification, and, in accordance with Christensen et al. \cite{christensen2014analysis} and Tamburri et al. \cite{tamburri2013uncovering}, explicitly analyze business, social (organizational), and technical aspects.
-Figure \ref{fig:map} presents an overview of impediments and enablers that we found in the business and organizational areas.
-We deliberately omitted technical impediments and enablers in Figure \ref{fig:map} because we found them of secondary importance.
-Given that organizations are aligned on adopting virtual verification of ECUs, and sufficient resources are made available, we did not identify any insurmountable technical impediments for deployment of virtual verification platforms.
-Awareness of these impediments is still needed since they will become more prevalent when deploying at scale.
+Our analysis of the data collected from the interviews sought to identify aspects of business, social (organizational), and technical nature, as suggested by Christensen et al. \cite{christensen2014analysis} and Tamburri et al. \cite{tamburri2013uncovering}. 
+Figure \ref{fig:map} describes the impediments and enablers that we found in the business and organizational areas. While technical impediments were suggested to be of secondary importance by our data (and thus omitted from the figure), they do become prominent when deploying at scale and thus we describe them below. 
 
 %\subsubsection{Technical Impediments}
 %we recognize that complexity, variance, interoperability, scale, and similar impediments will be encountered and need to be addressed.
-\textbf{Potential technical impediments} include
-lack of \emph{model interoperability},
-challenges to \emph{keep models up-to-date} with evolving hardware,
-lack of \emph{trust in model fidelity},
-and lack of protection of \emph{intellectual property}.
+%\textbf{Potential technical impediments} include
+%lack of \emph{model interoperability},
+%challenges to \emph{keep models up-to-date} with evolving hardware,
+%lack of \emph{trust in model fidelity},
+%and lack of protection of \emph{intellectual property}.
 
 %\subsubsection{Technical Enablers}
-Conversely, \textbf{foreseeable technical enablers} include a shared and standardized \emph{modeling platform},
-\emph{reusable model templates} for handling product line variation points,
-and increased standardization at the \emph{system architecture} level, for example of computational ECUs.
+%Conversely, \textbf{foreseeable technical enablers} include a shared and standardized \emph{modeling platform},
+%\emph{reusable model templates} for handling product line variation points,
+%and increased standardization at the \emph{system architecture} level, for example of computational ECUs.
 
 
 
 %\subsection{Business and Organization}
 With respect to \textbf{business- and organization-related impediments}, Figure \ref{fig:map} shows an undesirable circular dependency:
-since there is \emph{lack of demand} for high-fidelity modeling technology,
+since there is a \emph{lack of demand} for high-fidelity modeling technology,
 there is also a \emph{lack of global strategy} for the use of virtual platform technology.
 Without such a strategy, there is limited personnel available (\emph{lack of resources}),
 which leads to \emph{lack of adoption}.
@@ -55,15 +53,15 @@ While the first class of resources execute traditional embedded software, the la
 OEMs, in their quest to enable earlier software integration and testing on the target ECU, have started to internalize the development of the micro code for the time unit.
 This is directly possible if the time unit is available.
 If not, a model for the time unit, enabling execution of micro code for the actual time unit, can be a very effective strategy.
-It is, however, unclear which ecosystem actor should pay for the development of the time unit model.
+It is, however, unclear which ecosystem actor should pay for the development of the time unit model, as one of the Tool Vendor Marketing Director mentioned: 
 
 \begin{quote}
 "No one will ever have all the IPs at any given time. So new IPs will always have to be created/modeled, costing time and money. The question is: who will model it?"
--- Tool Vendor Marketing Director
+%-- Tool Vendor Marketing Director
 \end{quote}
 
 Should the OEM pay, and then own and license the model, or should a tool supplier pay?
-For a typical supplier, providing modeling support for users at the next higher development abstraction level would require a major investment, and would depend on customers requesting -- and paying -- for it.
+For a typical supplier, providing modeling support for users at the higher development abstraction level would require a major investment, and would depend on customers requesting -- and paying -- for it.
 Nor is it obvious, in terms of return on investment, why an OEM should bear the costs of deployment of the virtual environment for the development of the micro code.
 
 % \subsubsection*{Lack of Resources \magnus{Example replaces}}
@@ -74,7 +72,7 @@ Having mechanical roots, the automotive domain has traditionally had little or n
 %while it has adopted CAE/CAD tools for plant virtual development, integration, and testing for over a decade.
 Instead, there is a bias towards tangible "real" hardware assets.
 Ideally, dedicated resources would support all modeling activities.
-However, as one of our interviews shows:
+However, as one of our respondents reported:
 
 \begin{quote}
 "Everybody is always focused on the 'current' development objectives.
@@ -107,7 +105,7 @@ As the primary users of a virtual environment for micro code development, OEMs s
 
 \begin{quote}
 "Virtual prototyping means virtualizing everything in the development process, not only the MCU digital hardware.
-The definition of success should not be how accurate the model is, it should be whether the project objectives have been achieved, e.g. software developed and tested early in the design process."
+The definition of success should not be how accurate the model is, it should be whether the project objectives have been achieved, e.g., software developed and tested early in the design process."
 -- Tool Vendor CEO
 \end{quote}
 
@@ -150,7 +148,7 @@ A pilot demonstrating a strong value chain that can support a key use cases woul
 % Moved from impediments
 Specifically, the following knowledge needs to be shared:
 \begin{itemize}
-  \item End users should share model requirements (e.g. speed and fidelity) that allow virtual verification of software.
-  \item Tool vendors should share knowledge of their simulation technology.
-  \item OEMs should share knowledge about their specific software customizations.
+  \item By end users: model requirements (e.g. speed and fidelity) that allow virtual verification of software.
+  \item By tool vendors: knowledge of their simulation technology.
+  \item By OEMs: knowledge about their specific software customizations.
 \end{itemize}
