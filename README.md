@@ -1,8 +1,8 @@
-#REPOSITORY ARCHIVED
+# REPOSITORY ARCHIVED
 
 Use Overleaf integrated git instead.
 
-#Publication on:
+# Publication on:
 
 *Exploring the Ecosystem of Shared Modelling and Virtual Verification
 in Automotive Model-Driven Systems Engineering*
